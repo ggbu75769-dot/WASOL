@@ -1,0 +1,65 @@
+{
+  "generatedAt": "2026-05-13T00:22:08.696Z",
+  "results": [
+    {
+      "route": "/",
+      "url": "http://127.0.0.1:58296/",
+      "status": 200,
+      "ok": true,
+      "durationMs": 21,
+      "title": "Home",
+      "h1": "산업의 표면과 안전을 설계하는 수용성 고분자 기술",
+      "error": ""
+    },
+    {
+      "route": "/company",
+      "url": "http://127.0.0.1:58296/company",
+      "status": 200,
+      "ok": true,
+      "durationMs": 17,
+      "title": "Company | WARSOL Inc.",
+      "h1": "화학 소재의 적용 현장을 아는 R&amp;D형 파트너",
+      "error": ""
+    },
+    {
+      "route": "/technology",
+      "url": "http://127.0.0.1:58296/technology",
+      "status": 200,
+      "ok": true,
+      "durationMs": 23,
+      "title": "Technology | WARSOL Inc.",
+      "h1": "수지에서 표면까지 이어지는 산업 소재 설계",
+      "error": ""
+    },
+    {
+      "route": "/products",
+      "url": "http://127.0.0.1:58296/products",
+      "status": 200,
+      "ok": true,
+      "durationMs": 21,
+      "title": "Products | WARSOL Inc.",
+      "h1": "등급명보다 적용 조건을 먼저 묻는 제품 포트폴리오",
+      "error": ""
+    },
+    {
+      "route": "/rnd",
+      "url": "http://127.0.0.1:58296/rnd",
+      "status": 200,
+      "ok": true,
+      "durationMs": 17,
+      "title": "R&amp;D / Patents | WARSOL Inc.",
+      "h1": "특허를 홍보 문구가 아니라 기술 문제 해결의 증거로 보여줍니다.",
+      "error": ""
+    },
+    {
+      "route": "/contact",
+      "url": "http://127.0.0.1:58296/contact",
+      "status": 200,
+      "ok": true,
+      "durationMs": 16,
+      "title": "Contact | WARSOL Inc.",
+      "h1": "적용 조건을 정리하면 소재 대화가 빨라집니다.",
+      "error": ""
+    }
+  ]
+}

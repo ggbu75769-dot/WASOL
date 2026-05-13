@@ -1,0 +1,38 @@
+{
+  "name": "warsol-corporate-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "capture:white-theme": "node scripts/capture-white-theme.mjs",
+    "capture:enterprise-v4": "node scripts/capture-enterprise-v4.mjs",
+    "check:content-quality": "node scripts/check-content-quality.mjs",
+    "check:contact-flow": "node scripts/check-contact-flow.mjs",
+    "check:white-theme": "node scripts/check-white-theme.mjs",
+    "smoke:routes": "node scripts/smoke-routes.mjs",
+    "qa:enterprise-v4": "npm run check:white-theme && npm run check:content-quality && npm run build && npm run smoke:routes && npm run capture:enterprise-v4 && npm run check:contact-flow",
+    "lint": "eslint . --max-warnings=0",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "4.3.0",
+    "motion": "12.38.0",
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "tailwindcss": "4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^9.39.0",
+    "eslint-config-next": "16.2.6",
+    "typescript": "^5.9.0"
+  },
+  "overrides": {
+    "postcss": "8.5.14"
+  }
+}

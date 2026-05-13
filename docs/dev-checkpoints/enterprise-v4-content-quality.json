@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-05-13T00:23:37.645Z",
+  "requiredFiles": [
+    "content/company.ts",
+    "content/technology.ts",
+    "content/products.ts",
+    "content/patents.ts",
+    "content/applications.ts",
+    "content/source-ledger.ts",
+    "docs/content-source-ledger.md",
+    "docs/official-data-needed.md"
+  ],
+  "scannedFiles": 60,
+  "failures": []
+}
