@@ -267,3 +267,25 @@ select {
     transition-duration: 0.001ms !important;
   }
 }
+
+@media print {
+  body {
+    background: #ffffff !important;
+  }
+
+  header,
+  footer,
+  .page-shell::before,
+  .page-shell::after,
+  form > *:not(.inquiry-summary) {
+    display: none !important;
+  }
+
+  .inquiry-summary {
+    display: block !important;
+    border: 1px solid #0b2a4a !important;
+    background: #ffffff !important;
+    color: #0f172a !important;
+    box-shadow: none !important;
+  }
+}

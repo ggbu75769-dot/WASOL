@@ -1,8 +1,10 @@
 export const navigationItems = [
-  { label: "Home", href: "/" },
-  { label: "Company", href: "/company" },
-  { label: "Technology", href: "/technology" },
-  { label: "Products", href: "/products" },
-  { label: "R&D / Patents", href: "/rnd" },
-  { label: "Contact", href: "/contact" },
+  { href: "/", label: "Home" },
+  { href: "/company", label: "Company" },
+  { href: "/technology", label: "Technology" },
+  { href: "/products", label: "Products" },
+  { href: "/applications", label: "Applications" },
+  { href: "/rnd", label: "R&D" },
+  { href: "/resources", label: "Resources" },
+  { href: "/contact", label: "Contact" },
 ];

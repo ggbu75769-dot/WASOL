@@ -1,0 +1,2285 @@
+{
+  "generatedAt": "2026-05-13T01:28:41.658Z",
+  "checks": [
+    {
+      "ok": true,
+      "message": "content/company.ts exists"
+    },
+    {
+      "ok": true,
+      "message": "content/technology.ts exists"
+    },
+    {
+      "ok": true,
+      "message": "content/products.ts exists"
+    },
+    {
+      "ok": true,
+      "message": "content/applications.ts exists"
+    },
+    {
+      "ok": true,
+      "message": "content/patents.ts exists"
+    },
+    {
+      "ok": true,
+      "message": "content/source-ledger.ts exists"
+    },
+    {
+      "ok": true,
+      "message": "content/inquiry.ts exists"
+    },
+    {
+      "ok": true,
+      "message": "content/routes.ts exists"
+    },
+    {
+      "ok": true,
+      "message": "app/products/[slug]/page.tsx exists"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/[slug]/page.tsx exists"
+    },
+    {
+      "ok": true,
+      "message": "app/resources/page.tsx exists"
+    },
+    {
+      "ok": true,
+      "message": "app/privacy/page.tsx exists"
+    },
+    {
+      "ok": true,
+      "message": "sitemap is generated from public route registry"
+    },
+    {
+      "ok": true,
+      "message": "at least five product routes configured"
+    },
+    {
+      "ok": true,
+      "message": "at least four application routes configured"
+    },
+    {
+      "ok": true,
+      "message": "sitemap is generated from public route registry"
+    },
+    {
+      "ok": true,
+      "message": "at least five product routes configured"
+    },
+    {
+      "ok": true,
+      "message": "at least four application routes configured"
+    },
+    {
+      "ok": true,
+      "message": "sitemap is generated from public route registry"
+    },
+    {
+      "ok": true,
+      "message": "at least five product routes configured"
+    },
+    {
+      "ok": true,
+      "message": "at least four application routes configured"
+    },
+    {
+      "ok": true,
+      "message": "sitemap is generated from public route registry"
+    },
+    {
+      "ok": true,
+      "message": "at least five product routes configured"
+    },
+    {
+      "ok": true,
+      "message": "at least four application routes configured"
+    },
+    {
+      "ok": true,
+      "message": "sitemap is generated from public route registry"
+    },
+    {
+      "ok": true,
+      "message": "at least five product routes configured"
+    },
+    {
+      "ok": true,
+      "message": "at least four application routes configured"
+    },
+    {
+      "ok": true,
+      "message": "sitemap is generated from public route registry"
+    },
+    {
+      "ok": true,
+      "message": "at least five product routes configured"
+    },
+    {
+      "ok": true,
+      "message": "at least four application routes configured"
+    },
+    {
+      "ok": true,
+      "message": "sitemap is generated from public route registry"
+    },
+    {
+      "ok": true,
+      "message": "at least five product routes configured"
+    },
+    {
+      "ok": true,
+      "message": "at least four application routes configured"
+    },
+    {
+      "ok": true,
+      "message": "sitemap is generated from public route registry"
+    },
+    {
+      "ok": true,
+      "message": "at least five product routes configured"
+    },
+    {
+      "ok": true,
+      "message": "at least four application routes configured"
+    },
+    {
+      "ok": true,
+      "message": "sitemap is generated from public route registry"
+    },
+    {
+      "ok": true,
+      "message": "at least five product routes configured"
+    },
+    {
+      "ok": true,
+      "message": "at least four application routes configured"
+    },
+    {
+      "ok": true,
+      "message": "sitemap is generated from public route registry"
+    },
+    {
+      "ok": true,
+      "message": "at least five product routes configured"
+    },
+    {
+      "ok": true,
+      "message": "at least four application routes configured"
+    },
+    {
+      "ok": true,
+      "message": "sitemap is generated from public route registry"
+    },
+    {
+      "ok": true,
+      "message": "at least five product routes configured"
+    },
+    {
+      "ok": true,
+      "message": "at least four application routes configured"
+    },
+    {
+      "ok": true,
+      "message": "sitemap is generated from public route registry"
+    },
+    {
+      "ok": true,
+      "message": "at least five product routes configured"
+    },
+    {
+      "ok": true,
+      "message": "at least four application routes configured"
+    },
+    {
+      "ok": true,
+      "message": "sitemap is generated from public route registry"
+    },
+    {
+      "ok": true,
+      "message": "at least five product routes configured"
+    },
+    {
+      "ok": true,
+      "message": "at least four application routes configured"
+    },
+    {
+      "ok": true,
+      "message": "sitemap is generated from public route registry"
+    },
+    {
+      "ok": true,
+      "message": "at least five product routes configured"
+    },
+    {
+      "ok": true,
+      "message": "at least four application routes configured"
+    },
+    {
+      "ok": true,
+      "message": "sitemap is generated from public route registry"
+    },
+    {
+      "ok": true,
+      "message": "at least five product routes configured"
+    },
+    {
+      "ok": true,
+      "message": "at least four application routes configured"
+    },
+    {
+      "ok": true,
+      "message": "sitemap is generated from public route registry"
+    },
+    {
+      "ok": true,
+      "message": "at least five product routes configured"
+    },
+    {
+      "ok": true,
+      "message": "at least four application routes configured"
+    },
+    {
+      "ok": true,
+      "message": "sitemap is generated from public route registry"
+    },
+    {
+      "ok": true,
+      "message": "at least five product routes configured"
+    },
+    {
+      "ok": true,
+      "message": "at least four application routes configured"
+    },
+    {
+      "ok": true,
+      "message": "sitemap is generated from public route registry"
+    },
+    {
+      "ok": true,
+      "message": "at least five product routes configured"
+    },
+    {
+      "ok": true,
+      "message": "at least four application routes configured"
+    },
+    {
+      "ok": true,
+      "message": "product content includes /products/adhesion-systems"
+    },
+    {
+      "ok": true,
+      "message": "product content includes /products/functional-coatings"
+    },
+    {
+      "ok": true,
+      "message": "product content includes /products/waterproof-thermal-protection"
+    },
+    {
+      "ok": true,
+      "message": "product content includes /products/dispersion-additives"
+    },
+    {
+      "ok": true,
+      "message": "product content includes /products/eco-safety-materials"
+    },
+    {
+      "ok": true,
+      "message": "application content includes /applications/building-envelope"
+    },
+    {
+      "ok": true,
+      "message": "application content includes /applications/coating-paint"
+    },
+    {
+      "ok": true,
+      "message": "application content includes /applications/packaging-label"
+    },
+    {
+      "ok": true,
+      "message": "application content includes /applications/energy-storage-safety"
+    },
+    {
+      "ok": true,
+      "message": "contact supports copy-to-clipboard"
+    },
+    {
+      "ok": true,
+      "message": "contact supports print summary"
+    },
+    {
+      "ok": true,
+      "message": "contact fields expose aria-invalid"
+    },
+    {
+      "ok": true,
+      "message": "contact collects quantity/sample/timeline"
+    },
+    {
+      "ok": true,
+      "message": "resources route explains official data readiness"
+    },
+    {
+      "ok": true,
+      "message": "product content marks pending TDS state"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/page.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/page.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/page.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/page.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/page.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/page.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/page.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/[slug]/page.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/[slug]/page.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/[slug]/page.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/[slug]/page.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/[slug]/page.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/[slug]/page.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/[slug]/page.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "app/company/page.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "app/company/page.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "app/company/page.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "app/company/page.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "app/company/page.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "app/company/page.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "app/company/page.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "app/contact/page.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "app/contact/page.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "app/contact/page.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "app/contact/page.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "app/contact/page.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "app/contact/page.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "app/contact/page.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "app/layout.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "app/layout.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "app/layout.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "app/layout.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "app/layout.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "app/layout.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "app/layout.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "app/not-found.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "app/not-found.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "app/not-found.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "app/not-found.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "app/not-found.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "app/not-found.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "app/not-found.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "app/page.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "app/page.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "app/page.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "app/page.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "app/page.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "app/page.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "app/page.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "app/privacy/page.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "app/privacy/page.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "app/privacy/page.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "app/privacy/page.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "app/privacy/page.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "app/privacy/page.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "app/privacy/page.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "app/products/page.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "app/products/page.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "app/products/page.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "app/products/page.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "app/products/page.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "app/products/page.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "app/products/page.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "app/products/[slug]/page.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "app/products/[slug]/page.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "app/products/[slug]/page.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "app/products/[slug]/page.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "app/products/[slug]/page.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "app/products/[slug]/page.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "app/products/[slug]/page.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "app/resources/page.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "app/resources/page.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "app/resources/page.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "app/resources/page.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "app/resources/page.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "app/resources/page.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "app/resources/page.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "app/rnd/page.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "app/rnd/page.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "app/rnd/page.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "app/rnd/page.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "app/rnd/page.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "app/rnd/page.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "app/rnd/page.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "app/robots.ts avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "app/robots.ts avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "app/robots.ts avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "app/robots.ts avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "app/robots.ts avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "app/robots.ts avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "app/robots.ts avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "app/sitemap.ts avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "app/sitemap.ts avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "app/sitemap.ts avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "app/sitemap.ts avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "app/sitemap.ts avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "app/sitemap.ts avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "app/sitemap.ts avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "app/technology/page.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "app/technology/page.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "app/technology/page.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "app/technology/page.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "app/technology/page.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "app/technology/page.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "app/technology/page.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/brand/WarsolMark.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/brand/WarsolMark.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/brand/WarsolMark.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/brand/WarsolMark.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/brand/WarsolMark.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/brand/WarsolMark.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/brand/WarsolMark.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/forms/InquiryForm.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/forms/InquiryForm.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/forms/InquiryForm.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/forms/InquiryForm.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/forms/InquiryForm.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/forms/InquiryForm.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/forms/InquiryForm.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Footer.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Footer.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Footer.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Footer.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Footer.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Footer.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Footer.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Header.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Header.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Header.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Header.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Header.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Header.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Header.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/MobileNav.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/MobileNav.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/MobileNav.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/MobileNav.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/MobileNav.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/MobileNav.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/MobileNav.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationIndustries.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationIndustries.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationIndustries.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationIndustries.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationIndustries.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationIndustries.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationIndustries.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationMatrix.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationMatrix.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationMatrix.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationMatrix.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationMatrix.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationMatrix.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationMatrix.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ContactCTA.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ContactCTA.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ContactCTA.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ContactCTA.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ContactCTA.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ContactCTA.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ContactCTA.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/HeroSection.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/HeroSection.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/HeroSection.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/HeroSection.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/HeroSection.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/HeroSection.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/HeroSection.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/LightPremiumHero.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/LightPremiumHero.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/LightPremiumHero.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/LightPremiumHero.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/LightPremiumHero.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/LightPremiumHero.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/LightPremiumHero.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/MaterialSystems.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/MaterialSystems.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/MaterialSystems.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/MaterialSystems.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/MaterialSystems.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/MaterialSystems.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/MaterialSystems.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/OfficialAssetNeeded.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/OfficialAssetNeeded.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/OfficialAssetNeeded.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/OfficialAssetNeeded.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/OfficialAssetNeeded.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/OfficialAssetNeeded.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/OfficialAssetNeeded.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PageHero.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PageHero.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PageHero.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PageHero.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PageHero.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PageHero.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PageHero.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PatentTimeline.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PatentTimeline.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PatentTimeline.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PatentTimeline.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PatentTimeline.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PatentTimeline.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PatentTimeline.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductFamilyCard.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductFamilyCard.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductFamilyCard.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductFamilyCard.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductFamilyCard.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductFamilyCard.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductFamilyCard.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductShowcase.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductShowcase.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductShowcase.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductShowcase.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductShowcase.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductShowcase.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductShowcase.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/RdEvidenceRail.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/RdEvidenceRail.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/RdEvidenceRail.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/RdEvidenceRail.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/RdEvidenceRail.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/RdEvidenceRail.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/RdEvidenceRail.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnicalInquiryCta.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnicalInquiryCta.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnicalInquiryCta.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnicalInquiryCta.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnicalInquiryCta.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnicalInquiryCta.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnicalInquiryCta.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnologyPlatform.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnologyPlatform.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnologyPlatform.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnologyPlatform.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnologyPlatform.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnologyPlatform.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnologyPlatform.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/seo/StructuredData.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/seo/StructuredData.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/seo/StructuredData.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/seo/StructuredData.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/seo/StructuredData.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/seo/StructuredData.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/seo/StructuredData.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Breadcrumbs.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Breadcrumbs.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Breadcrumbs.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Breadcrumbs.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Breadcrumbs.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Breadcrumbs.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Breadcrumbs.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Button.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Button.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Button.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Button.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Button.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Button.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Button.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/DataCard.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/DataCard.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/DataCard.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/DataCard.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/DataCard.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/DataCard.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/DataCard.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/EvidenceBadge.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/EvidenceBadge.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/EvidenceBadge.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/EvidenceBadge.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/EvidenceBadge.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/EvidenceBadge.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/EvidenceBadge.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/GradientText.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/GradientText.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/GradientText.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/GradientText.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/GradientText.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/GradientText.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/GradientText.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MetricCard.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MetricCard.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MetricCard.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MetricCard.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MetricCard.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MetricCard.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MetricCard.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MolecularField.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MolecularField.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MolecularField.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MolecularField.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MolecularField.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MolecularField.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MolecularField.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Reveal.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Reveal.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Reveal.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Reveal.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Reveal.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Reveal.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Reveal.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Section.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Section.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Section.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Section.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Section.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Section.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Section.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/SpecTable.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/SpecTable.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/SpecTable.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/SpecTable.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/SpecTable.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/SpecTable.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/SpecTable.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/InquiryPreparationVisual.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/InquiryPreparationVisual.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/InquiryPreparationVisual.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/InquiryPreparationVisual.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/InquiryPreparationVisual.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/InquiryPreparationVisual.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/InquiryPreparationVisual.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/LayeredCoatingVisual.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/LayeredCoatingVisual.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/LayeredCoatingVisual.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/LayeredCoatingVisual.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/LayeredCoatingVisual.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/LayeredCoatingVisual.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/LayeredCoatingVisual.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/PolymerBlueprint.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/PolymerBlueprint.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/PolymerBlueprint.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/PolymerBlueprint.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/PolymerBlueprint.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/PolymerBlueprint.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/PolymerBlueprint.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/ProcessFlowVisual.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/ProcessFlowVisual.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/ProcessFlowVisual.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/ProcessFlowVisual.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/ProcessFlowVisual.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/ProcessFlowVisual.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/ProcessFlowVisual.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/V5EnterpriseVisuals.tsx avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/V5EnterpriseVisuals.tsx avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/V5EnterpriseVisuals.tsx avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/V5EnterpriseVisuals.tsx avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/V5EnterpriseVisuals.tsx avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/V5EnterpriseVisuals.tsx avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/V5EnterpriseVisuals.tsx avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "content/applications.ts avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "content/applications.ts avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "content/applications.ts avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "content/applications.ts avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "content/applications.ts avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "content/applications.ts avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "content/applications.ts avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "content/company.ts avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "content/company.ts avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "content/company.ts avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "content/company.ts avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "content/company.ts avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "content/company.ts avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "content/company.ts avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "content/inquiry.ts avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "content/inquiry.ts avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "content/inquiry.ts avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "content/inquiry.ts avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "content/inquiry.ts avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "content/inquiry.ts avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "content/inquiry.ts avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "content/navigation.ts avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "content/navigation.ts avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "content/navigation.ts avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "content/navigation.ts avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "content/navigation.ts avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "content/navigation.ts avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "content/navigation.ts avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "content/patents.ts avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "content/patents.ts avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "content/patents.ts avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "content/patents.ts avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "content/patents.ts avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "content/patents.ts avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "content/patents.ts avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "content/products.ts avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "content/products.ts avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "content/products.ts avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "content/products.ts avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "content/products.ts avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "content/products.ts avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "content/products.ts avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "content/routes.ts avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "content/routes.ts avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "content/routes.ts avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "content/routes.ts avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "content/routes.ts avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "content/routes.ts avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "content/routes.ts avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "content/source-ledger.ts avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "content/source-ledger.ts avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "content/source-ledger.ts avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "content/source-ledger.ts avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "content/source-ledger.ts avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "content/source-ledger.ts avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "content/technology.ts avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "content/technology.ts avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "content/technology.ts avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "content/technology.ts avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "content/technology.ts avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "content/technology.ts avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "content/technology.ts avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-1-summary.md avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-1-summary.md avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-1-summary.md avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-1-summary.md avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-1-summary.md avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-1-summary.md avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-1-summary.md avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-2-summary.md avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-2-summary.md avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-2-summary.md avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-2-summary.md avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-2-summary.md avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-2-summary.md avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-2-summary.md avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-3-summary.md avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-3-summary.md avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-3-summary.md avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-3-summary.md avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-3-summary.md avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-3-summary.md avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-3-summary.md avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-4-summary.md avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-4-summary.md avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-4-summary.md avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-4-summary.md avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-4-summary.md avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-4-summary.md avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/pass-4-summary.md avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-baseline-visual-audit.md avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-baseline-visual-audit.md avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-baseline-visual-audit.md avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-baseline-visual-audit.md avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-baseline-visual-audit.md avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-baseline-visual-audit.md avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-baseline-visual-audit.md avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-design-system-notes.md avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-design-system-notes.md avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-design-system-notes.md avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-design-system-notes.md avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-design-system-notes.md avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-design-system-notes.md avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-design-system-notes.md avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-mid-visual-audit.md avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-mid-visual-audit.md avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-mid-visual-audit.md avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-mid-visual-audit.md avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-mid-visual-audit.md avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-mid-visual-audit.md avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-mid-visual-audit.md avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-qa-design.md avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-qa-design.md avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-qa-design.md avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-qa-design.md avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-qa-design.md avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-qa-design.md avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-qa-design.md avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-role-reviews.md avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-role-reviews.md avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-role-reviews.md avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-role-reviews.md avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-role-reviews.md avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-role-reviews.md avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-role-reviews.md avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-starting-state.md avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-starting-state.md avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-starting-state.md avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-starting-state.md avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-starting-state.md avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-starting-state.md avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-starting-state.md avoids forbidden fake claim /고객사\\s*:/"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-trust-boundary.md avoids forbidden fake claim /Fortune\\s*500/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-trust-boundary.md avoids forbidden fake claim /ISO\\s*9001/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-trust-boundary.md avoids forbidden fake claim /certified customer/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-trust-boundary.md avoids forbidden fake claim /download\\s*TDS/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-trust-boundary.md avoids forbidden fake claim /sent successfully/i"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-trust-boundary.md avoids forbidden fake claim /전송되었습니다/"
+    },
+    {
+      "ok": true,
+      "message": "docs/v5/v5-trust-boundary.md avoids forbidden fake claim /고객사\\s*:/"
+    }
+  ]
+}

@@ -1,0 +1,2549 @@
+{
+  "generatedAt": "2026-05-13T01:28:41.064Z",
+  "checks": [
+    {
+      "ok": true,
+      "message": "global background token remains white"
+    },
+    {
+      "ok": true,
+      "message": "print style exists"
+    },
+    {
+      "ok": true,
+      "message": "footer is not a dark navy identity block"
+    },
+    {
+      "ok": true,
+      "message": "product comparison visual exists"
+    },
+    {
+      "ok": true,
+      "message": "official data readiness visual exists"
+    },
+    {
+      "ok": true,
+      "message": "technical variable visual exists"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/page.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/page.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/page.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/page.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/page.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/page.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/page.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/page.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/page.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/page.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/[slug]/page.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/[slug]/page.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/[slug]/page.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/[slug]/page.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/[slug]/page.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/[slug]/page.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/[slug]/page.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/[slug]/page.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/[slug]/page.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "app/applications/[slug]/page.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "app/company/page.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "app/company/page.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "app/company/page.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "app/company/page.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "app/company/page.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "app/company/page.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "app/company/page.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "app/company/page.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "app/company/page.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "app/company/page.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "app/contact/page.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "app/contact/page.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "app/contact/page.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "app/contact/page.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "app/contact/page.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "app/contact/page.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "app/contact/page.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "app/contact/page.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "app/contact/page.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "app/contact/page.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "app/globals.css does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "app/globals.css does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "app/globals.css does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "app/globals.css does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "app/globals.css does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "app/globals.css does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "app/globals.css does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "app/globals.css does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "app/globals.css does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "app/globals.css does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "app/layout.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "app/layout.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "app/layout.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "app/layout.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "app/layout.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "app/layout.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "app/layout.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "app/layout.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "app/layout.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "app/layout.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "app/not-found.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "app/not-found.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "app/not-found.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "app/not-found.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "app/not-found.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "app/not-found.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "app/not-found.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "app/not-found.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "app/not-found.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "app/not-found.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "app/page.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "app/page.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "app/page.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "app/page.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "app/page.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "app/page.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "app/page.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "app/page.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "app/page.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "app/page.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "app/privacy/page.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "app/privacy/page.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "app/privacy/page.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "app/privacy/page.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "app/privacy/page.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "app/privacy/page.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "app/privacy/page.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "app/privacy/page.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "app/privacy/page.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "app/privacy/page.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "app/products/page.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "app/products/page.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "app/products/page.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "app/products/page.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "app/products/page.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "app/products/page.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "app/products/page.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "app/products/page.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "app/products/page.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "app/products/page.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "app/products/[slug]/page.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "app/products/[slug]/page.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "app/products/[slug]/page.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "app/products/[slug]/page.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "app/products/[slug]/page.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "app/products/[slug]/page.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "app/products/[slug]/page.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "app/products/[slug]/page.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "app/products/[slug]/page.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "app/products/[slug]/page.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "app/resources/page.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "app/resources/page.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "app/resources/page.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "app/resources/page.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "app/resources/page.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "app/resources/page.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "app/resources/page.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "app/resources/page.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "app/resources/page.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "app/resources/page.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "app/rnd/page.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "app/rnd/page.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "app/rnd/page.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "app/rnd/page.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "app/rnd/page.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "app/rnd/page.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "app/rnd/page.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "app/rnd/page.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "app/rnd/page.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "app/rnd/page.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "app/robots.ts does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "app/robots.ts does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "app/robots.ts does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "app/robots.ts does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "app/robots.ts does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "app/robots.ts does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "app/robots.ts does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "app/robots.ts does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "app/robots.ts does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "app/robots.ts does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "app/sitemap.ts does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "app/sitemap.ts does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "app/sitemap.ts does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "app/sitemap.ts does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "app/sitemap.ts does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "app/sitemap.ts does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "app/sitemap.ts does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "app/sitemap.ts does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "app/sitemap.ts does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "app/sitemap.ts does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "app/technology/page.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "app/technology/page.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "app/technology/page.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "app/technology/page.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "app/technology/page.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "app/technology/page.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "app/technology/page.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "app/technology/page.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "app/technology/page.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "app/technology/page.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/brand/WarsolMark.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/brand/WarsolMark.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/brand/WarsolMark.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/brand/WarsolMark.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/brand/WarsolMark.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/brand/WarsolMark.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/brand/WarsolMark.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/brand/WarsolMark.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/brand/WarsolMark.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/brand/WarsolMark.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/forms/InquiryForm.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/forms/InquiryForm.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/forms/InquiryForm.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/forms/InquiryForm.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/forms/InquiryForm.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/forms/InquiryForm.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/forms/InquiryForm.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/forms/InquiryForm.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/forms/InquiryForm.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/forms/InquiryForm.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Footer.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Footer.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Footer.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Footer.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Footer.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Footer.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Footer.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Footer.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Footer.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Footer.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Header.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Header.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Header.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Header.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Header.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Header.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Header.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Header.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Header.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/Header.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/MobileNav.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/MobileNav.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/MobileNav.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/MobileNav.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/MobileNav.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/MobileNav.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/MobileNav.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/MobileNav.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/MobileNav.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/layout/MobileNav.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationIndustries.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationIndustries.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationIndustries.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationIndustries.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationIndustries.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationIndustries.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationIndustries.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationIndustries.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationIndustries.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationIndustries.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationMatrix.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationMatrix.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationMatrix.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationMatrix.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationMatrix.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationMatrix.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationMatrix.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationMatrix.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationMatrix.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ApplicationMatrix.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ContactCTA.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ContactCTA.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ContactCTA.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ContactCTA.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ContactCTA.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ContactCTA.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ContactCTA.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ContactCTA.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ContactCTA.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ContactCTA.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/HeroSection.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/HeroSection.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/HeroSection.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/HeroSection.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/HeroSection.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/HeroSection.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/HeroSection.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/HeroSection.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/HeroSection.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/HeroSection.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/LightPremiumHero.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/LightPremiumHero.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/LightPremiumHero.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/LightPremiumHero.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/LightPremiumHero.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/LightPremiumHero.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/LightPremiumHero.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/LightPremiumHero.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/LightPremiumHero.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/LightPremiumHero.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/MaterialSystems.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/MaterialSystems.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/MaterialSystems.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/MaterialSystems.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/MaterialSystems.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/MaterialSystems.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/MaterialSystems.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/MaterialSystems.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/MaterialSystems.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/MaterialSystems.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/OfficialAssetNeeded.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/OfficialAssetNeeded.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/OfficialAssetNeeded.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/OfficialAssetNeeded.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/OfficialAssetNeeded.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/OfficialAssetNeeded.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/OfficialAssetNeeded.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/OfficialAssetNeeded.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/OfficialAssetNeeded.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/OfficialAssetNeeded.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PageHero.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PageHero.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PageHero.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PageHero.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PageHero.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PageHero.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PageHero.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PageHero.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PageHero.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PageHero.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PatentTimeline.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PatentTimeline.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PatentTimeline.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PatentTimeline.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PatentTimeline.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PatentTimeline.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PatentTimeline.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PatentTimeline.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PatentTimeline.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/PatentTimeline.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductFamilyCard.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductFamilyCard.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductFamilyCard.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductFamilyCard.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductFamilyCard.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductFamilyCard.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductFamilyCard.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductFamilyCard.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductFamilyCard.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductFamilyCard.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductShowcase.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductShowcase.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductShowcase.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductShowcase.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductShowcase.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductShowcase.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductShowcase.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductShowcase.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductShowcase.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/ProductShowcase.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/RdEvidenceRail.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/RdEvidenceRail.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/RdEvidenceRail.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/RdEvidenceRail.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/RdEvidenceRail.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/RdEvidenceRail.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/RdEvidenceRail.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/RdEvidenceRail.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/RdEvidenceRail.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/RdEvidenceRail.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnicalInquiryCta.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnicalInquiryCta.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnicalInquiryCta.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnicalInquiryCta.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnicalInquiryCta.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnicalInquiryCta.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnicalInquiryCta.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnicalInquiryCta.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnicalInquiryCta.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnicalInquiryCta.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnologyPlatform.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnologyPlatform.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnologyPlatform.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnologyPlatform.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnologyPlatform.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnologyPlatform.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnologyPlatform.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnologyPlatform.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnologyPlatform.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/sections/TechnologyPlatform.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/seo/StructuredData.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/seo/StructuredData.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/seo/StructuredData.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/seo/StructuredData.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/seo/StructuredData.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/seo/StructuredData.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/seo/StructuredData.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/seo/StructuredData.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/seo/StructuredData.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/seo/StructuredData.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Breadcrumbs.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Breadcrumbs.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Breadcrumbs.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Breadcrumbs.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Breadcrumbs.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Breadcrumbs.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Breadcrumbs.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Breadcrumbs.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Breadcrumbs.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Breadcrumbs.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Button.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Button.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Button.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Button.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Button.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Button.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Button.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Button.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Button.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Button.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/DataCard.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/DataCard.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/DataCard.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/DataCard.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/DataCard.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/DataCard.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/DataCard.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/DataCard.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/DataCard.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/DataCard.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/EvidenceBadge.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/EvidenceBadge.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/EvidenceBadge.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/EvidenceBadge.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/EvidenceBadge.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/EvidenceBadge.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/EvidenceBadge.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/EvidenceBadge.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/EvidenceBadge.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/EvidenceBadge.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/GradientText.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/GradientText.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/GradientText.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/GradientText.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/GradientText.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/GradientText.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/GradientText.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/GradientText.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/GradientText.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/GradientText.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MetricCard.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MetricCard.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MetricCard.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MetricCard.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MetricCard.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MetricCard.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MetricCard.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MetricCard.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MetricCard.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MetricCard.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MolecularField.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MolecularField.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MolecularField.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MolecularField.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MolecularField.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MolecularField.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MolecularField.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MolecularField.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MolecularField.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/MolecularField.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Reveal.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Reveal.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Reveal.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Reveal.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Reveal.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Reveal.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Reveal.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Reveal.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Reveal.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Reveal.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Section.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Section.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Section.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Section.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Section.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Section.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Section.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Section.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Section.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/Section.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/SpecTable.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/SpecTable.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/SpecTable.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/SpecTable.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/SpecTable.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/SpecTable.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/SpecTable.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/SpecTable.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/SpecTable.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/ui/SpecTable.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/InquiryPreparationVisual.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/InquiryPreparationVisual.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/InquiryPreparationVisual.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/InquiryPreparationVisual.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/InquiryPreparationVisual.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/InquiryPreparationVisual.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/InquiryPreparationVisual.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/InquiryPreparationVisual.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/InquiryPreparationVisual.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/InquiryPreparationVisual.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/LayeredCoatingVisual.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/LayeredCoatingVisual.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/LayeredCoatingVisual.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/LayeredCoatingVisual.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/LayeredCoatingVisual.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/LayeredCoatingVisual.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/LayeredCoatingVisual.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/LayeredCoatingVisual.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/LayeredCoatingVisual.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/LayeredCoatingVisual.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/PolymerBlueprint.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/PolymerBlueprint.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/PolymerBlueprint.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/PolymerBlueprint.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/PolymerBlueprint.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/PolymerBlueprint.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/PolymerBlueprint.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/PolymerBlueprint.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/PolymerBlueprint.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/PolymerBlueprint.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/ProcessFlowVisual.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/ProcessFlowVisual.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/ProcessFlowVisual.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/ProcessFlowVisual.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/ProcessFlowVisual.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/ProcessFlowVisual.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/ProcessFlowVisual.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/ProcessFlowVisual.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/ProcessFlowVisual.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/ProcessFlowVisual.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/V5EnterpriseVisuals.tsx does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/V5EnterpriseVisuals.tsx does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/V5EnterpriseVisuals.tsx does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/V5EnterpriseVisuals.tsx does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/V5EnterpriseVisuals.tsx does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/V5EnterpriseVisuals.tsx does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/V5EnterpriseVisuals.tsx does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/V5EnterpriseVisuals.tsx does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/V5EnterpriseVisuals.tsx does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "components/visuals/V5EnterpriseVisuals.tsx does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "content/applications.ts does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "content/applications.ts does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "content/applications.ts does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "content/applications.ts does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "content/applications.ts does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "content/applications.ts does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "content/applications.ts does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "content/applications.ts does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "content/applications.ts does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "content/applications.ts does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "content/company.ts does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "content/company.ts does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "content/company.ts does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "content/company.ts does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "content/company.ts does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "content/company.ts does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "content/company.ts does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "content/company.ts does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "content/company.ts does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "content/company.ts does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "content/inquiry.ts does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "content/inquiry.ts does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "content/inquiry.ts does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "content/inquiry.ts does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "content/inquiry.ts does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "content/inquiry.ts does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "content/inquiry.ts does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "content/inquiry.ts does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "content/inquiry.ts does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "content/inquiry.ts does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "content/navigation.ts does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "content/navigation.ts does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "content/navigation.ts does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "content/navigation.ts does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "content/navigation.ts does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "content/navigation.ts does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "content/navigation.ts does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "content/navigation.ts does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "content/navigation.ts does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "content/navigation.ts does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "content/patents.ts does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "content/patents.ts does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "content/patents.ts does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "content/patents.ts does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "content/patents.ts does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "content/patents.ts does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "content/patents.ts does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "content/patents.ts does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "content/patents.ts does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "content/patents.ts does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "content/products.ts does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "content/products.ts does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "content/products.ts does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "content/products.ts does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "content/products.ts does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "content/products.ts does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "content/products.ts does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "content/products.ts does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "content/products.ts does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "content/products.ts does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "content/routes.ts does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "content/routes.ts does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "content/routes.ts does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "content/routes.ts does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "content/routes.ts does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "content/routes.ts does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "content/routes.ts does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "content/routes.ts does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "content/routes.ts does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "content/routes.ts does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "content/source-ledger.ts does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "content/source-ledger.ts does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "content/source-ledger.ts does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "content/source-ledger.ts does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "content/source-ledger.ts does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "content/source-ledger.ts does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "content/source-ledger.ts does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "content/source-ledger.ts does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "content/source-ledger.ts does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "content/source-ledger.ts does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "content/technology.ts does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "content/technology.ts does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "content/technology.ts does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "content/technology.ts does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "content/technology.ts does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "content/technology.ts does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "content/technology.ts does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "content/technology.ts does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "content/technology.ts does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "content/technology.ts does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "public/brand/warsol-wordmark.svg does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "public/brand/warsol-wordmark.svg does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "public/brand/warsol-wordmark.svg does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "public/brand/warsol-wordmark.svg does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "public/brand/warsol-wordmark.svg does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "public/brand/warsol-wordmark.svg does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "public/brand/warsol-wordmark.svg does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "public/brand/warsol-wordmark.svg does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "public/brand/warsol-wordmark.svg does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "public/brand/warsol-wordmark.svg does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "public/favicon.svg does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "public/favicon.svg does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "public/favicon.svg does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "public/favicon.svg does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "public/favicon.svg does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "public/favicon.svg does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "public/favicon.svg does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "public/favicon.svg does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "public/favicon.svg does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "public/favicon.svg does not contain dark identity token neon"
+    },
+    {
+      "ok": true,
+      "message": "public/og/warsol-og.svg does not contain dark identity token #05070A"
+    },
+    {
+      "ok": true,
+      "message": "public/og/warsol-og.svg does not contain dark identity token #05070a"
+    },
+    {
+      "ok": true,
+      "message": "public/og/warsol-og.svg does not contain dark identity token bg-black"
+    },
+    {
+      "ok": true,
+      "message": "public/og/warsol-og.svg does not contain dark identity token from-black"
+    },
+    {
+      "ok": true,
+      "message": "public/og/warsol-og.svg does not contain dark identity token to-black"
+    },
+    {
+      "ok": true,
+      "message": "public/og/warsol-og.svg does not contain dark identity token slate-950"
+    },
+    {
+      "ok": true,
+      "message": "public/og/warsol-og.svg does not contain dark identity token zinc-950"
+    },
+    {
+      "ok": true,
+      "message": "public/og/warsol-og.svg does not contain dark identity token neutral-950"
+    },
+    {
+      "ok": true,
+      "message": "public/og/warsol-og.svg does not contain dark identity token dark glass"
+    },
+    {
+      "ok": true,
+      "message": "public/og/warsol-og.svg does not contain dark identity token neon"
+    }
+  ]
+}

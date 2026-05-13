@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-05-13T01:29:10.307Z",
+  "route": "/contact",
+  "emptySubmit": {
+    "formFound": true,
+    "errorCount": 9,
+    "errors": [
+      "문의 유형을 선택해 주세요.",
+      "성함을 입력해 주세요.",
+      "회사/기관명을 입력해 주세요.",
+      "업무용 이메일 형식을 확인해 주세요.",
+      "기재 또는 소재 정보를 입력해 주세요.",
+      "온도, 습도, 외부 노출 등 사용 환경을 입력해 주세요.",
+      "요구 물성을 입력해 주세요.",
+      "수량/샘플/일정 단계를 선택해 주세요.",
+      "문의 내용을 12자 이상 입력해 주세요."
+    ],
+    "hasBackendBlockedCopy": true,
+    "hasCopyButton": true,
+    "hasPrintButton": true
+  },
+  "validSubmit": {
+    "missing": [],
+    "summaryLength": 541,
+    "includesProduct": true,
+    "includesApplication": true,
+    "includesQuantity": true,
+    "includesBackendBlockedCopy": true,
+    "hasCopyButton": true,
+    "hasPrintButton": true,
+    "fakeSentSuccess": false
+  },
+  "consoleErrors": []
+}

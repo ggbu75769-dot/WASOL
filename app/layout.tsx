@@ -10,11 +10,11 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.warsolchem.co.k
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: `${company.englishName} | 수용성 고분자·점접착·기능성 코팅 소재`,
+    default: `${company.englishName} | 수용성 고분자·접착·코팅 소재`,
     template: `%s | ${company.englishName}`,
   },
   description:
-    "주식회사 워솔은 수용성 고분자, 산업용 점·접착제, 기능성 코팅, 분산 제어, 친환경 안전 소재를 다루는 B2B 화학 소재 기술 기업입니다.",
+    "WARSOL은 수성 고분자, 산업용 점·접착제, 기능성 코팅, 분산 제어, 방수·차열, 친환경 안전 소재를 다루는 B2B 화학 소재 기술 기업입니다.",
   applicationName: "WARSOL Corporate Website",
   authors: [{ name: company.englishName }],
   creator: company.englishName,
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: company.englishName,
     title: `${company.englishName} | Advanced Water-Based Polymer Technology`,
     description:
-      "수용성 고분자, 점·접착제, 기능성 코팅, 분산 제어, 친환경 안전 소재를 위한 WARSOL 기술 포트폴리오.",
+      "WARSOL technology portfolio for water-based polymer, adhesion, functional coating, dispersion, waterproof/thermal protection, and eco safety materials.",
     images: [
       {
         url: "/og/warsol-og.svg",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${company.englishName} | Advanced Water-Based Polymer Technology`,
     description:
-      "수용성 고분자, 점·접착제, 기능성 코팅, 분산 제어, 친환경 안전 소재를 위한 WARSOL 기술 포트폴리오.",
+      "Water-based polymer, adhesion, functional coating, dispersion, waterproof/thermal protection, and eco safety material portfolio.",
     images: ["/og/warsol-og.svg"],
   },
   robots: {

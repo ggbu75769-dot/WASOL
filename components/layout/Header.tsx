@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { WarsolMark } from "@/components/brand/WarsolMark";
-import { navigationItems } from "@/content/navigation";
 import { Button } from "@/components/ui/Button";
+import { navigationItems } from "@/content/navigation";
 import { MobileNav } from "./MobileNav";
 
 export function Header() {
@@ -15,19 +15,19 @@ export function Header() {
           </span>
         </Link>
 
-        <nav aria-label="Primary navigation" className="hidden items-center gap-1 md:flex">
+        <nav aria-label="Primary navigation" className="hidden items-center gap-0.5 xl:flex">
           {navigationItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className="rounded-md px-3 py-2 text-sm font-semibold text-[var(--muted-strong)] transition hover:bg-[var(--bg-technical)] hover:text-[var(--brand-blue)]"
+              className="rounded-md px-2.5 py-2 text-sm font-semibold text-[var(--muted-strong)] transition hover:bg-[var(--bg-technical)] hover:text-[var(--brand-blue)] xl:px-3"
             >
               {item.label}
             </Link>
           ))}
         </nav>
 
-        <div className="hidden items-center gap-3 lg:flex">
+        <div className="hidden items-center gap-3 xl:flex">
           <Button href="/contact" variant="secondary" className="min-h-10 px-4 py-2">
             문의하기
           </Button>
