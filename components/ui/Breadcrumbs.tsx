@@ -11,12 +11,18 @@ export function Breadcrumbs({ items }: { items: Breadcrumb[] }) {
       <Link href="/" className="font-bold text-[var(--brand-blue)]">
         Home
       </Link>
-      {items.map((item) => (
+      {items.map((item, index) => (
         <span key={item.href} className="flex items-center gap-2">
           <span aria-hidden="true">/</span>
-          <Link href={item.href} className="font-bold text-[var(--muted-strong)] hover:text-[var(--brand-blue)]">
-            {item.label}
-          </Link>
+          {index === items.length - 1 ? (
+            <span aria-current="page" className="font-bold text-[var(--muted-strong)]">
+              {item.label}
+            </span>
+          ) : (
+            <Link href={item.href} className="font-bold text-[var(--muted-strong)] hover:text-[var(--brand-blue)]">
+              {item.label}
+            </Link>
+          )}
         </span>
       ))}
     </nav>

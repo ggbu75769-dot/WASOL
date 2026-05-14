@@ -1,31 +1,46 @@
 import { company } from "@/content/company";
+import { productCategories } from "@/content/products";
 
 export function StructuredData() {
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.warsolchem.co.kr";
+  const foundingDate = company.founded.value.replaceAll(".", "-");
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": ["Organization", "LocalBusiness"],
+    "@type": "Organization",
     name: company.legalName,
     alternateName: company.englishName,
-    url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.warsolchem.co.kr",
-    telephone: company.contact.phone,
-    contactPoint: {
-      "@type": "ContactPoint",
-      telephone: company.contact.phone,
-      contactType: "technical inquiry",
-      availableLanguage: ["ko", "en"],
-    },
-    founder: {
-      "@type": "Person",
-      name: company.representative,
-    },
+    url: siteUrl,
+    foundingDate,
+    areaServed: "KR",
     description: company.shortDescription,
     knowsAbout: [
-      "Water-based polymer",
-      "Industrial adhesive",
-      "Functional coating",
-      "Dispersion control",
-      "Eco materials",
+      "수용성 고분자",
+      "산업용 접착 소재",
+      "기능성 코팅",
+      "분산 제어",
+      "친환경 안전소재",
     ],
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "WARSOL 소재 상담 제품군",
+      itemListElement: productCategories.map((product) => ({
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: product.englishName,
+          alternateName: product.name,
+          description: product.shortDefinition,
+          serviceType: product.eyebrow,
+          url: `${siteUrl}/products/${product.slug}`,
+        },
+        availability: "https://schema.org/LimitedAvailability",
+      })),
+    },
+    potentialAction: {
+      "@type": "ContactAction",
+      target: `${siteUrl}/contact`,
+      name: "기술 문의 작성",
+    },
   };
 
   return (

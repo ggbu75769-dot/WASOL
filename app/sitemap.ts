@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { publicRoutes } from "@/content/routes";
 
+export const dynamic = "force-static";
+
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.warsolchem.co.kr";
 
 export default function sitemap(): MetadataRoute.Sitemap {

@@ -1,95 +1,93 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ApplicationMatrix } from "@/components/sections/ApplicationMatrix";
 import { LightPremiumHero } from "@/components/sections/LightPremiumHero";
-import { MaterialSystems } from "@/components/sections/MaterialSystems";
-import { RdEvidenceRail } from "@/components/sections/RdEvidenceRail";
-import { TechnicalInquiryCta } from "@/components/sections/TechnicalInquiryCta";
 import { DataCard } from "@/components/ui/DataCard";
 import { Section } from "@/components/ui/Section";
-import { MaterialPipelineVisual, ResearchPathwayVisual, TechnicalVariableMapVisual } from "@/components/visuals/V5EnterpriseVisuals";
-import { applicationGuides } from "@/content/applications";
-import { company } from "@/content/company";
-import { productCategories } from "@/content/products";
 
 export const metadata: Metadata = {
-  title: "WARSOL 수용성 고분자 · 접착 · 코팅 소재",
+  title: "WARSOL | 수용성 고분자 기반 산업 소재",
   description:
-    "WARSOL의 수성 고분자, 산업용 접착, 기능성 코팅, 분산 제어, 방수·차열, 친환경 안전 소재를 제품군과 적용 산업 중심으로 정리한 B2B 기술 상담 사이트입니다.",
+    "WARSOL 수용성 고분자 기반 접착, 코팅, 방수, 분산, 친환경 안전소재 솔루션",
 };
+
+const businessPanels = [
+  {
+    href: "/technology",
+    label: "Technology",
+    title: "Surface Technology",
+    body: "기재와 계면을 중심으로 한 수용성 고분자 기술",
+  },
+  {
+    href: "/products",
+    label: "Products",
+    title: "Material Portfolio",
+    body: "접착, 코팅, 방수, 분산, 안전소재 제품군",
+  },
+  {
+    href: "/rnd",
+    label: "R&D",
+    title: "Research Pipeline",
+    body: "방수, 차열, 자연발화 억제 소재 연구",
+  },
+];
+
+const supportItems = [
+  { href: "/notice", title: "공지사항", body: "기업 공지와 자료 안내" },
+  { href: "/press", title: "언론보도", body: "WARSOL 뉴스와 보도자료" },
+  { href: "/careers", title: "채용", body: "소재 기술 인재 채용" },
+  { href: "/contact", title: "문의", body: "기술 상담과 고객 문의" },
+];
 
 export default function HomePage() {
   return (
     <>
       <LightPremiumHero />
+
       <Section
-        eyebrow="Decision Paths"
-        title="제품명보다 적용 조건을 먼저 좁힙니다."
-        description="공식 grade name과 TDS가 확정되기 전까지는 제품을 과장하지 않고, 제품군·적용 산업·문의 변수로 상담 경로를 나눕니다."
+        eyebrow="BUSINESS"
+        title="소재 사업"
+        description="Technology · Products · R&D"
       >
-        <div className="grid gap-4 lg:grid-cols-3">
-          <DataCard
-            title="제품군에서 시작"
-            body="접착, 코팅, 방수·차열, 분산, 안전 소재 중 가장 가까운 기술 축을 선택합니다."
-            items={productCategories.slice(0, 4).map((product) => product.englishName)}
-          />
-          <DataCard
-            title="적용 산업에서 시작"
-            body="건축 외피, 도료 배합, 라벨·필름, 에너지 안전처럼 사용 맥락으로 상담을 시작합니다."
-            items={applicationGuides.map((guide) => guide.englishName)}
-          />
-          <DataCard
-            title="근거 상태 확인"
-            body="공개 특허와 기업 DB는 사용하되, 공식 로고·TDS·인증·주소·이메일 백엔드는 pending으로 분리합니다."
-            items={["Public DB", "Patent DB", "Official-data pending"]}
-          />
-        </div>
-      </Section>
-      <MaterialSystems />
-      <Section
-        eyebrow="Material Pipeline"
-        title="요구 물성에서 샘플 조건까지 이어지는 상담 흐름"
-        description={`${company.englishName} 사이트는 제품 추천을 확정하기 전에 기재, 환경, 요구 물성, 샘플 단계를 구조화합니다.`}
-      >
-        <MaterialPipelineVisual />
-      </Section>
-      <Section
-        eyebrow="Product Family Routes"
-        title="다섯 개 제품군을 상세 경로로 분리했습니다."
-        description="각 제품군은 기술 기반, 적용처, 문의 변수, 공식 데이터 상태를 따로 보여줍니다."
-      >
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-5">
-          {productCategories.map((product) => (
+        <div className="grid gap-5 lg:grid-cols-3">
+          {businessPanels.map((item) => (
             <Link
-              key={product.slug}
-              href={`/products/${product.slug}`}
-              className="rounded-lg border border-[var(--line)] bg-white p-5 shadow-[0_12px_30px_rgba(15,42,74,0.05)] transition hover:-translate-y-0.5 hover:border-[var(--brand-blue)]"
+              key={item.href}
+              href={item.href}
+              className="surface min-w-0 rounded-lg p-7 transition hover:-translate-y-0.5 hover:border-[var(--brand-blue)]"
             >
-              <p className="mono-label">{product.eyebrow}</p>
-              <h2 className="mt-3 text-lg font-black leading-tight text-[var(--brand-navy)]">{product.name}</h2>
-              <p className="mt-3 text-sm leading-6 text-[var(--muted)]">{product.shortDefinition}</p>
+              <p className="mono-label">{item.label}</p>
+              <h2 className="mt-4 break-words text-3xl font-black leading-tight text-[var(--brand-navy)]">
+                {item.title}
+              </h2>
+              <p className="mt-4 break-words leading-7 text-[var(--muted)]">{item.body}</p>
             </Link>
           ))}
         </div>
       </Section>
-      <Section
-        eyebrow="Technical Variables"
-        title="문의 전에 빠지기 쉬운 기술 변수를 시각화합니다."
-        description="문의 UX는 단순 전송 폼이 아니라 상담을 준비하는 기술 요약 도구로 설계했습니다."
-        className="bg-[var(--bg-soft)]"
-      >
-        <TechnicalVariableMapVisual />
+
+      <Section className="bg-[var(--bg-soft)]" eyebrow="WARSOL FOCUS" title="소재 성능">
+        <div className="grid gap-4 lg:grid-cols-4">
+          <DataCard title="Substrate" body="콘크리트, 금속, 필름, 섬유 등 적용 기재" />
+          <DataCard title="Environment" body="온도, 습도, 외부 노출, 보관 조건" />
+          <DataCard title="Performance" body="접착력, 내수성, 차열, 분산 안정성" />
+          <DataCard title="Quality Data" body="TDS, SDS, 시험 조건, 품질 자료" />
+        </div>
       </Section>
-      <RdEvidenceRail />
-      <ApplicationMatrix />
-      <Section
-        eyebrow="Research to Application"
-        title="공개 근거를 적용 가이드와 문의 흐름에 연결합니다."
-        description="특허·공개 DB 근거는 기술 방향을 설명하는 데 사용하고, 제품 성능과 공식 문서는 pending으로 분리합니다."
-      >
-        <ResearchPathwayVisual />
+
+      <Section eyebrow="NEWS & CONTACT" title="문의와 소식">
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+          {supportItems.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className="min-w-0 rounded-lg border border-[var(--line)] bg-white p-6 transition hover:-translate-y-0.5 hover:border-[var(--brand-blue)]"
+            >
+              <h2 className="break-words text-2xl font-black text-[var(--brand-navy)]">{item.title}</h2>
+              <p className="mt-3 break-words text-sm leading-6 text-[var(--muted)]">{item.body}</p>
+            </Link>
+          ))}
+        </div>
       </Section>
-      <TechnicalInquiryCta />
     </>
   );
 }

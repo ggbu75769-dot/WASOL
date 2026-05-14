@@ -77,6 +77,26 @@ select {
   min-height: 100vh;
 }
 
+.skip-link {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 100;
+  padding: 0.75rem 1rem;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 800;
+  background: var(--brand-navy);
+  border-radius: 0.375rem;
+  box-shadow: var(--shadow-card);
+  transform: translateY(-160%);
+  transition: transform 160ms ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
 .page-shell::before {
   position: fixed;
   inset: 0;
@@ -211,6 +231,89 @@ select {
   text-underline-offset: 0.25em;
 }
 
+.page-shell:has(.enterprise-photo-hero) [data-site-header] {
+  position: sticky;
+  inset: auto;
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.96);
+  border-color: var(--line);
+  backdrop-filter: blur(18px);
+}
+
+.page-shell:has(.enterprise-photo-hero) [data-site-header] nav[aria-label="Primary navigation"] a {
+  color: var(--muted-strong);
+  background: transparent;
+}
+
+.page-shell:has(.enterprise-photo-hero) [data-site-header] nav[aria-label="Primary navigation"] a[aria-current="page"],
+.page-shell:has(.enterprise-photo-hero) [data-site-header] nav[aria-label="Primary navigation"] a:hover {
+  color: var(--brand-blue);
+  background: var(--bg-technical);
+}
+
+.page-shell:has(.enterprise-photo-hero) [data-site-header] summary {
+  color: var(--brand-navy);
+  background: #ffffff;
+  border-color: var(--line-strong);
+}
+
+.page-shell:has(.enterprise-photo-hero) [data-site-header] details nav,
+.page-shell:has(.enterprise-photo-hero) [data-site-header] details nav a,
+.page-shell:has(.enterprise-photo-hero) [data-site-header] details nav span,
+.page-shell:has(.enterprise-photo-hero) [data-site-header] details nav p {
+  color: var(--muted-strong);
+}
+
+.page-shell:has(.enterprise-photo-hero) [data-site-header] details nav a[aria-current="page"] {
+  color: var(--brand-blue);
+}
+
+.warsol-mobile-menu {
+  position: fixed;
+  top: 18px;
+  right: auto;
+  left: min(calc(100vw - 104px), 286px);
+  z-index: 70;
+}
+
+.warsol-mobile-menu-summary {
+  display: flex;
+  min-width: 5rem;
+  min-height: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 0.75rem;
+  color: #ffffff !important;
+  font-size: 0.875rem;
+  font-weight: 900;
+  list-style: none;
+  cursor: pointer;
+  background: var(--brand-navy) !important;
+  border: 1px solid var(--brand-navy) !important;
+  border-radius: 0.375rem;
+  box-shadow: 0 8px 22px rgba(15, 42, 74, 0.16);
+}
+
+.warsol-mobile-menu-summary::-webkit-details-marker,
+.warsol-mobile-menu-summary::marker {
+  display: none;
+}
+
+.warsol-mobile-menu-panel {
+  position: fixed;
+  top: 4rem;
+  right: 20px;
+  z-index: 70;
+  width: min(86vw, 340px);
+  max-height: calc(100vh - 5rem);
+}
+
+@media (min-width: 80rem) {
+  .warsol-mobile-menu {
+    display: none;
+  }
+}
+
 .molecular-field path,
 .molecular-field circle {
   vector-effect: non-scaling-stroke;
@@ -273,19 +376,30 @@ select {
     background: #ffffff !important;
   }
 
-  header,
-  footer,
-  .page-shell::before,
-  .page-shell::after,
-  form > *:not(.inquiry-summary) {
+  .page-shell::after {
     display: none !important;
   }
 
-  .inquiry-summary {
-    display: block !important;
-    border: 1px solid #0b2a4a !important;
+  body[data-print-brief-active="true"] * {
+    visibility: hidden !important;
+  }
+
+  body[data-print-brief-active="true"] [data-print-brief],
+  body[data-print-brief-active="true"] [data-print-brief] * {
+    visibility: visible !important;
+  }
+
+  body[data-print-brief-active="true"] [data-print-brief] {
+    position: absolute !important;
+    inset: 0 auto auto 0 !important;
+    width: 100% !important;
+    border: 0 !important;
     background: #ffffff !important;
-    color: #0f172a !important;
     box-shadow: none !important;
+  }
+
+  body[data-print-brief-active="true"] button,
+  body[data-print-brief-active="true"] a[href]::after {
+    display: none !important;
   }
 }

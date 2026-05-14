@@ -5,30 +5,34 @@ type WarsolMarkProps = {
 
 export function WarsolMark({ className = "", compact = false }: WarsolMarkProps) {
   return (
-    <div className={`inline-flex items-center gap-3 ${className}`} aria-label="WARSOL provisional brand mark">
+    <div className={`inline-flex items-center gap-3 ${className}`} aria-label="WARSOL W 로고">
       <svg
         width={compact ? 40 : 48}
         height={compact ? 40 : 48}
         viewBox="0 0 48 48"
-        fill="none"
         aria-hidden="true"
       >
-        <rect x="1" y="1" width="46" height="46" rx="12" fill="#FFFFFF" stroke="#D8E1EA" strokeWidth="2" />
-        <path
-          d="M10 31L16 16L22 31L28 16L34 31L40 16"
-          stroke="#0B2A4A"
-          strokeWidth="3.5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <path d="M10 36H38" stroke="#12A8C7" strokeWidth="2.5" strokeLinecap="round" />
+        <rect x="2" y="2" width="44" height="44" rx="10" fill="#0B2A4A" />
+        <path d="M8 8H40" stroke="#12A8C7" strokeWidth="3" strokeLinecap="round" />
+        <text
+          x="24"
+          y="33"
+          textAnchor="middle"
+          fill="#FFFFFF"
+          fontFamily="Arial Black, Arial, Helvetica, sans-serif"
+          fontSize="27"
+          fontWeight="900"
+          letterSpacing="0"
+        >
+          W
+        </text>
       </svg>
       <span className="grid leading-none">
-        <span className={`${compact ? "text-xl" : "text-2xl"} font-black tracking-normal text-[var(--brand-navy)]`}>
+        <span data-warsol-word className={`${compact ? "text-xl" : "text-2xl"} font-black tracking-normal text-[var(--brand-navy)]`}>
           WARSOL
         </span>
         {!compact && (
-          <span className="mt-1 text-[0.68rem] font-bold uppercase tracking-normal text-[var(--brand-blue)]">
+          <span data-warsol-sub className="mt-1 text-[0.68rem] font-bold uppercase tracking-normal text-[var(--brand-blue)]">
             Polymer · Adhesion · Coating
           </span>
         )}

@@ -29,7 +29,7 @@ const variantClasses: Record<ButtonVariant, string> = {
 };
 
 const baseClasses =
-  "inline-flex min-h-11 items-center justify-center gap-2 rounded-md border px-5 py-3 text-sm font-bold transition duration-200 hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--cyan)] disabled:cursor-not-allowed disabled:opacity-55";
+  "inline-flex min-h-11 items-center justify-center gap-2 rounded-md border px-5 py-3 text-center text-sm font-bold whitespace-normal transition duration-200 hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--cyan)] disabled:cursor-not-allowed disabled:opacity-55 disabled:hover:translate-y-0";
 
 export function Button(props: LinkButtonProps | NativeButtonProps) {
   const { children, className = "", variant = "primary" } = props;

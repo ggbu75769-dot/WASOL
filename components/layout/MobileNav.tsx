@@ -1,33 +1,74 @@
+"use client";
+
 import Link from "next/link";
-import { navigationItems } from "@/content/navigation";
+import type { MouseEvent } from "react";
+import { usePathname } from "next/navigation";
+import { navigationItems, type NavigationItem } from "@/content/navigation";
+
+function isActivePath(pathname: string, item: NavigationItem) {
+  if (item.href === "/") return pathname === "/";
+  return (
+    pathname === item.href ||
+    pathname.startsWith(`${item.href}/`) ||
+    item.children?.some((child) => pathname === child.href || pathname.startsWith(`${child.href}/`))
+  );
+}
 
 export function MobileNav() {
+  const pathname = usePathname();
+
+  function closeMenu(event: MouseEvent<HTMLAnchorElement>) {
+    event.currentTarget.closest("details")?.removeAttribute("open");
+  }
+
   return (
-    <details className="group relative xl:hidden">
-      <summary className="flex min-h-11 cursor-pointer list-none items-center rounded-md border border-[var(--line-strong)] bg-white px-3 text-sm font-bold text-[var(--brand-navy)] marker:hidden">
-        Menu
-      </summary>
+    <details className="group warsol-mobile-menu">
+      <summary className="warsol-mobile-menu-summary">MENU</summary>
       <nav
         aria-label="Mobile navigation"
-        className="surface absolute right-0 top-14 z-50 grid w-[min(86vw,340px)] gap-1 rounded-lg p-3"
+        className="surface warsol-mobile-menu-panel grid gap-3 overflow-y-auto rounded-lg p-4"
       >
-        {navigationItems.map((item) => (
-          <Link
-            key={item.href}
-            href={item.href}
-            className="rounded-md px-3 py-3 text-sm font-semibold text-[var(--muted-strong)] transition hover:bg-[var(--bg-technical)] hover:text-[var(--brand-blue)]"
-          >
-            {item.label}
-          </Link>
-        ))}
-        <div className="mt-2 border-t border-[var(--line)] pt-3">
-          <Link
-            href="/contact"
-            className="block rounded-md bg-[var(--brand-navy)] px-3 py-3 text-center text-sm font-black text-[#ffffff]"
-          >
-            기술 문의 준비
-          </Link>
-        </div>
+        {navigationItems.map((item) => {
+          const active = isActivePath(pathname, item);
+          return (
+            <div key={item.href} className="grid gap-1 border-b border-[var(--line)] pb-3 last:border-b-0 last:pb-0">
+              <Link
+                href={item.href}
+                onClick={closeMenu}
+                aria-current={active ? "page" : undefined}
+                className={`rounded-md px-3 py-3 text-base font-black transition ${
+                  active
+                    ? "bg-[var(--bg-technical)] text-[var(--brand-blue)]"
+                    : "text-[var(--brand-navy)] hover:bg-[var(--bg-technical)] hover:text-[var(--brand-blue)]"
+                }`}
+              >
+                {item.label}
+              </Link>
+              {item.children && (
+                <div className="grid gap-1 pl-3">
+                  {item.children.map((child) => {
+                    const childActive = pathname === child.href || pathname.startsWith(`${child.href}/`);
+                    return (
+                      <Link
+                        key={child.href}
+                        href={child.href}
+                        onClick={closeMenu}
+                        aria-current={childActive ? "page" : undefined}
+                        className={`rounded-md px-3 py-2 text-sm font-bold transition ${
+                          childActive
+                            ? "bg-[var(--bg-technical)] text-[var(--brand-blue)]"
+                            : "text-[var(--muted-strong)] hover:bg-[var(--bg-soft)] hover:text-[var(--brand-blue)]"
+                        }`}
+                      >
+                        {child.label}
+                      </Link>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
+          );
+        })}
       </nav>
     </details>
   );

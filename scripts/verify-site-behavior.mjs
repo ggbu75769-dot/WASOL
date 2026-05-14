@@ -1,0 +1,83 @@
+const baseUrl = process.env.SITE_VERIFY_BASE_URL ?? "http://127.0.0.1:3000";
+
+const routes = [
+  ["/", "산업의 표면과 안전을"],
+  ["/company", "WARSOL Company"],
+  ["/company/ceo-message", "고객의 현장과 함께 성장하는 소재 기술"],
+  ["/company/history", "오시는 길"],
+  ["/company/vision", "Material Solution Partner"],
+  ["/business", "WARSOL Material Business"],
+  ["/technology", "WARSOL Technology Portfolio"],
+  ["/products", "WARSOL Product Portfolio"],
+  ["/products/adhesion-systems", "접착 및 점착 소재"],
+  ["/rnd", "WARSOL Research Pipeline"],
+  ["/support", "공지사항"],
+  ["/notice", "Material Business Notice"],
+  ["/press", "WARSOL Newsroom"],
+  ["/careers", "소재 기술의 내일"],
+  ["/contact", "Technical Inquiry"],
+];
+
+const validInquiry = {
+  category: "제품 적용 상담",
+  product: "접착 및 점착 소재",
+  industry: "건축 외피와 방수",
+  material: "콘크리트",
+  environment: "외부 노출",
+  requirements: "내수성과 접착 안정성",
+  documents: ["TDS", "SDS"],
+  timeline: "샘플 검토",
+  name: "홍길동",
+  company: "테스트기업",
+  email: "test@example.com",
+  phone: "010-1234-5678",
+  message: "방수 시트 적용 상담 요청",
+};
+
+const invalidInquiry = {
+  ...validInquiry,
+  email: "",
+};
+
+function assert(condition, message) {
+  if (!condition) {
+    throw new Error(message);
+  }
+}
+
+async function fetchText(path) {
+  const response = await fetch(`${baseUrl}${path}`, { redirect: "manual" });
+  const text = await response.text();
+  assert(response.status === 200, `${path} expected 200, got ${response.status}`);
+  return text;
+}
+
+async function postInquiry(payload) {
+  const response = await fetch(`${baseUrl}/api/inquiry`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+  const json = await response.json();
+  return { response, json };
+}
+
+for (const [path, expectedText] of routes) {
+  const text = await fetchText(path);
+  assert(text.includes(expectedText), `${path} missing expected screen text: ${expectedText}`);
+}
+
+const validResult = await postInquiry(validInquiry);
+assert(validResult.response.status === 200, `valid inquiry expected 200, got ${validResult.response.status}`);
+assert(validResult.json.ok === true, "valid inquiry expected ok=true");
+assert(
+  typeof validResult.json.summary === "string" && validResult.json.summary.includes(validInquiry.company),
+  "valid inquiry expected generated summary"
+);
+
+const invalidResult = await postInquiry(invalidInquiry);
+assert(invalidResult.response.status === 400, `invalid inquiry expected 400, got ${invalidResult.response.status}`);
+assert(invalidResult.json.ok === false, "invalid inquiry expected ok=false");
+assert(Array.isArray(invalidResult.json.errors) && invalidResult.json.errors.length > 0, "invalid inquiry expected errors");
+
+console.log("SITE_BEHAVIOR_PASS");

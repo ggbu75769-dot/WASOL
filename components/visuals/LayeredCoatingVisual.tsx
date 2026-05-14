@@ -1,8 +1,8 @@
 const layerRows = [
-  { label: "Functional top coat", color: "#12A8C7", note: "차열 · 표면 보호" },
-  { label: "Water-based polymer film", color: "#1D5D9B", note: "도막 균일도" },
-  { label: "Adhesion control layer", color: "#7AA7D8", note: "점착 · 계면 안정" },
-  { label: "Industrial substrate", color: "#CBD8E6", note: "방수 시트 · 금속 · 콘크리트" },
+  { label: "기능성 상도층", color: "#12A8C7", note: "차열 · 표면 보호" },
+  { label: "수성 고분자 도막", color: "#1D5D9B", note: "도막 균일도" },
+  { label: "접착 제어층", color: "#7AA7D8", note: "점착 · 계면 안정" },
+  { label: "산업용 기재", color: "#CBD8E6", note: "방수 시트 · 금속 · 콘크리트" },
 ];
 
 export function LayeredCoatingVisual() {
@@ -12,11 +12,11 @@ export function LayeredCoatingVisual() {
       <div className="relative z-10 grid gap-5">
         <div className="flex items-start justify-between gap-4">
           <div>
-            <p className="mono-label">Material System Visual</p>
-            <h3 className="mt-2 text-2xl font-black text-[var(--brand-navy)]">Coating Stack</h3>
+            <p className="mono-label">소재 구조</p>
+            <h3 className="mt-2 text-2xl font-black text-[var(--brand-navy)]">코팅 적층 구조</h3>
           </div>
           <span className="rounded-md border border-[var(--line)] bg-white px-3 py-2 text-xs font-bold text-[var(--brand-blue)]">
-            R&D Dossier
+            연구개발 근거
           </span>
         </div>
 
