@@ -36,25 +36,22 @@ const heroEntries = [
 
 export function LightPremiumHero() {
   return (
-    <section className="enterprise-photo-hero relative overflow-hidden bg-[#06182b] text-white sm:min-h-[720px] lg:min-h-[790px]">
+    <section className="enterprise-photo-hero relative h-[calc(100svh-82px)] min-h-[650px] max-h-[760px] overflow-hidden bg-[#06182b] text-white">
       <Image
         src={`${publicAssetPrefix}/images/hero/warsol-hwaseong-factory-hero.jpg`}
         alt="경기도 화성시 전곡산업단지에 위치한 WARSOL 공장 전경"
         fill
         priority
         sizes="100vw"
-        className="object-cover object-center"
+        className="object-cover object-[center_58%] brightness-[1.04] contrast-[1.06] saturate-[1.04]"
       />
-      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(2,8,23,0.12)_0%,rgba(5,20,37,0.25)_42%,rgba(2,8,23,0.78)_100%)]" />
-      <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(2,8,23,0.08)_0%,rgba(2,8,23,0.04)_38%,rgba(2,8,23,0.74)_100%)]" />
+      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(2,8,23,0.08)_0%,rgba(5,20,37,0.18)_42%,rgba(2,8,23,0.64)_100%)]" />
+      <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(2,8,23,0.04)_0%,rgba(2,8,23,0.02)_38%,rgba(2,8,23,0.58)_100%)]" />
 
-      <div className="container relative z-10 flex min-h-[560px] items-center justify-end pb-12 pt-20 text-right sm:min-h-[720px] sm:pb-44 sm:pt-24 lg:min-h-[790px] lg:pb-48">
-        <Reveal className="ml-auto w-full max-w-[640px] min-w-0">
+      <div className="container relative z-10 flex h-full items-center justify-end pb-[142px] pt-12 text-right sm:pb-[150px] lg:pb-[154px]">
+        <Reveal className="ml-auto w-full max-w-[720px] min-w-0 lg:translate-x-10 xl:translate-x-16">
           <div>
-            <p className="break-words text-sm font-black tracking-normal text-white/76">
-              워솔 소재 기술
-            </p>
-            <h1 className="mt-5 break-words text-[2.35rem] font-black leading-[1.08] text-white sm:text-6xl sm:leading-[1.04] lg:text-7xl">
+            <h1 className="break-words text-[2.35rem] font-black leading-[1.08] text-white sm:text-6xl sm:leading-[1.04] lg:text-7xl">
               <span className="block">산업의 표면과 안전을</span>
               <span className="block">바꾸는 소재 기술</span>
             </h1>
@@ -86,7 +83,7 @@ export function LightPremiumHero() {
             <Link
               key={entry.href}
               href={entry.href}
-              className="group min-w-0 border-b border-white/16 px-4 py-5 transition hover:bg-white/12 sm:border-r sm:px-5 lg:min-h-[138px] lg:border-b-0"
+              className="group min-w-0 border-b border-white/16 px-4 py-4 transition hover:bg-white/12 sm:border-r sm:px-5 lg:min-h-[118px] lg:border-b-0"
             >
               <p className="break-words text-xs font-black text-white/56">{entry.label}</p>
               <h2 className="mt-3 break-words text-xl font-black leading-tight text-white">
