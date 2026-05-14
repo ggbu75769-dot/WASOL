@@ -61,6 +61,8 @@ function createInitialForm(searchParams: URLSearchParams): InquiryFormState {
   };
 }
 
+const isStaticSite = process.env.NEXT_PUBLIC_STATIC_SITE === "true";
+
 export function InquiryForm() {
   const searchParams = useSearchParams();
   const initialForm = useMemo(() => createInitialForm(searchParams), [searchParams]);
@@ -94,6 +96,20 @@ export function InquiryForm() {
     setCopyLabel("요약 복사");
 
     try {
+      if (isStaticSite) {
+        const errors = validateStaticForm(form);
+        if (errors.length) {
+          setResult({ ok: false, errors });
+          setStatus("error");
+          return;
+        }
+
+        const inquiryId = createInquiryId();
+        setResult({ ok: true, inquiryId, summary: createSubmittedSummary(form, inquiryId) });
+        setStatus("success");
+        return;
+      }
+
       const response = await fetch("/api/inquiry", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -241,6 +257,55 @@ function createPreviewSummary(form: InquiryFormState) {
     `요구 물성: ${form.requirements}`,
     `요청 자료: ${form.documents.length ? form.documents.join(", ") : "-"}`,
     `일정: ${form.timeline}`,
+  ].join("\n");
+}
+
+function validateStaticForm(form: InquiryFormState) {
+  const requiredFields: Array<[keyof InquiryFormState, string]> = [
+    ["category", "문의 유형"],
+    ["product", "제품군"],
+    ["industry", "적용 산업"],
+    ["material", "기재 및 소재"],
+    ["environment", "사용 환경"],
+    ["requirements", "요구 물성"],
+    ["timeline", "일정"],
+    ["name", "이름"],
+    ["company", "회사명"],
+    ["email", "이메일"],
+    ["phone", "전화"],
+  ];
+  const errors = requiredFields
+    .filter(([key]) => !String(form[key] ?? "").trim())
+    .map(([, label]) => `${label} 입력 필요`);
+
+  if (form.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email.trim())) {
+    errors.push("이메일 형식 확인");
+  }
+
+  return errors;
+}
+
+function createInquiryId() {
+  const stamp = new Date().toISOString().replace(/[-:TZ.]/g, "").slice(0, 14);
+  return `WARSOL-${stamp}`;
+}
+
+function createSubmittedSummary(form: InquiryFormState, inquiryId: string) {
+  return [
+    `접수번호: ${inquiryId}`,
+    `회사명: ${form.company}`,
+    `담당자: ${form.name}`,
+    `연락처: ${form.phone}`,
+    `이메일: ${form.email}`,
+    `문의 유형: ${form.category}`,
+    `제품군: ${form.product}`,
+    `적용 산업: ${form.industry}`,
+    `기재 및 소재: ${form.material}`,
+    `사용 환경: ${form.environment}`,
+    `요구 물성: ${form.requirements}`,
+    `요청 자료: ${form.documents.length ? form.documents.join(", ") : "선택 없음"}`,
+    `일정: ${form.timeline}`,
+    `상세 내용: ${form.message || "추가 내용 없음"}`,
   ].join("\n");
 }
 
