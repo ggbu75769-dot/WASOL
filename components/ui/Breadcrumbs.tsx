@@ -9,7 +9,7 @@ export function Breadcrumbs({ items }: { items: Breadcrumb[] }) {
   return (
     <nav aria-label="Breadcrumb" className="mb-6 flex flex-wrap items-center gap-2 text-sm text-[var(--muted)]">
       <Link href="/" className="font-bold text-[var(--brand-blue)]">
-        Home
+        홈
       </Link>
       {items.map((item, index) => (
         <span key={item.href} className="flex items-center gap-2">

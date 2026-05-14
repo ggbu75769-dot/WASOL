@@ -3,13 +3,27 @@
   <rect x="56" y="56" width="1088" height="518" rx="38" fill="#F8FAFC" stroke="#D8E1EA" stroke-width="2"/>
   <path d="M80 430C252 348 374 454 528 366C684 277 810 166 1120 220" stroke="#12A8C7" stroke-opacity="0.44" stroke-width="3"/>
   <path d="M80 482C284 386 422 504 602 406C756 322 862 232 1120 270" stroke="#1D5D9B" stroke-opacity="0.28" stroke-width="3"/>
-  <rect x="96" y="96" width="86" height="86" rx="22" fill="#FFFFFF" stroke="#D8E1EA" stroke-width="3"/>
-  <path d="M112 150L123 121L136 150L149 121L162 150L173 121" stroke="#0B2A4A" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M112 166H173" stroke="#12A8C7" stroke-width="5" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="oval" x1="96" y1="112" x2="182" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E51B54"/>
+      <stop offset="0.52" stop-color="#B2197E"/>
+      <stop offset="1" stop-color="#3847B7"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="99" y1="166" x2="183" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6F7176"/>
+      <stop offset="0.22" stop-color="#D9DADD"/>
+      <stop offset="0.48" stop-color="#FFFFFF"/>
+      <stop offset="0.76" stop-color="#A5A7AA"/>
+      <stop offset="1" stop-color="#303238"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="139" cy="139" rx="51" ry="32" fill="url(#oval)" transform="rotate(-6 139 139)"/>
+  <path d="M92 151c12-2 23-7 31-17 6 13 10 20 17 20s9-7 12-27c1-8 4-15 11-18 10-4 22 1 33 11-11-2-19-1-24 5-5 6-5 14-5 22 0 14-6 22-17 23-14 2-23-8-33-21-7 8-16 12-25 14Z" fill="url(#metal)"/>
+  <path d="M92 151c12-2 23-7 31-17 6 13 10 20 17 20s9-7 12-27" stroke="#FFFFFF" stroke-opacity="0.58" stroke-width="4" stroke-linecap="round"/>
   <text x="212" y="158" fill="#0B2A4A" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="800">WARSOL Inc.</text>
-  <text x="100" y="270" fill="#1D5D9B" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Water-Based Polymer · Adhesive · Functional Coating</text>
-  <text x="100" y="352" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700">Industrial surface performance and safety materials</text>
-  <text x="100" y="454" fill="#526071" font-family="Arial, Helvetica, sans-serif" font-size="26">Source-disciplined Korean B2B materials technology website</text>
+  <text x="100" y="270" fill="#1D5D9B" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">수용성 고분자 · 접착 · 기능성 코팅</text>
+  <text x="100" y="352" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700">산업 표면 성능과 안전을 위한 소재 기술</text>
+  <text x="100" y="454" fill="#526071" font-family="Arial, Helvetica, sans-serif" font-size="26">경기도 화성시 소재 B2B 소재 기술 기업</text>
   <g opacity="0.82">
     <circle cx="812" cy="160" r="7" fill="#12A8C7"/>
     <circle cx="902" cy="122" r="7" fill="#1D5D9B"/>

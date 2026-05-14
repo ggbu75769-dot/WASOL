@@ -18,12 +18,12 @@ export const navigationItems: NavigationItem[] = [
     children: [
       { href: "/company/ceo-message", label: "CEO 소개 및 메시지" },
       { href: "/company/history", label: "회사연혁 및 소개" },
-      { href: "/company/vision", label: "회사 VISION" },
+      { href: "/company/vision", label: "회사 비전" },
     ],
   },
   {
     href: "/business",
-    label: "BUSINESS",
+    label: "사업",
     children: [
       { href: "/technology", label: "기술" },
       { href: "/products", label: "제품" },

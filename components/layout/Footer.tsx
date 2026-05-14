@@ -13,7 +13,7 @@ export function Footer() {
             {company.shortDescription}
           </p>
           <div className="mt-6 grid gap-2 text-sm text-[var(--muted-strong)]">
-            <p className="font-black text-[var(--brand-navy)]">Contact</p>
+            <p className="font-black text-[var(--brand-navy)]">연락처</p>
             <a href={`tel:${company.contact.phone}`}>{company.contact.phone}</a>
             <span>Fax {company.contact.fax}</span>
             <a href={company.contact.website} className="link-underlined">
@@ -43,7 +43,7 @@ export function Footer() {
 
         <div className="lg:col-span-4">
           <div className="rounded-lg border border-[var(--line)] bg-[var(--bg-soft)] p-4 text-xs leading-6 text-[var(--muted)]">
-            <strong className="text-[var(--brand-navy)]">WARSOL Inc.</strong> Polymer · Adhesion · Coating
+            <strong className="text-[var(--brand-navy)]">WARSOL Inc.</strong> 수용성 고분자 · 접착 · 코팅
           </div>
         </div>
       </div>

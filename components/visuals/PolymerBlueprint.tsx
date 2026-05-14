@@ -16,8 +16,8 @@ export function PolymerBlueprint() {
   return (
     <div className="rounded-lg border border-[var(--line)] bg-[rgba(255,255,255,0.76)] p-4">
       <div className="mb-3 flex items-center justify-between gap-3">
-        <p className="mono-label">Polymer Network</p>
-        <p className="text-xs font-bold text-[var(--muted)]">Water-based control map</p>
+        <p className="mono-label">고분자 네트워크</p>
+        <p className="text-xs font-bold text-[var(--muted)]">수용성 제어 맵</p>
       </div>
       <svg className="polymer-blueprint h-[172px] w-full" viewBox="0 0 640 240" fill="none" aria-hidden="true">
         <defs>
@@ -42,8 +42,8 @@ export function PolymerBlueprint() {
         ))}
         <path d="M44 34H188" stroke="#0B2A4A" strokeOpacity="0.24" />
         <path d="M44 206H184" stroke="#0B2A4A" strokeOpacity="0.24" />
-        <text x="44" y="56" fill="#526071" fontSize="14" fontFamily="monospace">ADHESION / DISPERSION</text>
-        <text x="44" y="226" fill="#526071" fontSize="14" fontFamily="monospace">FILM FORMATION WINDOW</text>
+        <text x="44" y="56" fill="#526071" fontSize="14" fontFamily="monospace">접착 / 분산</text>
+        <text x="44" y="226" fill="#526071" fontSize="14" fontFamily="monospace">도막 형성 범위</text>
       </svg>
     </div>
   );

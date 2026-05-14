@@ -224,7 +224,7 @@ export function InquiryForm() {
       </form>
 
       <aside className="surface sticky top-24 rounded-lg p-6 sm:p-8" data-print-brief>
-        <p className="mono-label">Inquiry Summary</p>
+        <p className="mono-label">문의 요약</p>
         <h2 className="mt-4 text-2xl font-black text-[var(--brand-navy)]">
           {result?.ok ? "문의 접수 완료" : "문의 요약"}
         </h2>

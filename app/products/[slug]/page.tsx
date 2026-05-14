@@ -48,7 +48,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
         ]}
       />
 
-      <Section eyebrow="Product Overview" title="Technology and Application" description={product.summary}>
+      <Section eyebrow="제품 개요" title="기술과 적용" description={product.summary}>
         <div className="grid gap-5 lg:grid-cols-[0.78fr_1.22fr]">
           <DataCard title="기술 기반" body={product.technologyBasis} items={product.relatedTechnologies} />
           <div className="grid gap-4 md:grid-cols-3">
@@ -60,8 +60,8 @@ export default async function ProductDetailPage({ params }: PageProps) {
       </Section>
 
       <Section
-        eyebrow="Technical Data"
-        title="Application Variables"
+        eyebrow="기술 자료"
+        title="적용 조건"
         description="프로젝트 검토에 필요한 핵심 조건"
         className="bg-[var(--bg-soft)]"
       >
@@ -69,13 +69,13 @@ export default async function ProductDetailPage({ params }: PageProps) {
           columns={["항목", "구분", "내용"]}
           rows={product.technicalVariables.map((variable, index) => ({
             label: variable,
-            value: "Application",
+            value: "적용",
             note: product.inquiryPrompts[index % product.inquiryPrompts.length],
           }))}
         />
       </Section>
 
-      <Section eyebrow="Material Data" title="Product Data Package">
+      <Section eyebrow="소재 자료" title="제품 자료 패키지">
         <div className="grid gap-4 lg:grid-cols-2">
           <DataCard title="제품 자료" body={product.officialDataStatus} />
           <DataCard title="기술자료" body={product.tdsStatus} />

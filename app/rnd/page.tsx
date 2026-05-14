@@ -29,10 +29,10 @@ export default function RndPage() {
       <PageHero
         eyebrow="R&D"
         title="소재의 미래를 향한 연구개발"
-        description="Waterproof, Thermal Protection, Eco Safety Materials"
+        description="방수, 차열 보호, 친환경 안전소재"
       />
 
-      <Section eyebrow="Research Area" title="WARSOL Research Pipeline">
+      <Section eyebrow="연구 영역" title="WARSOL 연구개발 파이프라인">
         <div className="grid gap-4 lg:grid-cols-3">
           {researchItems.map((item) => (
             <DataCard key={item.title} title={item.title} body={item.body} />
@@ -40,11 +40,11 @@ export default function RndPage() {
         </div>
       </Section>
 
-      <Section className="bg-[var(--bg-soft)]" eyebrow="R&D Focus" title="Material Innovation">
+      <Section className="bg-[var(--bg-soft)]" eyebrow="연구개발 중점" title="소재 혁신">
         <div className="grid gap-4 lg:grid-cols-3">
-          <DataCard title="Surface Protection" body="방수와 표면 보호 소재 기술" />
-          <DataCard title="Thermal Control" body="차열과 도막 안정성 기술" />
-          <DataCard title="Eco Safety" body="친환경 안전소재 연구" />
+          <DataCard title="표면 보호" body="방수와 표면 보호 소재 기술" />
+          <DataCard title="열 제어" body="차열과 도막 안정성 기술" />
+          <DataCard title="친환경 안전" body="친환경 안전소재 연구" />
         </div>
       </Section>
     </>

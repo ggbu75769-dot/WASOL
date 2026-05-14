@@ -13,20 +13,20 @@ export const metadata: Metadata = {
 const businessPanels = [
   {
     href: "/technology",
-    label: "Technology",
-    title: "Surface Technology",
+    label: "기술",
+    title: "표면 기술",
     body: "기재와 계면을 중심으로 한 수용성 고분자 기술",
   },
   {
     href: "/products",
-    label: "Products",
-    title: "Material Portfolio",
+    label: "제품",
+    title: "소재 포트폴리오",
     body: "접착, 코팅, 방수, 분산, 안전소재 제품군",
   },
   {
     href: "/rnd",
-    label: "R&D",
-    title: "Research Pipeline",
+    label: "연구개발",
+    title: "연구개발 파이프라인",
     body: "방수, 차열, 자연발화 억제 소재 연구",
   },
 ];
@@ -44,9 +44,9 @@ export default function HomePage() {
       <LightPremiumHero />
 
       <Section
-        eyebrow="BUSINESS"
+        eyebrow="사업"
         title="소재 사업"
-        description="Technology · Products · R&D"
+        description="기술 · 제품 · 연구개발"
       >
         <div className="grid gap-5 lg:grid-cols-3">
           {businessPanels.map((item) => (
@@ -65,16 +65,16 @@ export default function HomePage() {
         </div>
       </Section>
 
-      <Section className="bg-[var(--bg-soft)]" eyebrow="WARSOL FOCUS" title="소재 성능">
+      <Section className="bg-[var(--bg-soft)]" eyebrow="WARSOL 핵심" title="소재 성능">
         <div className="grid gap-4 lg:grid-cols-4">
-          <DataCard title="Substrate" body="콘크리트, 금속, 필름, 섬유 등 적용 기재" />
-          <DataCard title="Environment" body="온도, 습도, 외부 노출, 보관 조건" />
-          <DataCard title="Performance" body="접착력, 내수성, 차열, 분산 안정성" />
-          <DataCard title="Quality Data" body="TDS, SDS, 시험 조건, 품질 자료" />
+          <DataCard title="적용 기재" body="콘크리트, 금속, 필름, 섬유 등 적용 기재" />
+          <DataCard title="사용 환경" body="온도, 습도, 외부 노출, 보관 조건" />
+          <DataCard title="성능 항목" body="접착력, 내수성, 차열, 분산 안정성" />
+          <DataCard title="품질 자료" body="TDS, SDS, 시험 조건, 품질 자료" />
         </div>
       </Section>
 
-      <Section eyebrow="NEWS & CONTACT" title="문의와 소식">
+      <Section eyebrow="소식과 문의" title="문의와 소식">
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           {supportItems.map((item) => (
             <Link

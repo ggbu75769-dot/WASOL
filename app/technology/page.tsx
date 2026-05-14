@@ -45,12 +45,12 @@ export default function TechnologyPage() {
   return (
     <>
       <PageHero
-        eyebrow="TECHNOLOGY"
+        eyebrow="기술"
         title="수지에서 표면까지 이어지는 소재 설계"
-        description="Water-based Polymer Technology"
+        description="수용성 고분자 기술"
       />
 
-      <Section eyebrow="Technology Platform" title="WARSOL Technology Portfolio">
+      <Section eyebrow="기술 플랫폼" title="WARSOL 기술 포트폴리오">
         <div className="grid gap-4 lg:grid-cols-3">
           {platforms.map((platform) => (
             <DataCard key={platform.title} title={platform.title} body={platform.body} items={platform.items} />
@@ -58,7 +58,7 @@ export default function TechnologyPage() {
         </div>
       </Section>
 
-      <Section className="bg-[var(--bg-soft)]" eyebrow="Technical Scope" title="Application Variables">
+      <Section className="bg-[var(--bg-soft)]" eyebrow="기술 범위" title="적용 변수">
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {["적용 산업", "기재 표면", "요구 물성", "온도와 습도", "시공 방식", "보관 조건", "샘플 단계", "개발 일정"].map((item) => (
             <div key={item} className="rounded-lg border border-[var(--line)] bg-white p-5 text-sm font-black text-[var(--brand-navy)]">

@@ -2,20 +2,20 @@ const baseUrl = process.env.SITE_VERIFY_BASE_URL ?? "http://127.0.0.1:3000";
 
 const routes = [
   ["/", "산업의 표면과 안전을"],
-  ["/company", "WARSOL Company"],
+  ["/company", "WARSOL 회사"],
   ["/company/ceo-message", "고객의 현장과 함께 성장하는 소재 기술"],
   ["/company/history", "오시는 길"],
-  ["/company/vision", "Material Solution Partner"],
-  ["/business", "WARSOL Material Business"],
-  ["/technology", "WARSOL Technology Portfolio"],
-  ["/products", "WARSOL Product Portfolio"],
+  ["/company/vision", "소재 솔루션 파트너"],
+  ["/business", "WARSOL 소재 사업"],
+  ["/technology", "WARSOL 기술 포트폴리오"],
+  ["/products", "WARSOL 제품 포트폴리오"],
   ["/products/adhesion-systems", "접착 및 점착 소재"],
-  ["/rnd", "WARSOL Research Pipeline"],
+  ["/rnd", "WARSOL 연구개발 파이프라인"],
   ["/support", "공지사항"],
-  ["/notice", "Material Business Notice"],
-  ["/press", "WARSOL Newsroom"],
+  ["/notice", "소재 사업 공지"],
+  ["/press", "WARSOL 뉴스룸"],
   ["/careers", "소재 기술의 내일"],
-  ["/contact", "Technical Inquiry"],
+  ["/contact", "기술 문의"],
 ];
 
 const validInquiry = {

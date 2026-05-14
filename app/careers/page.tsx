@@ -10,21 +10,21 @@ export const metadata: Metadata = {
 };
 
 const roles = [
-  { title: "R&D", body: "수용성 고분자, 접착, 코팅, 분산 소재 연구" },
-  { title: "Production & Quality", body: "공정 안정화, 품질 관리, 시험자료 운영" },
-  { title: "Technical Sales", body: "고객 적용 조건 기반 기술 영업" },
+  { title: "연구개발", body: "수용성 고분자, 접착, 코팅, 분산 소재 연구" },
+  { title: "생산 및 품질", body: "공정 안정화, 품질 관리, 시험자료 운영" },
+  { title: "기술 영업", body: "고객 적용 조건 기반 기술 영업" },
 ];
 
 export default function CareersPage() {
   return (
     <>
       <PageHero
-        eyebrow="CAREERS"
-        title="WARSOL Careers"
-        description="Material Technology People"
+        eyebrow="채용"
+        title="WARSOL 채용"
+        description="소재 기술을 함께 만드는 사람들"
       />
 
-      <Section eyebrow="Careers" title="소재 기술의 내일을 함께 만드는 사람">
+      <Section eyebrow="채용" title="소재 기술의 내일을 함께 만드는 사람">
         <div className="grid gap-4 lg:grid-cols-3">
           {roles.map((role) => (
             <DataCard key={role.title} title={role.title} body={role.body} />

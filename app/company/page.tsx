@@ -32,15 +32,15 @@ export default function CompanyPage() {
   return (
     <>
       <PageHero
-        eyebrow="COMPANY"
+        eyebrow="회사"
         title="산업 소재 기술을 향한 WARSOL의 기준"
         description={company.shortDescription}
       />
 
       <Section
         eyebrow="회사"
-        title="WARSOL Company"
-        description="CEO Message, History, Vision"
+        title="WARSOL 회사"
+        description="CEO 메시지, 회사연혁, 비전"
       >
         <div className="grid gap-5 lg:grid-cols-3">
           {companyMenus.map((item) => (
@@ -54,14 +54,14 @@ export default function CompanyPage() {
               </h2>
               <p className="mt-4 break-words leading-7 text-[var(--muted)]">{item.body}</p>
               <span className="mt-6 inline-flex text-sm font-black text-[var(--brand-blue)]">
-                More
+                자세히 보기
               </span>
             </Link>
           ))}
         </div>
       </Section>
 
-      <Section className="bg-[var(--bg-soft)]" eyebrow="VALUE" title="WARSOL Core Value">
+      <Section className="bg-[var(--bg-soft)]" eyebrow="핵심 가치" title="WARSOL 핵심 가치">
         <div className="grid gap-4 lg:grid-cols-3">
           {company.values.map((item) => (
             <DataCard key={item.title} title={item.title} body={item.body} />

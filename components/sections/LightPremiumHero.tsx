@@ -16,7 +16,7 @@ const heroEntries = [
   },
   {
     href: "/business",
-    label: "BUSINESS",
+    label: "사업",
     title: "기술 · 제품 · 연구개발",
     body: "수용성 고분자 기반 소재 기술",
   },
@@ -28,7 +28,7 @@ const heroEntries = [
   },
   {
     href: "/support",
-    label: "문의",
+    label: "고객지원",
     title: "공지 · 언론 · 채용 · 문의",
     body: "고객 소통과 기업 소식",
   },
@@ -45,35 +45,35 @@ export function LightPremiumHero() {
         sizes="100vw"
         className="object-cover object-center"
       />
-      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(2,8,23,0.78)_0%,rgba(5,20,37,0.42)_48%,rgba(5,20,37,0.12)_100%)]" />
-      <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(2,8,23,0.14)_0%,rgba(2,8,23,0.06)_38%,rgba(2,8,23,0.74)_100%)]" />
+      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(2,8,23,0.12)_0%,rgba(5,20,37,0.25)_42%,rgba(2,8,23,0.78)_100%)]" />
+      <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(2,8,23,0.08)_0%,rgba(2,8,23,0.04)_38%,rgba(2,8,23,0.74)_100%)]" />
 
-      <div className="container relative z-10 flex min-h-[560px] items-center justify-start pb-12 pt-20 text-left sm:min-h-[720px] sm:pb-44 sm:pt-24 lg:min-h-[790px] lg:pb-48">
-        <Reveal className="w-full max-w-[780px] min-w-0">
+      <div className="container relative z-10 flex min-h-[560px] items-center justify-end pb-12 pt-20 text-right sm:min-h-[720px] sm:pb-44 sm:pt-24 lg:min-h-[790px] lg:pb-48">
+        <Reveal className="ml-auto w-full max-w-[640px] min-w-0">
           <div>
             <p className="break-words text-sm font-black tracking-normal text-white/76">
-              WARSOL MATERIALS
+              워솔 소재 기술
             </p>
-            <h1 className="mt-5 max-w-[760px] break-words text-[2.35rem] font-black leading-[1.08] text-white sm:text-6xl sm:leading-[1.04] lg:text-7xl">
+            <h1 className="mt-5 break-words text-[2.35rem] font-black leading-[1.08] text-white sm:text-6xl sm:leading-[1.04] lg:text-7xl">
               <span className="block">산업의 표면과 안전을</span>
               <span className="block">바꾸는 소재 기술</span>
             </h1>
-            <p className="mt-7 max-w-2xl break-words text-base leading-7 text-white/82 sm:text-xl sm:leading-9">
+            <p className="ml-auto mt-7 max-w-2xl break-words text-base leading-7 text-white/82 sm:text-xl sm:leading-9">
               수용성 고분자 기반의 접착, 코팅, 방수, 분산 소재 솔루션
             </p>
-            <div className="mt-9 flex flex-col justify-start gap-3 sm:flex-row">
+            <div className="mt-9 flex flex-col justify-end gap-3 sm:flex-row">
               <Link
                 href="/business"
                 className="inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-white bg-white px-6 py-3 text-sm font-black transition hover:-translate-y-0.5 hover:bg-white/90"
                 style={{ color: "#0b2a4a" }}
               >
-                BUSINESS
+                사업 보기
               </Link>
               <Link
                 href="/contact"
                 className="inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-white/48 bg-white/8 px-6 py-3 text-sm font-black text-white transition hover:-translate-y-0.5 hover:bg-white/16"
               >
-                CONTACT
+                문의하기
               </Link>
             </div>
           </div>

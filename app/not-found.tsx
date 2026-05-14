@@ -6,17 +6,17 @@ export default function NotFound() {
       <div className="container max-w-3xl">
         <p className="eyebrow">404</p>
         <h1 className="mt-5 text-4xl font-black leading-tight text-[var(--brand-navy)] sm:text-6xl">
-          Page Not Found
+          페이지를 찾을 수 없습니다
         </h1>
         <p className="mt-6 text-lg leading-8 text-[var(--muted)]">
-          WARSOL Company, Business, Contact
+          WARSOL 회사, 사업, 문의
         </p>
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
           <Link className="inline-flex min-h-11 items-center justify-center rounded-md bg-[var(--brand-navy)] px-5 py-3 text-sm font-black text-[#ffffff]" href="/">
-            Home
+            홈
           </Link>
           <Link className="inline-flex min-h-11 items-center justify-center rounded-md border border-[var(--line-strong)] bg-white px-5 py-3 text-sm font-black text-[var(--brand-navy)]" href="/business">
-            BUSINESS
+            사업
           </Link>
         </div>
       </div>

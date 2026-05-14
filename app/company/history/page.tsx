@@ -15,8 +15,8 @@ export default function CompanyHistoryPage() {
   return (
     <>
       <PageHero
-        eyebrow="HISTORY"
-        title="WARSOL History"
+        eyebrow="연혁"
+        title="WARSOL 회사연혁"
         description="수용성 고분자 기반 산업 소재 기술의 성장"
       />
 
@@ -29,7 +29,7 @@ export default function CompanyHistoryPage() {
         </div>
       </Section>
 
-      <Section className="bg-[var(--bg-soft)]" eyebrow="History" title="Material Technology Timeline">
+      <Section className="bg-[var(--bg-soft)]" eyebrow="연혁" title="소재 기술 성장 흐름">
         <div className="grid gap-4">
           {company.history.map((item) => (
             <article key={`${item.year}-${item.title}`} className="surface grid gap-5 rounded-lg p-6 md:grid-cols-[120px_1fr]">
@@ -43,10 +43,10 @@ export default function CompanyHistoryPage() {
         </div>
       </Section>
 
-      <Section eyebrow="Location" title="오시는 길">
+      <Section eyebrow="위치" title="오시는 길">
         <div className="grid gap-6 lg:grid-cols-[0.8fr_1.2fr]">
           <div className="surface rounded-lg p-7">
-            <p className="mono-label">Address</p>
+            <p className="mono-label">주소</p>
             <h2 className="mt-4 break-words text-2xl font-black leading-tight text-[var(--brand-navy)]">
               {company.addressRecords[0]?.value}
             </h2>

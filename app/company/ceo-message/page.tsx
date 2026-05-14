@@ -13,7 +13,7 @@ export default function CeoMessagePage() {
   return (
     <>
       <PageHero
-        eyebrow="CEO MESSAGE"
+        eyebrow="CEO 메시지"
         title="고객의 현장과 함께 성장하는 소재 기술"
         description="기술 경쟁력, 품질 신뢰, 고객 적용 가치를 중심에 둔 WARSOL의 경영 방향"
       />
@@ -21,7 +21,7 @@ export default function CeoMessagePage() {
       <Section>
         <div className="grid gap-8 lg:grid-cols-[0.72fr_1.28fr] lg:items-start">
           <aside className="surface rounded-lg p-7">
-            <p className="mono-label">CEO</p>
+            <p className="mono-label">대표이사</p>
             <h2 className="mt-4 text-3xl font-black text-[var(--brand-navy)]">{company.representative}</h2>
             <p className="mt-3 text-sm leading-6 text-[var(--muted)]">WARSOL Inc.</p>
           </aside>
@@ -45,7 +45,7 @@ export default function CeoMessagePage() {
         </div>
       </Section>
 
-      <Section className="bg-[var(--bg-soft)]" eyebrow="PRINCIPLE" title="WARSOL Management Principle">
+      <Section className="bg-[var(--bg-soft)]" eyebrow="경영 원칙" title="WARSOL 경영 원칙">
         <div className="grid gap-4 lg:grid-cols-3">
           {company.operatingPrinciples.map((item) => (
             <DataCard key={item.title} title={item.title} body={item.body} />

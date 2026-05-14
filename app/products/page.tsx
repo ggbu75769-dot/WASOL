@@ -41,12 +41,12 @@ export default function ProductsPage() {
   return (
     <>
       <PageHero
-        eyebrow="PRODUCTS"
+        eyebrow="제품"
         title="산업 적용을 위한 소재 포트폴리오"
-        description="Adhesion, Coating, Protection, Dispersion, Eco Safety"
+        description="접착, 코팅, 보호, 분산, 친환경 안전소재"
       />
 
-      <Section eyebrow="Product Line" title="WARSOL Product Portfolio">
+      <Section eyebrow="제품군" title="WARSOL 제품 포트폴리오">
         <div className="grid gap-5">
           {products.map((item) => (
             <Link
@@ -61,10 +61,10 @@ export default function ProductsPage() {
         </div>
       </Section>
 
-      <Section className="bg-[var(--bg-soft)]" eyebrow="Quality Data" title="Material Data Package">
+      <Section className="bg-[var(--bg-soft)]" eyebrow="품질 자료" title="소재 자료 패키지">
         <div className="grid gap-4 lg:grid-cols-3">
-          <DataCard title="Product Grade" body="제품 등급과 적용 분야" />
-          <DataCard title="Performance Data" body="접착, 내수, 차열, 분산 물성" />
+          <DataCard title="제품 등급" body="제품 등급과 적용 분야" />
+          <DataCard title="성능 자료" body="접착, 내수, 차열, 분산 물성" />
           <DataCard title="TDS / SDS" body="기술자료와 안전보건자료" />
         </div>
       </Section>

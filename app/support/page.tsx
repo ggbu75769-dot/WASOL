@@ -19,12 +19,12 @@ export default function SupportPage() {
   return (
     <>
       <PageHero
-        eyebrow="SUPPORT"
-        title="WARSOL News & Contact"
-        description="Notice, Press, Careers, Contact"
+        eyebrow="고객지원"
+        title="WARSOL 소식과 문의"
+        description="공지사항, 언론보도, 채용, 문의"
       />
 
-      <Section eyebrow="Support" title="고객과 함께 여는 다음 단계">
+      <Section eyebrow="고객지원" title="고객과 함께 여는 다음 단계">
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
           {supportMenus.map((item) => (
             <Link

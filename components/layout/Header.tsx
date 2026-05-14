@@ -10,7 +10,7 @@ export function Header() {
         <Link href="/" className="flex items-center gap-3" aria-label="WARSOL home">
           <WarsolMark compact />
           <span className="hidden text-xs font-semibold text-[var(--muted)] sm:block">
-            Polymer · Adhesion · Coating
+            수용성 고분자 · 접착 · 코팅
           </span>
         </Link>
 
