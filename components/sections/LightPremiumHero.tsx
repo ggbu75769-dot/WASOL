@@ -38,8 +38,8 @@ export function LightPremiumHero() {
   return (
     <section className="enterprise-photo-hero relative overflow-hidden bg-[#06182b] text-white sm:min-h-[720px] lg:min-h-[790px]">
       <Image
-        src={`${publicAssetPrefix}/images/hero/warsol-enterprise-hero.png`}
-        alt="산업용 수용성 고분자와 코팅 소재를 연구하는 WARSOL 연구개발 공간"
+        src={`${publicAssetPrefix}/images/hero/warsol-hwaseong-factory-hero.jpg`}
+        alt="경기도 화성시 전곡산업단지에 위치한 WARSOL 공장 전경"
         fill
         priority
         sizes="100vw"

@@ -1,6 +1,6 @@
 # WARSOL Official Data Needed
 
-Date: 2026-05-13  
+Date: 2026-05-14  
 Purpose: Keep the public website credible by separating source-backed content from items that require company-owned confirmation.
 
 ## 1. Brand / CI
@@ -15,7 +15,7 @@ Purpose: Keep the public website credible by separating source-backed content fr
 
 | Needed Item | Why It Matters | Current Site Handling |
 | --- | --- | --- |
-| Official address | Public sources show conflicting address records. | No map embed; address candidates are shown as pending. |
+| Official address | Public sources include older conflicting address records. | Site uses the Hwaseong Jeongok factory address confirmed by current search results and the requested correction. |
 | Business registration / company profile | Confirms legal identity, representative, and registration data. | Public DB facts are marked provisional. |
 | Official phone, fax, email | Required before contact copy is final. | Phone/fax shown as public DB contact; email is not invented. |
 
@@ -41,7 +41,7 @@ Purpose: Keep the public website credible by separating source-backed content fr
 | Needed Item | Why It Matters | Current Site Handling |
 | --- | --- | --- |
 | Product photos | Replace abstract technical visuals where inspection matters. | Uses custom CSS/SVG/React visuals, not unsupported stock. |
-| Facility/lab photos | Adds credibility if approved. | No unsupported factory/lab imagery. |
+| Facility/lab photos | Adds credibility if approved. | Homepage uses the public WARSOL 소개자료 company exterior photo; replace with an officially supplied original when available. |
 | Customer references / case studies | High-risk public claim requiring approval. | No customer logos or customer names. |
 
 ## 6. Contact Backend

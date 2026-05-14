@@ -1,7 +1,7 @@
 export const company = {
   legalName: "주식회사 워솔",
   englishName: "WARSOL Inc.",
-  representative: "이학주",
+  representative: "이창주",
   tagline: "산업의 표면과 안전을 바꾸는 수용성 고분자 기술",
   englishTagline: "Water-based polymer materials for industrial surfaces",
   shortDescription:
@@ -9,8 +9,8 @@ export const company = {
   positioning:
     "아크릴계, 우레탄계, 비닐계 수지 기술을 바탕으로 산업용 접착, 코팅, 방수, 차열, 분산 소재 포트폴리오를 전개하는 연구개발 중심 소재 파트너",
   founded: {
-    label: "설립",
-    value: "2005",
+    label: "법인 전환",
+    value: "2005.09.23",
   },
   contact: {
     phone: "031-498-1405",
@@ -22,7 +22,7 @@ export const company = {
   addressRecords: [
     {
       label: "주소",
-      value: "경기도 시흥시 공단2대로139번길 10",
+      value: "경기도 화성시 서신면 전곡산단4길 43",
     },
   ],
   values: [
@@ -55,16 +55,28 @@ export const company = {
   ],
   history: [
     {
+      year: "2002",
+      title: "워솔켐 창업",
+      body: "수용성 고분자와 산업용 수지 소재 사업의 출발",
+      status: "Company",
+    },
+    {
       year: "2005",
-      title: "WARSOL 설립",
-      body: "수용성 고분자 기반 산업 소재 사업의 출발",
+      title: "주식회사 워솔 법인 전환",
+      body: "공개 기업 정보 기준 2005년 9월 23일 주식회사 워솔로 법인 전환",
       status: "Company",
     },
     {
       year: "2008",
-      title: "방수용 점착 소재 기술",
-      body: "방수 시트와 차수재 적용을 위한 수용성 아크릴계 점착 소재 연구",
-      status: "Technology",
+      title: "기업부설연구소 설립",
+      body: "산업용 접착, 코팅, 방수, 분산 소재 연구개발 체계 구축",
+      status: "R&D",
+    },
+    {
+      year: "2017",
+      title: "화성 전곡공장 완공 및 입주",
+      body: "경기도 화성시 서신면 전곡산단4길 43 소재 전곡공장으로 생산 거점 이전",
+      status: "Factory",
     },
     {
       year: "2020",

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: "WARSOL 회사연혁, 회사 소개, 위치",
 };
 
-const mapQuery = encodeURIComponent("경기도 시흥시 공단2대로139번길 10");
+const mapQuery = encodeURIComponent(company.addressRecords[0]?.value ?? "경기도 화성시 서신면 전곡산단4길 43");
 
 export default function CompanyHistoryPage() {
   return (
@@ -23,7 +23,7 @@ export default function CompanyHistoryPage() {
       <Section eyebrow="회사 소개" title={company.legalName} description={company.positioning}>
         <div className="grid gap-4 lg:grid-cols-4">
           <DataCard title="대표자" body={company.representative} />
-          <DataCard title="설립" body={company.founded.value} />
+          <DataCard title={company.founded.label} body={company.founded.value} />
           <DataCard title="사업 분야" body="수용성 고분자 소재" />
           <DataCard title="연락처" body={company.contact.phone} />
         </div>
@@ -58,6 +58,9 @@ export default function CompanyHistoryPage() {
             >
               Google Maps
             </a>
+            <p className="mt-5 text-sm leading-6 text-[var(--muted)]">
+              공개 기업 정보와 소개자료 기준 화성 전곡산업단지 소재 공장 주소입니다.
+            </p>
           </div>
           <div className="min-h-[360px] overflow-hidden rounded-lg border border-[var(--line)] bg-[var(--bg-soft)]">
             <iframe

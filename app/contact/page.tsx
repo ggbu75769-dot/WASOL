@@ -59,6 +59,9 @@ export default function ContactPage() {
             <a href={company.contact.website} className="mt-3 inline-flex text-sm font-black text-[var(--brand-blue)]">
               {company.contact.website}
             </a>
+            <p className="mt-4 text-sm font-bold leading-6 text-[var(--brand-navy)]">
+              {company.addressRecords[0]?.value}
+            </p>
             <p className="mt-5 text-sm leading-6 text-[var(--muted)]">{company.contact.note}</p>
           </div>
 

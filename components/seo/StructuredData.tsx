@@ -13,6 +13,20 @@ export function StructuredData() {
     foundingDate,
     areaServed: "KR",
     description: company.shortDescription,
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "KR",
+      addressRegion: "경기도",
+      addressLocality: "화성시",
+      streetAddress: "서신면 전곡산단4길 43",
+    },
+    member: [
+      {
+        "@type": "Person",
+        name: company.representative,
+        jobTitle: "대표이사",
+      },
+    ],
     knowsAbout: [
       "수용성 고분자",
       "산업용 접착 소재",
