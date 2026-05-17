@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!product) return {};
   return {
     title: `${product.name} | WARSOL 제품`,
-    description: `${product.name} 적용처, 기술 기반, 상담에 필요한 조건`,
+    description: `${product.name} 적용처, 기술 기반, 성능 항목, 상담에 필요한 조건`,
   };
 }
 
@@ -41,7 +41,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
       <PageHero
         eyebrow={product.eyebrow}
         title={product.name}
-        description={product.shortDefinition}
+        description={`${product.shortDefinition} 제품명보다 적용 산업, 기재, 배합 목적, 사용 환경을 기준으로 검토합니다.`}
         breadcrumbs={[
           { href: "/products", label: "제품" },
           { href: `/products/${product.slug}`, label: product.name },
@@ -75,10 +75,15 @@ export default async function ProductDetailPage({ params }: PageProps) {
         />
       </Section>
 
-      <Section eyebrow="소재 자료" title="자료 요청 기준">
-        <div className="grid gap-4 lg:grid-cols-2">
+      <Section eyebrow="소재 자료" title="자료 요청과 상담 기준">
+        <div className="grid gap-4 lg:grid-cols-3">
           <DataCard title="제품 자료" body={product.officialDataStatus} />
           <DataCard title="기술자료" body={product.tdsStatus} />
+          <DataCard
+            title="문의 시 필요한 정보"
+            body="적용 산업, 기재, 배합 목적, 사용 환경, 요구 물성, 샘플 필요 시점을 함께 알려 주세요."
+            items={product.inquiryPrompts}
+          />
         </div>
       </Section>
 

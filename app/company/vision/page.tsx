@@ -5,7 +5,7 @@ import { Section } from "@/components/ui/Section";
 
 export const metadata: Metadata = {
   title: "사업 방향 | WARSOL",
-  description: "WARSOL 수용성 소재 사업 방향",
+  description: "WARSOL 수용성 소재 사업 방향과 적용 조건 중심 기술 상담",
 };
 
 const visionItems = [

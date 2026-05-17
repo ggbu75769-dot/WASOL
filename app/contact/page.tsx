@@ -8,19 +8,28 @@ import { company } from "@/content/company";
 
 export const metadata: Metadata = {
   title: "문의 | WARSOL",
-  description: "WARSOL 고객 문의 및 기술 상담",
+  description: "WARSOL 제품 적용 상담, 샘플, TDS, SDS, 견적, 공동개발 기술 문의",
 };
 
-const inquiryChecklist = [
-  "문의 유형",
-  "제품군",
-  "적용 산업",
-  "기재 / 배합",
-  "사용 환경",
-  "요구 물성",
-  "샘플 요청",
-  "TDS / SDS",
-  "일정",
+const inquiryGuides = [
+  {
+    title: "기본 정보",
+    body: "문의 유형, 제품군, 담당자 연락처를 남겨 주세요.",
+  },
+  {
+    title: "적용 조건",
+    body: "적용 산업, 기재, 배합 목적, 사용 환경, 요구 물성을 알려 주세요.",
+  },
+  {
+    title: "자료 요청",
+    body: "샘플, TDS, SDS, 견적, 공동개발 등 필요한 자료와 일정을 선택해 주세요.",
+  },
+];
+
+const contactCards = [
+  { title: "샘플", body: "기재와 사용 조건 확인 후 샘플 상담" },
+  { title: "TDS / SDS", body: "제품 기술자료와 안전보건자료 요청" },
+  { title: "적용 상담", body: "배합, 도포, 보관, 후속 검증 조건 검토" },
 ];
 
 export default function ContactPage() {
@@ -28,19 +37,14 @@ export default function ContactPage() {
     <>
       <PageHero
         eyebrow="기술 문의"
-        title="적용 조건을 알려주시면 제품 검토가 빨라집니다"
-        description="샘플, TDS, SDS, 견적, 공동개발 문의는 제품군과 사용 조건을 함께 남겨 주세요."
+        title="제품 검토는 적용 조건에서 시작됩니다"
+        description="샘플, TDS, SDS, 견적, 공동개발 문의를 남기실 때 제품군, 적용 산업, 기재, 배합 목적, 사용 환경, 요구 물성을 함께 알려주시면 보다 정확한 검토가 가능합니다."
       />
 
       <Section eyebrow="문의 양식" title="제품 적용 상담">
-        <div className="mb-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {inquiryChecklist.map((item) => (
-            <div
-              key={item}
-              className="rounded-lg border border-[var(--line)] bg-white p-5 text-sm font-black text-[var(--brand-navy)] shadow-[0_12px_30px_rgba(15,42,74,0.05)]"
-            >
-              {item}
-            </div>
+        <div className="mb-8 grid gap-4 lg:grid-cols-3">
+          {inquiryGuides.map((item) => (
+            <DataCard key={item.title} title={item.title} body={item.body} />
           ))}
         </div>
         <Suspense fallback={<div className="surface rounded-lg p-6 text-sm font-bold text-[var(--muted)]">문의 양식 로딩</div>}>
@@ -71,9 +75,9 @@ export default function ContactPage() {
               수용성 분산제, 코팅제, 점·접착 소재, 방수·차열 보호 소재에 대한 기술 상담과 제품 자료 문의
             </p>
             <div className="mt-6 grid gap-3 sm:grid-cols-3">
-              <DataCard title="샘플" body="기재와 사용 조건 확인" />
-              <DataCard title="TDS / SDS" body="기술자료와 안전보건자료" />
-              <DataCard title="적용 상담" body="배합, 도포, 보관 조건 검토" />
+              {contactCards.map((item) => (
+                <DataCard key={item.title} title={item.title} body={item.body} />
+              ))}
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@ import { company } from "@/content/company";
 
 export const metadata: Metadata = {
   title: "대표 메시지 | WARSOL",
-  description: "WARSOL 대표 메시지와 소재 상담 기준",
+  description: "WARSOL 대표 메시지와 적용 조건 기반 소재 상담 기준",
 };
 
 export default function CeoMessagePage() {

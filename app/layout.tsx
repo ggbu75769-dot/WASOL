@@ -12,11 +12,11 @@ const publicAssetUrl = (path: string) => `${normalizedSiteUrl}${path}`;
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: `${company.englishName} | 수용성 고분자 기반 산업 소재`,
+    default: `${company.englishName} | 수용성 고분자 기반 산업용 소재 솔루션`,
     template: `%s | ${company.englishName}`,
   },
   description:
-    "WARSOL 수용성 고분자, 분산제, 코팅제, 접착·점착 소재 개발 및 생산",
+    "WARSOL 수용성 고분자, 분산제, 코팅제, 접착·점착 소재의 적용 조건 기반 기술 상담과 제품 자료 안내",
   applicationName: "WARSOL 공식 사이트",
   authors: [{ name: company.englishName }],
   creator: company.englishName,
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "ko_KR",
     siteName: company.englishName,
-    title: `${company.englishName} | 수용성 고분자 기반 산업 소재`,
+    title: `${company.englishName} | 수용성 고분자 기반 산업용 소재 솔루션`,
     description:
       "수용성 고분자와 산업용 수지로 현장 조건에 맞는 소재를 검토합니다.",
     images: [
@@ -42,8 +42,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${company.englishName} | 수용성 고분자 기반 산업 소재`,
-    description: "WARSOL 수용성 분산제, 코팅제, 점·접착 소재",
+    title: `${company.englishName} | 수용성 고분자 기반 산업용 소재 솔루션`,
+    description: "WARSOL 수용성 분산제, 코팅제, 점·접착 소재와 기술 상담",
     images: [publicAssetUrl("/og/warsol-og.svg")],
   },
   robots: {

@@ -10,7 +10,8 @@ const publicAssetPrefix =
 
 export const metadata: Metadata = {
   title: "회사소개 | WARSOL",
-  description: "WARSOL 회사 개요, 사업장, 수용성 고분자 소재 사업 방향",
+  description:
+    "WARSOL 회사 개요, 화성 전곡산업단지 제조 기반, 수용성 고분자와 산업용 소재 상담 기준",
 };
 
 const overview = [
@@ -25,15 +26,15 @@ const overview = [
 const businessProfile = [
   {
     title: "수용성 고분자",
-    body: "Sodium Polyacrylate, CMC, 천연검·변성검 응용 등 수계 배합에 필요한 소재를 검토합니다.",
+    body: "Sodium Polyacrylate, CMC, 천연검·변성검 응용 등 수계 배합에 필요한 소재 가능성을 검토합니다.",
   },
   {
     title: "분산제·수지·코팅제",
-    body: "분산 안정성, 점도, 도막 형성, 표면 보호 성능을 중심으로 산업용 소재를 개발·생산합니다.",
+    body: "분산 안정성, 점도 제어, 도막 형성, 표면 보호 성능을 중심으로 산업용 소재를 개발·생산합니다.",
   },
   {
     title: "점·접착 및 보호 소재",
-    body: "방수, 차열, 접착, 산업용 라벨·필름처럼 표면 계면 성능이 중요한 분야에 대응합니다.",
+    body: "방수, 차열, 접착, 산업용 라벨·필름처럼 표면과 계면 성능이 중요한 분야에 대응합니다.",
   },
 ];
 
@@ -98,7 +99,7 @@ export default function CompanyPage() {
               회사 개요
             </h2>
             <p className="mt-6 break-words text-base leading-8 text-[var(--muted)]">
-              WARSOL은 수용성 소재의 제품명보다 고객의 산업, 기재, 배합, 공정 조건을 먼저 확인하며 적용 가능성을 검토합니다.
+              WARSOL은 수용성 소재의 제품명보다 고객의 산업, 기재, 배합 목적, 공정 조건, 사용 환경을 먼저 확인하며 적용 가능성을 검토합니다.
             </p>
           </div>
 
@@ -141,7 +142,7 @@ export default function CompanyPage() {
           <div className="min-w-0">
             <p className="eyebrow">운영 기준</p>
             <h2 className="mt-5 break-words text-3xl font-black leading-tight text-[var(--text)] sm:text-5xl">
-              소재 상담과 개발의 기준
+              소재 상담과 개발을 신뢰로 연결하는 기준
             </h2>
           </div>
           <div className="grid gap-0 border-y border-[var(--line-strong)]">

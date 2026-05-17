@@ -5,14 +5,14 @@ import { Section } from "@/components/ui/Section";
 
 export const metadata: Metadata = {
   title: "고객지원 | WARSOL",
-  description: "WARSOL 공지사항, 뉴스룸, 채용, 기술 문의",
+  description: "WARSOL 공지사항, 뉴스룸, 채용, 제품 자료 요청과 기술 문의 안내",
 };
 
 const supportMenus = [
-  { href: "/notice", title: "공지사항", body: "제품 자료, 운영 안내, 고객 공지" },
-  { href: "/press", title: "뉴스룸", body: "회사 소개, 보도자료, 기업자료 문의" },
-  { href: "/careers", title: "채용", body: "생산, 품질, 연구개발, 기술영업 인재 문의" },
-  { href: "/contact", title: "기술 문의", body: "샘플, TDS, SDS, 적용 상담 요청" },
+  { href: "/notice", title: "공지사항", body: "제품 자료, 샘플 상담, 고객 운영 안내" },
+  { href: "/press", title: "뉴스룸", body: "회사 소개자료, 기술 주제, 미디어 문의" },
+  { href: "/careers", title: "채용", body: "생산, 품질, 연구개발 인재 문의" },
+  { href: "/contact", title: "기술 문의", body: "샘플, TDS, SDS, 적용 조건 상담" },
 ];
 
 export default function SupportPage() {
@@ -20,8 +20,8 @@ export default function SupportPage() {
     <>
       <PageHero
         eyebrow="고객지원"
-        title="자료 요청과 기술 상담을 한곳에서 안내합니다"
-        description="제품 적용 상담, 샘플 검토, TDS·SDS 요청, 채용·보도 문의를 목적에 맞게 연결합니다."
+        title="자료 요청과 기술 상담을 목적에 맞게 연결합니다"
+        description="제품 적용 상담, 샘플 검토, TDS·SDS 요청, 채용·보도 문의를 정확한 안내 흐름으로 연결합니다."
       />
 
       <Section eyebrow="지원 메뉴" title="필요한 문의 경로를 선택하세요">

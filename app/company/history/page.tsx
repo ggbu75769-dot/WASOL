@@ -6,7 +6,7 @@ import { company } from "@/content/company";
 
 export const metadata: Metadata = {
   title: "회사 개요와 위치 | WARSOL",
-  description: "WARSOL 법인 정보, 주요 제품, 사업장 위치",
+  description: "WARSOL 법인 정보, 주요 제품, 화성 전곡산업단지 사업장 위치",
 };
 
 const mapQuery = encodeURIComponent(company.addressRecords[0]?.value ?? "경기도 화성시 서신면 전곡산단4길 43");
@@ -17,7 +17,7 @@ export default function CompanyHistoryPage() {
       <PageHero
         eyebrow="회사 개요"
         title="공개 기업 정보로 확인되는 WARSOL의 기본 정보"
-        description="법인 등록, 대표자, 주요 제품, 사업장 주소를 기준으로 회사 정보를 정리했습니다."
+        description="법인 등록, 대표자, 주요 제품, 사업장 주소를 기준으로 확인 가능한 회사 정보를 정리했습니다."
       />
 
       <Section eyebrow="회사 소개" title={company.legalName} description={company.shortDescription}>

@@ -10,12 +10,17 @@ type PageHeroProps = {
 
 export function PageHero({ eyebrow, title, description, breadcrumbs }: PageHeroProps) {
   return (
-    <section className="border-b border-[var(--line)] bg-white py-16 sm:py-20">
-      <div className="container max-w-5xl min-w-0">
+    <section className="border-b border-[var(--line)] bg-[var(--bg-soft)] py-16 sm:py-20">
+      <div className="container min-w-0">
         {breadcrumbs && <Breadcrumbs items={breadcrumbs} />}
         <p className="eyebrow break-words">{eyebrow}</p>
-        <h1 className="mt-5 break-words text-4xl font-black leading-tight text-[var(--brand-navy)] [word-break:keep-all] sm:text-5xl">{title}</h1>
-        <p className="mt-6 max-w-3xl break-words text-lg leading-8 text-[var(--muted)]">{description}</p>
+        <div className="mt-5 grid gap-6 lg:grid-cols-[0.76fr_0.24fr] lg:items-end">
+          <h1 className="break-words text-3xl font-black leading-tight text-[var(--brand-navy)] sm:text-5xl">
+            {title}
+          </h1>
+          <div className="hidden h-px bg-[var(--line-strong)] lg:block" />
+        </div>
+        <p className="mt-6 max-w-4xl break-words text-lg leading-8 text-[var(--muted)]">{description}</p>
       </div>
     </section>
   );

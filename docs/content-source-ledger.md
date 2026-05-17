@@ -2,6 +2,7 @@
 
 Retrieved date: 2026-05-14
 Policy: public facts are treated as provisional unless confirmed by official WARSOL assets. High-risk claims such as customer names, certifications, sales, exact facility status, and official logo usage are excluded from homepage copy unless official evidence is available.
+Copy language policy: 메인 페이지와 사이트 공개 문구는 한국어를 기본으로 유지한다. 사용자가 명시적으로 요청하지 않는 한 영어 히어로 문구, 영어 섹션명, 영어 CTA로 전환하지 않는다. See `docs/korean-copy-policy.md`.
 
 | Claim / Asset | Source | Confidence | Homepage Safe | Notes |
 | --- | --- | --- | --- | --- |

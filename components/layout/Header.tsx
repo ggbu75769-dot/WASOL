@@ -16,6 +16,14 @@ export function Header() {
 
         <PrimaryNav />
 
+        <Link
+          href="/contact"
+          className="hidden min-h-11 shrink-0 items-center justify-center rounded-md bg-[var(--brand-navy)] px-5 py-3 text-sm font-black text-white transition hover:-translate-y-0.5 hover:bg-[var(--brand-blue)] xl:inline-flex"
+          style={{ color: "#ffffff" }}
+        >
+          기술 문의
+        </Link>
+
         <div className="ml-auto flex shrink-0 xl:hidden">
           <MobileNav />
         </div>

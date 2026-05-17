@@ -7,18 +7,17 @@ export const inquiryCategories = [
   "연구개발 기술 문의",
 ];
 
-export const sampleStages = ["정보 수집", "샘플", "배합 조정", "양산 적용", "문제 해결"];
+export const sampleStages = ["정보 수집", "소량 샘플", "배합 조정", "적용 검토", "후속 검증"];
 
 export const quantityTimelineOptions = [
   "정보 수집",
   "소량 샘플",
-  "파일럿",
-  "월간 사용량",
+  "파일럿 검토",
+  "월간 사용 검토",
   "일정 협의",
 ];
 
-export const backendPendingCopy =
-  "WARSOL 기술 상담과 제품 자료 문의";
+export const backendPendingCopy = "WARSOL 기술 상담과 제품 자료 문의";
 
 export const documentRequestOptions = [
   "TDS",

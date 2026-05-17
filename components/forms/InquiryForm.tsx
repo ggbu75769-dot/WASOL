@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useMemo, useState } from "react";
+import { FormEvent, type ReactNode, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { Button } from "@/components/ui/Button";
 import {
@@ -158,22 +158,45 @@ export function InquiryForm() {
   return (
     <div className="grid gap-6 lg:grid-cols-[1.08fr_0.92fr] lg:items-start">
       <form onSubmit={submitInquiry} className="surface grid gap-5 rounded-lg p-6 sm:p-8">
-        <div className="grid gap-4 md:grid-cols-2">
-          <SelectField label="문의 유형" value={form.category} onChange={(value) => updateField("category", value)} options={inquiryCategories} />
-          <SelectField label="제품군" value={form.product} onChange={(value) => updateField("product", value)} options={productCategories.map((product) => product.name)} />
-          <SelectField label="적용 산업" value={form.industry} onChange={(value) => updateField("industry", value)} options={industries.map((industry) => industry.title)} />
-          <TextField label="기재 및 소재" value={form.material} onChange={(value) => updateField("material", value)} placeholder="콘크리트, 금속, 필름, 섬유" />
-          <SelectField label="사용 환경" value={form.environment} onChange={(value) => updateField("environment", value)} options={environmentOptions} />
-          <SelectField label="요구 물성" value={form.requirements} onChange={(value) => updateField("requirements", value)} options={requirementOptions} />
-          <SelectField label="일정" value={form.timeline} onChange={(value) => updateField("timeline", value)} options={quantityTimelineOptions} />
-          <TextField label="회사명" value={form.company} onChange={(value) => updateField("company", value)} placeholder="회사명" />
-          <TextField label="이름" value={form.name} onChange={(value) => updateField("name", value)} placeholder="담당자명" />
-          <TextField label="이메일" type="email" value={form.email} onChange={(value) => updateField("email", value)} placeholder="name@company.com" />
-          <TextField label="전화" value={form.phone} onChange={(value) => updateField("phone", value)} placeholder="010-0000-0000" />
-        </div>
+        <FieldGroup
+          legend="1. 문의 유형과 제품군"
+          description="문의 목적과 검토하려는 제품군을 먼저 선택해 주세요."
+        >
+          <div className="grid gap-4 md:grid-cols-2">
+            <SelectField label="문의 유형" value={form.category} onChange={(value) => updateField("category", value)} options={inquiryCategories} />
+            <SelectField label="제품군" value={form.product} onChange={(value) => updateField("product", value)} options={productCategories.map((product) => product.name)} />
+          </div>
+        </FieldGroup>
 
-        <fieldset className="grid gap-3 rounded-lg border border-[var(--line)] bg-[var(--bg-soft)] p-4">
-          <legend className="px-1 text-sm font-black text-[var(--brand-navy)]">요청 자료</legend>
+        <FieldGroup
+          legend="2. 적용 조건"
+          description="제품 검토에 직접 영향을 주는 산업, 기재, 환경, 목표 물성을 정리합니다."
+        >
+          <div className="grid gap-4 md:grid-cols-2">
+            <SelectField label="적용 산업" value={form.industry} onChange={(value) => updateField("industry", value)} options={industries.map((industry) => industry.title)} />
+            <TextField label="기재 및 소재" value={form.material} onChange={(value) => updateField("material", value)} placeholder="콘크리트, 금속, 필름, 섬유" />
+            <SelectField label="사용 환경" value={form.environment} onChange={(value) => updateField("environment", value)} options={environmentOptions} />
+            <SelectField label="요구 물성" value={form.requirements} onChange={(value) => updateField("requirements", value)} options={requirementOptions} />
+          </div>
+        </FieldGroup>
+
+        <FieldGroup
+          legend="3. 일정과 담당자"
+          description="자료 회신과 샘플 검토에 필요한 기본 연락 정보를 입력합니다."
+        >
+          <div className="grid gap-4 md:grid-cols-2">
+            <SelectField label="일정" value={form.timeline} onChange={(value) => updateField("timeline", value)} options={quantityTimelineOptions} />
+            <TextField label="회사명" value={form.company} onChange={(value) => updateField("company", value)} placeholder="회사명" />
+            <TextField label="이름" value={form.name} onChange={(value) => updateField("name", value)} placeholder="담당자명" />
+            <TextField label="이메일" type="email" value={form.email} onChange={(value) => updateField("email", value)} placeholder="name@company.com" />
+            <TextField label="전화" value={form.phone} onChange={(value) => updateField("phone", value)} placeholder="010-0000-0000" />
+          </div>
+        </FieldGroup>
+
+        <FieldGroup
+          legend="4. 자료 요청"
+          description="필요한 자료를 선택하면 문의 요약에 함께 정리됩니다."
+        >
           <div className="flex flex-wrap gap-2">
             {documentRequestOptions.map((option) => (
               <label
@@ -194,10 +217,13 @@ export function InquiryForm() {
               </label>
             ))}
           </div>
-        </fieldset>
+        </FieldGroup>
 
-        <label className="grid gap-2">
-          <span className="text-sm font-black text-[var(--brand-navy)]">상세 내용</span>
+        <label className="grid gap-2 rounded-lg border border-[var(--line)] bg-[var(--bg-soft)] p-4">
+          <span className="text-sm font-black text-[var(--brand-navy)]">5. 상세 내용</span>
+          <span className="text-sm leading-6 text-[var(--muted)]">
+            적용 조건, 목표 성능, 샘플 요청 배경을 자유롭게 남겨 주세요.
+          </span>
           <textarea
             value={form.message}
             onChange={(event) => updateField("message", event.target.value)}
@@ -307,6 +333,24 @@ function createSubmittedSummary(form: InquiryFormState, inquiryId: string) {
     `일정: ${form.timeline}`,
     `상세 내용: ${form.message || "추가 내용 없음"}`,
   ].join("\n");
+}
+
+function FieldGroup({
+  legend,
+  description,
+  children,
+}: {
+  legend: string;
+  description: string;
+  children: ReactNode;
+}) {
+  return (
+    <fieldset className="grid gap-4 rounded-lg border border-[var(--line)] bg-white p-4">
+      <legend className="px-1 text-sm font-black text-[var(--brand-navy)]">{legend}</legend>
+      <p className="text-sm leading-6 text-[var(--muted)]">{description}</p>
+      {children}
+    </fieldset>
+  );
 }
 
 function TextField({
