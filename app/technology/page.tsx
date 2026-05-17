@@ -45,12 +45,12 @@ export default function TechnologyPage() {
   return (
     <>
       <PageHero
-        eyebrow="TECHNOLOGY"
+        eyebrow="기술"
         title="수계 배합에서 표면 성능까지 이어지는 소재 기술"
         description="분산 안정성, 점도, 도막 형성, 접착 계면처럼 실제 공정에서 달라지는 변수를 기준으로 소재를 검토합니다."
       />
 
-      <Section eyebrow="TECHNOLOGY PLATFORM" title="WARSOL 기술 포트폴리오">
+      <Section eyebrow="기술 플랫폼" title="WARSOL 기술 포트폴리오">
         <div className="grid gap-4 lg:grid-cols-3">
           {platforms.map((platform) => (
             <DataCard key={platform.title} title={platform.title} body={platform.body} items={platform.items} />
@@ -58,7 +58,7 @@ export default function TechnologyPage() {
         </div>
       </Section>
 
-      <Section className="bg-[var(--bg-soft)]" eyebrow="APPLICATION FACTORS" title="상담 시 확인하는 적용 변수">
+      <Section className="bg-[var(--bg-soft)]" eyebrow="적용 변수" title="상담 시 확인하는 적용 변수">
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {["적용 산업", "기재 표면", "배합 목적", "목표 점도", "도포 방식", "건조 조건", "보관 조건", "필요 자료"].map((item) => (
             <div key={item} className="rounded-lg border border-[var(--line)] bg-white p-5 text-sm font-black text-[var(--brand-navy)]">

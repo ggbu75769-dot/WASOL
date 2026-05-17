@@ -101,7 +101,7 @@ export const productCategories: ProductCategory[] = [
     englishName: "Eco Safety Materials",
     eyebrow: "친환경 · 안전",
     shortDefinition: "재활용 원료와 자연발화 억제 기술을 연결한 연구개발 소재",
-    summary: "재활용 원료의 보관 안정성, 발열 위험 저감, 환경 안전 프로젝트처럼 적용 조건을 확인하며 검토하는 R&D 중심 제품군입니다.",
+    summary: "재활용 원료의 보관 안정성, 발열 위험 저감, 환경 안전 프로젝트처럼 적용 조건을 확인하며 검토하는 연구개발 중심 제품군입니다.",
     technologyBasis: "재활용 원료 활용, 자연발화 억제, 보관 안정성, 안전성 검토",
     applications: ["저장 안전", "재활용 소재", "발열 위험 저감", "환경 안전 프로젝트"],
     properties: ["원료 재활용", "열 안정성", "자연발화 억제", "저유해성 검토"],

@@ -40,19 +40,19 @@ const businessProfile = [
 const companyLinks = [
   {
     href: "/company/ceo-message",
-    label: "CEO MESSAGE",
+    label: "대표",
     title: "대표 메시지",
     body: "현장 조건을 이해하고 품질 자료로 답하는 WARSOL의 상담 기준",
   },
   {
     href: "/company/history",
-    label: "HISTORY",
+    label: "개요",
     title: "회사 개요와 위치",
     body: "2005년 법인 등록, 화성 전곡산업단지 사업장, 주요 제품 정보",
   },
   {
     href: "/company/vision",
-    label: "VISION",
+    label: "방향",
     title: "사업 방향",
     body: "수계 공정, 환경친화 제품, 적용 조건 중심 소재 개발 방향",
   },
@@ -64,7 +64,7 @@ export default function CompanyPage() {
       <section className="border-b border-[var(--line)] bg-white py-16 sm:py-20">
         <div className="container grid gap-12 lg:grid-cols-[0.95fr_0.75fr] lg:items-end">
           <div className="min-w-0">
-            <p className="eyebrow">COMPANY</p>
+            <p className="eyebrow">회사소개</p>
             <h1 className="mt-5 break-words text-4xl font-black leading-tight text-[var(--brand-navy)] [word-break:keep-all] sm:text-6xl">
               수용성 고분자 소재 전문기업, WARSOL
             </h1>
@@ -83,8 +83,8 @@ export default function CompanyPage() {
             />
             <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(5,20,37,0.04),rgba(5,20,37,0.34))]" />
             <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-              <p className="text-xs font-black uppercase text-white/64">Manufacturing Base</p>
-              <p className="mt-2 text-xl font-black">Hwaseong Jeongok Industrial Complex</p>
+              <p className="text-xs font-black text-white/64">제조 기반</p>
+              <p className="mt-2 text-xl font-black">화성 전곡산업단지</p>
             </div>
           </div>
         </div>
@@ -93,7 +93,7 @@ export default function CompanyPage() {
       <section className="bg-white py-20 sm:py-24">
         <div className="container grid gap-12 lg:grid-cols-[0.38fr_1fr]">
           <div className="min-w-0">
-            <p className="eyebrow">OVERVIEW</p>
+            <p className="eyebrow">회사 개요</p>
             <h2 className="mt-5 break-words text-3xl font-black leading-tight text-[var(--text)] [word-break:keep-all] sm:text-5xl">
               회사 개요
             </h2>
@@ -118,7 +118,7 @@ export default function CompanyPage() {
       <section className="bg-[var(--bg-soft)] py-20 sm:py-24">
         <div className="container">
           <div className="mb-10 max-w-3xl min-w-0">
-            <p className="eyebrow">BUSINESS PROFILE</p>
+            <p className="eyebrow">사업 프로필</p>
             <h2 className="mt-5 break-words text-3xl font-black leading-tight text-[var(--text)] [word-break:keep-all] sm:text-5xl">
               산업용 수용성 소재 사업
             </h2>
@@ -139,7 +139,7 @@ export default function CompanyPage() {
       <section className="bg-white py-20 sm:py-24">
         <div className="container grid gap-12 lg:grid-cols-[0.38fr_1fr]">
           <div className="min-w-0">
-            <p className="eyebrow">MANAGEMENT PRINCIPLE</p>
+            <p className="eyebrow">운영 기준</p>
             <h2 className="mt-5 break-words text-3xl font-black leading-tight text-[var(--text)] sm:text-5xl">
               소재 상담과 개발의 기준
             </h2>
@@ -158,7 +158,7 @@ export default function CompanyPage() {
       <section className="bg-[var(--brand-navy)] py-20 text-white sm:py-24">
         <div className="container">
           <div className="mb-10 max-w-3xl min-w-0">
-            <p className="text-sm font-black uppercase text-white/58">ABOUT WARSOL</p>
+            <p className="text-sm font-black text-white/58">기업 정보</p>
             <h2 className="mt-5 break-words text-3xl font-black leading-tight [word-break:keep-all] sm:text-5xl">
               기업 정보 바로가기
             </h2>

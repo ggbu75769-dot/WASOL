@@ -14,56 +14,56 @@ const businessAreas = [
   {
     href: "/products/dispersion-additives",
     number: "01",
-    title: "Water-soluble Polymer",
-    subtitle: "수용성 고분자·분산 소재",
+    title: "수용성 고분자·분산 소재",
+    subtitle: "분산 안정성과 점도 제어",
     body: "Sodium Polyacrylate, CMC, 천연검·변성검 응용과 수용성 분산 기술을 기반으로 수계 배합의 안정성과 작업성을 검토합니다.",
     tags: ["분산 안정성", "점도 제어", "수계 배합"],
   },
   {
     href: "/products/functional-coatings",
     number: "02",
-    title: "Functional Coating",
-    subtitle: "기능성 수계 코팅",
+    title: "기능성 수계 코팅",
+    subtitle: "도막 형성과 표면 보호",
     body: "도막 형성, 표면 보호, 방식, 방수·차열 성능이 필요한 산업 표면에 맞춰 코팅 소재와 적용 조건을 함께 검토합니다.",
     tags: ["도막 형성", "표면 보호", "방수·차열"],
   },
   {
     href: "/products/adhesion-systems",
     number: "03",
-    title: "Adhesion System",
-    subtitle: "점·접착 소재",
+    title: "점·접착 소재",
+    subtitle: "기재 밀착과 박리 안정성",
     body: "방수 시트, 필름, 라벨, 산업용 접착 분야에서 기재 표면과 수분 노출 조건을 고려한 수계 점·접착 소재를 제안합니다.",
     tags: ["기재 밀착", "내수성", "박리 안정성"],
   },
 ];
 
 const companyFacts = [
-  { label: "Established", value: "2005", body: "주식회사 워솔 법인 등록" },
-  { label: "Location", value: "Hwaseong", body: "전곡산업단지 소재 사업장" },
-  { label: "Business", value: "Materials", body: "산업용 수용성 소재 개발·생산" },
-  { label: "Support", value: "B2B", body: "샘플, TDS, SDS, 적용 상담" },
+  { label: "설립", value: "2005", body: "주식회사 워솔 법인 등록" },
+  { label: "사업장", value: "화성", body: "전곡산업단지 소재 사업장" },
+  { label: "사업", value: "소재", body: "산업용 수용성 소재 개발·생산" },
+  { label: "지원", value: "상담", body: "샘플, TDS, SDS, 적용 상담" },
 ];
 
 const qualityItems = [
   {
-    title: "Application First",
+    title: "적용 조건 우선",
     body: "제품명보다 사용 산업, 기재, 배합 목적, 공정 조건을 먼저 확인합니다.",
   },
   {
-    title: "Technical Data",
+    title: "기술 자료 연결",
     body: "TDS, SDS, 시험 조건, 샘플 검토 정보를 연결해 고객의 판단을 돕습니다.",
   },
   {
-    title: "Manufacturing Base",
+    title: "제조 기반",
     body: "화성 전곡산업단지 사업장을 기반으로 산업용 소재 개발과 생산을 이어갑니다.",
   },
 ];
 
 const supportLinks = [
-  { href: "/notice", label: "NOTICE", title: "공지사항", body: "운영 안내와 고객 공지" },
-  { href: "/press", label: "PR CENTER", title: "뉴스룸", body: "회사 소개와 보도자료 문의" },
-  { href: "/careers", label: "CAREER", title: "채용", body: "생산, 품질, 연구개발 인재 문의" },
-  { href: "/contact", label: "CONTACT", title: "기술 문의", body: "샘플, TDS, SDS, 적용 상담" },
+  { href: "/notice", label: "공지", title: "공지사항", body: "운영 안내와 고객 공지" },
+  { href: "/press", label: "홍보", title: "뉴스룸", body: "회사 소개와 보도자료 문의" },
+  { href: "/careers", label: "채용", title: "채용", body: "생산, 품질, 연구개발 인재 문의" },
+  { href: "/contact", label: "문의", title: "기술 문의", body: "샘플, TDS, SDS, 적용 상담" },
 ];
 
 export default function HomePage() {
@@ -74,18 +74,18 @@ export default function HomePage() {
       <section className="bg-white py-20 sm:py-24">
         <div className="container grid gap-12 lg:grid-cols-[0.42fr_1fr]">
           <div className="min-w-0 lg:sticky lg:top-28 lg:self-start">
-            <p className="eyebrow">BUSINESS</p>
+            <p className="eyebrow">사업분야</p>
             <h2 className="mt-5 break-words text-3xl font-black leading-tight text-[var(--text)] [word-break:keep-all] sm:text-4xl">
               산업용 수용성 소재 솔루션
             </h2>
             <p className="mt-6 break-words text-base leading-8 text-[var(--muted)]">
-              WARSOL은 수용성 고분자와 산업용 수지를 바탕으로 분산, 코팅, 접착, 보호 성능이 필요한 B2B 소재를 검토합니다.
+              WARSOL은 수용성 고분자와 산업용 수지를 바탕으로 분산, 코팅, 접착, 보호 성능이 필요한 기업 고객용 소재를 검토합니다.
             </p>
             <Link
               href="/business"
-              className="mt-8 inline-flex min-h-12 items-center justify-center rounded-md border border-[var(--brand-navy)] px-6 py-3 text-sm font-black uppercase text-[var(--brand-navy)] transition hover:bg-[var(--brand-navy)] hover:text-white"
+              className="mt-8 inline-flex min-h-12 items-center justify-center rounded-md border border-[var(--brand-navy)] px-6 py-3 text-sm font-black text-[var(--brand-navy)] transition hover:bg-[var(--brand-navy)] hover:text-white"
             >
-              View Business
+              사업분야 보기
             </Link>
           </div>
 
@@ -129,7 +129,7 @@ export default function HomePage() {
       <section className="bg-[var(--brand-navy)] py-20 text-white sm:py-24">
         <div className="container grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
           <div className="min-w-0">
-            <p className="text-sm font-black uppercase text-white/58">COMPANY</p>
+            <p className="text-sm font-black text-white/58">회사소개</p>
             <h2 className="mt-5 break-words text-3xl font-black leading-tight [word-break:keep-all] sm:text-5xl">
               수용성 고분자 기반 산업용 화학 소재 기업
             </h2>
@@ -138,16 +138,16 @@ export default function HomePage() {
             </p>
             <Link
               href="/company"
-              className="mt-8 inline-flex min-h-12 items-center justify-center rounded-md border border-white/62 px-6 py-3 text-sm font-black uppercase text-white transition hover:bg-white hover:text-[var(--brand-navy)]"
+              className="mt-8 inline-flex min-h-12 items-center justify-center rounded-md border border-white/62 px-6 py-3 text-sm font-black text-white transition hover:bg-white hover:text-[var(--brand-navy)]"
             >
-              About WARSOL
+              회사소개 보기
             </Link>
           </div>
 
           <dl className="grid gap-4 sm:grid-cols-2">
             {companyFacts.map((item) => (
               <div key={item.label} className="border-t border-white/24 pt-5">
-                <dt className="text-xs font-black uppercase text-white/48">{item.label}</dt>
+                <dt className="text-xs font-black text-white/48">{item.label}</dt>
                 <dd className="mt-3 break-words text-3xl font-black leading-none text-white">
                   {item.value}
                 </dd>
@@ -161,7 +161,7 @@ export default function HomePage() {
       <section className="bg-white py-20 sm:py-24">
         <div className="container">
           <div className="mb-10 max-w-3xl min-w-0">
-            <p className="eyebrow">APPLICATION</p>
+            <p className="eyebrow">적용 산업</p>
             <h2 className="mt-5 break-words text-3xl font-black leading-tight text-[var(--text)] [word-break:keep-all] sm:text-5xl">
               고객 산업의 표면과 배합 문제에 대응합니다
             </h2>
@@ -180,7 +180,7 @@ export default function HomePage() {
       <section className="bg-[var(--bg-soft)] py-20 sm:py-24">
         <div className="container grid gap-12 lg:grid-cols-[0.36fr_1fr]">
           <div className="min-w-0">
-            <p className="eyebrow">QUALITY & SUPPORT</p>
+            <p className="eyebrow">품질·기술지원</p>
             <h2 className="mt-5 break-words text-3xl font-black leading-tight text-[var(--text)] [word-break:keep-all] sm:text-5xl">
               자료와 상담이 이어지는 기술 지원 체계
             </h2>
@@ -201,7 +201,7 @@ export default function HomePage() {
       <section className="bg-white py-20 sm:py-24">
         <div className="container">
           <div className="mb-10 max-w-3xl min-w-0">
-            <p className="eyebrow">INFORMATION</p>
+            <p className="eyebrow">소식·문의</p>
             <h2 className="mt-5 break-words text-3xl font-black leading-tight text-[var(--text)] [word-break:keep-all] sm:text-5xl">
               WARSOL 소식과 문의
             </h2>

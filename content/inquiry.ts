@@ -4,7 +4,7 @@ export const inquiryCategories = [
   "배합 / 공동개발",
   "자료 요청",
   "견적 / 공급",
-  "R&D 기술 문의",
+  "연구개발 기술 문의",
 ];
 
 export const sampleStages = ["정보 수집", "샘플", "배합 조정", "양산 적용", "문제 해결"];

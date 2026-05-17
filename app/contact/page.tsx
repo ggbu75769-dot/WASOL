@@ -27,12 +27,12 @@ export default function ContactPage() {
   return (
     <>
       <PageHero
-        eyebrow="CONTACT"
+        eyebrow="기술 문의"
         title="적용 조건을 알려주시면 제품 검토가 빨라집니다"
         description="샘플, TDS, SDS, 견적, 공동개발 문의는 제품군과 사용 조건을 함께 남겨 주세요."
       />
 
-      <Section eyebrow="INQUIRY" title="제품 적용 상담">
+      <Section eyebrow="문의 양식" title="제품 적용 상담">
         <div className="mb-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {inquiryChecklist.map((item) => (
             <div
@@ -48,7 +48,7 @@ export default function ContactPage() {
         </Suspense>
       </Section>
 
-      <Section className="bg-[var(--bg-soft)]" eyebrow="CONTACT INFORMATION" title="WARSOL 연락처">
+      <Section className="bg-[var(--bg-soft)]" eyebrow="연락처" title="WARSOL 연락처">
         <div className="grid gap-5 lg:grid-cols-[0.8fr_1.2fr]">
           <div className="surface rounded-lg p-7">
             <p className="mono-label">WARSOL</p>

@@ -23,7 +23,7 @@ export function MobileNav() {
 
   return (
     <details className="group warsol-mobile-menu">
-      <summary className="warsol-mobile-menu-summary">MENU</summary>
+      <summary className="warsol-mobile-menu-summary">메뉴</summary>
       <nav
         aria-label="Mobile navigation"
         className="surface warsol-mobile-menu-panel grid gap-3 overflow-y-auto rounded-lg p-4"

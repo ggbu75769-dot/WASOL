@@ -1,7 +1,7 @@
 const baseUrl = process.env.SITE_VERIFY_BASE_URL ?? "http://127.0.0.1:3000";
 
 const routes = [
-  ["/", "Water-based Polymer Materials"],
+  ["/", "수용성 고분자 소재 전문기업"],
   ["/company", "수용성 고분자 소재 전문기업, WARSOL"],
   ["/company/ceo-message", "좋은 소재는 현장 조건"],
   ["/company/history", "화성 전곡산업단지 사업장"],

@@ -19,12 +19,12 @@ export default function SupportPage() {
   return (
     <>
       <PageHero
-        eyebrow="SUPPORT"
+        eyebrow="고객지원"
         title="자료 요청과 기술 상담을 한곳에서 안내합니다"
         description="제품 적용 상담, 샘플 검토, TDS·SDS 요청, 채용·보도 문의를 목적에 맞게 연결합니다."
       />
 
-      <Section eyebrow="SUPPORT MENU" title="필요한 문의 경로를 선택하세요">
+      <Section eyebrow="지원 메뉴" title="필요한 문의 경로를 선택하세요">
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
           {supportMenus.map((item) => (
             <Link
