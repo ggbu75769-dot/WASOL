@@ -43,7 +43,7 @@ export function Footer() {
 
         <div className="lg:col-span-4">
           <div className="rounded-lg border border-[var(--line)] bg-[var(--bg-soft)] p-4 text-xs leading-6 text-[var(--muted)]">
-            <strong className="text-[var(--brand-navy)]">WARSOL Inc.</strong> 수용성 고분자 · 접착 · 코팅
+            <strong className="text-[var(--brand-navy)]">WARSOL Inc.</strong> 수용성 고분자 · 분산제 · 코팅제 · 점·접착 소재
           </div>
         </div>
       </div>

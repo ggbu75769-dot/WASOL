@@ -5,21 +5,21 @@ import { Section } from "@/components/ui/Section";
 
 export const metadata: Metadata = {
   title: "연구개발 | WARSOL",
-  description: "WARSOL 방수, 차열, 친환경 안전소재 연구개발",
+  description: "WARSOL 수계 접착, 차열 코팅, 친환경 안전소재 연구개발",
 };
 
 const researchItems = [
   {
-    title: "방수용 점착제",
-    body: "방수 시트와 차수재 적용을 위한 수용성 아크릴계 점착 소재",
+    title: "수성 아크릴 에멀젼 점착제",
+    body: "방수 시트와 차수재 적용처럼 내수성과 접착 안정성이 중요한 계면을 검토합니다.",
   },
   {
-    title: "차열 및 방수 코팅",
-    body: "건축 외피와 산업 표면 보호를 위한 기능성 코팅 소재",
+    title: "차열·방수 코팅 조성",
+    body: "건축 외피와 산업 표면 보호에 필요한 도막 형성, 외부 노출, 차열 조건을 연구합니다.",
   },
   {
-    title: "친환경 안전소재",
-    body: "재활용 원료 기반 자연발화 억제 소재",
+    title: "친환경 안전 소재",
+    body: "재활용 원료의 보관 안정성과 자연발화 억제처럼 환경·안전 이슈가 있는 소재를 검토합니다.",
   },
 ];
 
@@ -28,11 +28,11 @@ export default function RndPage() {
     <>
       <PageHero
         eyebrow="R&D"
-        title="소재의 미래를 향한 연구개발"
-        description="방수, 차열 보호, 친환경 안전소재"
+        title="공개 특허와 적용 조건을 바탕으로 확장하는 소재 연구"
+        description="방수용 점착, 차열·방수 코팅, 친환경 안전 소재를 중심으로 수계 소재의 적용 가능성을 검토합니다."
       />
 
-      <Section eyebrow="연구 영역" title="WARSOL 연구개발 파이프라인">
+      <Section eyebrow="연구 영역" title="WARSOL 연구개발 중점">
         <div className="grid gap-4 lg:grid-cols-3">
           {researchItems.map((item) => (
             <DataCard key={item.title} title={item.title} body={item.body} />
@@ -40,11 +40,11 @@ export default function RndPage() {
         </div>
       </Section>
 
-      <Section className="bg-[var(--bg-soft)]" eyebrow="연구개발 중점" title="소재 혁신">
+      <Section className="bg-[var(--bg-soft)]" eyebrow="검토 방식" title="R&D 상담이 실제 적용으로 이어지는 과정">
         <div className="grid gap-4 lg:grid-cols-3">
-          <DataCard title="표면 보호" body="방수와 표면 보호 소재 기술" />
-          <DataCard title="열 제어" body="차열과 도막 안정성 기술" />
-          <DataCard title="친환경 안전" body="친환경 안전소재 연구" />
+          <DataCard title="1. 문제 정의" body="기재, 노출 환경, 목표 물성, 안전 기준을 먼저 확인합니다." />
+          <DataCard title="2. 소재 후보" body="수지, 분산제, 첨가제, 코팅 조성의 적용 가능성을 좁힙니다." />
+          <DataCard title="3. 검증 자료" body="샘플, 시험 조건, 기술자료를 바탕으로 후속 개발 여부를 판단합니다." />
         </div>
       </Section>
     </>

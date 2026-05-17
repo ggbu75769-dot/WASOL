@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     template: `%s | ${company.englishName}`,
   },
   description:
-    "WARSOL 수용성 고분자 기반 접착, 코팅, 방수, 분산, 친환경 안전소재 솔루션",
+    "WARSOL 수용성 고분자, 분산제, 코팅제, 접착·점착 소재 개발 및 생산",
   applicationName: "WARSOL 공식 사이트",
   authors: [{ name: company.englishName }],
   creator: company.englishName,
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     siteName: company.englishName,
     title: `${company.englishName} | 수용성 고분자 기반 산업 소재`,
     description:
-      "산업의 표면과 안전을 바꾸는 WARSOL 소재 기술",
+      "수용성 고분자와 산업용 수지로 현장 조건에 맞는 소재를 검토합니다.",
     images: [
       {
         url: publicAssetUrl("/og/warsol-og.svg"),
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: `${company.englishName} | 수용성 고분자 기반 산업 소재`,
-    description: "WARSOL 접착, 코팅, 방수, 분산, 친환경 안전소재",
+    description: "WARSOL 수용성 분산제, 코팅제, 점·접착 소재",
     images: [publicAssetUrl("/og/warsol-og.svg")],
   },
   robots: {

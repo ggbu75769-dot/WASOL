@@ -10,16 +10,16 @@ export const metadata: Metadata = {
 
 const notices = [
   {
-    title: "WARSOL 소재",
-    body: "수용성 고분자 기반 산업 소재 포트폴리오",
+    title: "제품 자료 요청",
+    body: "TDS·SDS 등 제품 자료는 적용처, 제품군, 사용 조건 확인 후 안내합니다.",
   },
   {
-    title: "기술 문의",
-    body: "접착, 코팅, 방수, 분산, 안전소재 기술 상담",
+    title: "샘플 상담 안내",
+    body: "샘플 검토는 기재, 배합 목적, 도포 조건, 필요 물성을 함께 확인해야 합니다.",
   },
   {
-    title: "제품 자료",
-    body: "TDS, SDS, 시험자료, 품질자료 안내",
+    title: "공식 공지 준비",
+    body: "신규 공지와 자료실은 공식 자료 확인 후 순차적으로 등록됩니다.",
   },
 ];
 
@@ -29,10 +29,10 @@ export default function NoticePage() {
       <PageHero
         eyebrow="공지"
         title="WARSOL 공지사항"
-        description="기업 공지와 고객 안내"
+        description="제품 자료, 샘플 상담, 고객 안내"
       />
 
-      <Section eyebrow="공지사항" title="소재 사업 공지">
+      <Section eyebrow="공지사항" title="고객 안내">
         <div className="grid gap-4 lg:grid-cols-3">
           {notices.map((item) => (
             <DataCard key={item.title} title={item.title} body={item.body} />

@@ -5,38 +5,38 @@ import { Section } from "@/components/ui/Section";
 
 export const metadata: Metadata = {
   title: "기술 | WARSOL",
-  description: "WARSOL 수용성 고분자, 접착, 코팅, 분산, 방수, 차열 기술",
+  description: "WARSOL 수용성 분산, 수지 설계, 기능성 코팅, 점·접착 기술",
 };
 
 const platforms = [
   {
-    title: "수용성 고분자",
-    body: "접착, 코팅, 분산 공정에 적용되는 수용성 수지 플랫폼",
-    items: ["수지 계열", "고형분", "점도", "분산 안정성"],
+    title: "수용성 분산 기술",
+    body: "수계 배합에서 입자 안정성, 점도, 보관 안정성을 조정합니다.",
+    items: ["분산 안정성", "고형분", "점도", "보관 조건"],
   },
   {
-    title: "접착 및 점착",
-    body: "기재와 계면 안정성을 중심으로 한 접착 소재 기술",
+    title: "수용성 수지 설계",
+    body: "Sodium Polyacrylate, CMC, 천연검·변성검 응용 등 수용성 소재 적용성을 검토합니다.",
+    items: ["상용성", "점도", "고형분", "사용 목적"],
+  },
+  {
+    title: "점·접착 계면",
+    body: "기재 표면, 수분 노출, 도포량, 건조 조건에 따른 접착 안정성을 검토합니다.",
     items: ["기재 표면", "내수성", "초기 점착", "박리 강도"],
   },
   {
     title: "기능성 코팅",
-    body: "방수, 차열, 표면 보호를 위한 도막 형성 기술",
-    items: ["필름 형성", "건조 조건", "차열", "표면 보호"],
+    body: "도막 형성, 표면 보호, 방식 코팅, 방수·차열 기능을 적용 조건별로 검토합니다.",
+    items: ["필름 형성", "건조 조건", "외부 노출", "표면 보호"],
   },
   {
-    title: "분산 제어",
-    body: "안료, 필러, 무기 입자, 수지 배합 안정화 기술",
-    items: ["입자 안정성", "점도 변화", "저장 안정성", "작업성"],
+    title: "방수·차열 보호",
+    body: "건축 외피, 방수 시트, 콘크리트 보호처럼 수분과 열 노출이 큰 표면을 대상으로 합니다.",
+    items: ["외부 노출", "습도", "기존 도막", "시공 방식"],
   },
   {
-    title: "방수 및 차열 보호",
-    body: "건축 외피와 산업 표면을 위한 보호 소재 기술",
-    items: ["외부 노출", "습도", "균열", "시공 방식"],
-  },
-  {
-    title: "친환경 안전소재",
-    body: "재활용 원료와 자연발화 억제 소재 연구",
+    title: "친환경 안전 소재",
+    body: "재활용 원료와 자연발화 억제처럼 환경·안전 요구가 큰 소재 과제를 연구합니다.",
     items: ["재활용 원료", "보관 조건", "발열 조건", "안전성"],
   },
 ];
@@ -46,8 +46,8 @@ export default function TechnologyPage() {
     <>
       <PageHero
         eyebrow="기술"
-        title="수지에서 표면까지 이어지는 소재 설계"
-        description="수용성 고분자 기술"
+        title="수계 배합에서 표면 성능까지 이어지는 소재 기술"
+        description="분산 안정성, 점도, 도막 형성, 접착 계면처럼 실제 공정에서 달라지는 변수를 기준으로 소재를 검토합니다."
       />
 
       <Section eyebrow="기술 플랫폼" title="WARSOL 기술 포트폴리오">
@@ -58,9 +58,9 @@ export default function TechnologyPage() {
         </div>
       </Section>
 
-      <Section className="bg-[var(--bg-soft)]" eyebrow="기술 범위" title="적용 변수">
+      <Section className="bg-[var(--bg-soft)]" eyebrow="기술 범위" title="상담 시 확인하는 적용 변수">
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-          {["적용 산업", "기재 표면", "요구 물성", "온도와 습도", "시공 방식", "보관 조건", "샘플 단계", "개발 일정"].map((item) => (
+          {["적용 산업", "기재 표면", "배합 목적", "목표 점도", "도포 방식", "건조 조건", "보관 조건", "필요 자료"].map((item) => (
             <div key={item} className="rounded-lg border border-[var(--line)] bg-white p-5 text-sm font-black text-[var(--brand-navy)]">
               {item}
             </div>

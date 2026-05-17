@@ -6,24 +6,24 @@ import { Section } from "@/components/ui/Section";
 
 export const metadata: Metadata = {
   title: "사업 | WARSOL",
-  description: "WARSOL 기술, 제품, 연구개발 사업",
+  description: "WARSOL 수용성 고분자, 분산제, 코팅제, 점·접착 소재 사업",
 };
 
 const businessMenus = [
   {
     href: "/technology",
     title: "기술",
-    body: "수용성 고분자, 접착, 코팅, 분산, 방수, 차열 기술",
+    body: "수용성 분산, 수지 설계, 도막 형성, 접착 계면 기술",
   },
   {
     href: "/products",
     title: "제품",
-    body: "산업용 접착, 기능성 코팅, 분산, 안전소재 제품군",
+    body: "수용성 분산제, 코팅제, 점·접착 소재, 방수·차열 보호 소재",
   },
   {
     href: "/rnd",
     title: "연구개발",
-    body: "방수, 차열, 친환경 안전소재 연구 파이프라인",
+    body: "수계 공정, 환경친화 제품, 기능성 보호 소재 연구",
   },
 ];
 
@@ -32,11 +32,11 @@ export default function BusinessPage() {
     <>
       <PageHero
         eyebrow="사업"
-        title="기술 경쟁력으로 소재의 가능성을 확장"
-        description="기술, 제품, 연구개발"
+        title="Water-based Materials Solution Provider"
+        description="수용성 고분자와 산업용 수지를 기반으로 고객의 배합·표면·공정 조건에 맞는 소재를 검토합니다."
       />
 
-      <Section eyebrow="사업 영역" title="WARSOL 소재 사업">
+      <Section eyebrow="사업 영역" title="수용성 소재 사업 구조">
         <div className="grid gap-5 lg:grid-cols-3">
           {businessMenus.map((item) => (
             <Link
@@ -52,11 +52,11 @@ export default function BusinessPage() {
         </div>
       </Section>
 
-      <Section className="bg-[var(--bg-soft)]" eyebrow="사업 흐름" title="기술에서 적용까지">
+      <Section className="bg-[var(--bg-soft)]" eyebrow="사업 흐름" title="상담에서 적용 검토까지">
         <div className="grid gap-4 lg:grid-cols-3">
-          <DataCard title="기술" body="수지 설계, 계면 제어, 도막 형성 기술" />
-          <DataCard title="제품" body="접착, 코팅, 방수, 분산 소재 포트폴리오" />
-          <DataCard title="연구개발" body="차열, 방수, 친환경 안전소재 연구" />
+          <DataCard title="1. 조건 확인" body="적용 산업, 기재, 배합 목적, 사용 환경, 요구 물성을 정리합니다." />
+          <DataCard title="2. 소재 후보 검토" body="분산제, 수지, 코팅제, 점·접착 소재 중 적합한 제품군을 좁힙니다." />
+          <DataCard title="3. 자료와 샘플" body="TDS·SDS, 시험 조건, 샘플 상담을 통해 적용 가능성을 확인합니다." />
         </div>
       </Section>
     </>

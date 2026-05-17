@@ -10,9 +10,9 @@ export const metadata: Metadata = {
 };
 
 const roles = [
-  { title: "연구개발", body: "수용성 고분자, 접착, 코팅, 분산 소재 연구" },
-  { title: "생산 및 품질", body: "공정 안정화, 품질 관리, 시험자료 운영" },
-  { title: "기술 영업", body: "고객 적용 조건 기반 기술 영업" },
+  { title: "생산", body: "아크릴 에멀젼, 수용성 소재 생산 공정 운영" },
+  { title: "품질", body: "원료, 배합, 제품 출하 전 품질 기준 확인" },
+  { title: "연구개발", body: "수용성 분산, 수지, 코팅, 점·접착 소재 검토" },
 ];
 
 export default function CareersPage() {
@@ -21,10 +21,10 @@ export default function CareersPage() {
       <PageHero
         eyebrow="채용"
         title="WARSOL 채용"
-        description="소재 기술을 함께 만드는 사람들"
+        description="수용성 소재의 생산, 품질, 연구개발을 함께할 인재"
       />
 
-      <Section eyebrow="채용" title="소재 기술의 내일을 함께 만드는 사람">
+      <Section eyebrow="채용 분야" title="현장을 이해하는 소재 인재">
         <div className="grid gap-4 lg:grid-cols-3">
           {roles.map((role) => (
             <DataCard key={role.title} title={role.title} body={role.body} />

@@ -16,9 +16,9 @@ export const navigationItems: NavigationItem[] = [
     href: "/company",
     label: "회사",
     children: [
-      { href: "/company/ceo-message", label: "CEO 소개 및 메시지" },
-      { href: "/company/history", label: "회사연혁 및 소개" },
-      { href: "/company/vision", label: "회사 비전" },
+      { href: "/company/ceo-message", label: "대표 메시지" },
+      { href: "/company/history", label: "회사 개요와 위치" },
+      { href: "/company/vision", label: "사업 방향" },
     ],
   },
   {
@@ -32,12 +32,12 @@ export const navigationItems: NavigationItem[] = [
   },
   {
     href: "/support",
-    label: "문의",
+    label: "고객지원",
     children: [
       { href: "/notice", label: "공지사항" },
-      { href: "/press", label: "언론보도" },
+      { href: "/press", label: "뉴스룸" },
       { href: "/careers", label: "채용" },
-      { href: "/contact", label: "문의" },
+      { href: "/contact", label: "기술 문의" },
     ],
   },
 ];

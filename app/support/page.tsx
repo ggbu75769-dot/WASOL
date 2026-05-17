@@ -4,15 +4,15 @@ import { PageHero } from "@/components/sections/PageHero";
 import { Section } from "@/components/ui/Section";
 
 export const metadata: Metadata = {
-  title: "문의 | WARSOL",
-  description: "WARSOL 공지사항, 언론보도, 채용, 문의",
+  title: "고객지원 | WARSOL",
+  description: "WARSOL 공지사항, 뉴스룸, 채용, 기술 문의",
 };
 
 const supportMenus = [
-  { href: "/notice", title: "공지사항", body: "WARSOL 기업 공지" },
-  { href: "/press", title: "언론보도", body: "뉴스와 보도자료" },
-  { href: "/careers", title: "채용", body: "소재 기술 인재 채용" },
-  { href: "/contact", title: "문의", body: "고객 문의와 기술 상담" },
+  { href: "/notice", title: "공지사항", body: "제품 자료, 운영 안내, 고객 공지" },
+  { href: "/press", title: "뉴스룸", body: "회사 소개, 보도자료, 기업자료 문의" },
+  { href: "/careers", title: "채용", body: "생산, 품질, 연구개발, 기술영업 인재 문의" },
+  { href: "/contact", title: "기술 문의", body: "샘플, TDS, SDS, 적용 상담 요청" },
 ];
 
 export default function SupportPage() {
@@ -20,11 +20,11 @@ export default function SupportPage() {
     <>
       <PageHero
         eyebrow="고객지원"
-        title="WARSOL 소식과 문의"
-        description="공지사항, 언론보도, 채용, 문의"
+        title="자료 요청과 기술 상담을 한곳에서 안내합니다"
+        description="제품 적용 상담, 샘플 검토, TDS·SDS 요청, 채용·보도 문의를 목적에 맞게 연결합니다."
       />
 
-      <Section eyebrow="고객지원" title="고객과 함께 여는 다음 단계">
+      <Section eyebrow="고객지원" title="필요한 문의 경로를 선택하세요">
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
           {supportMenus.map((item) => (
             <Link

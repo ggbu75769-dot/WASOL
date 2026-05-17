@@ -4,24 +4,24 @@ import { DataCard } from "@/components/ui/DataCard";
 import { Section } from "@/components/ui/Section";
 
 export const metadata: Metadata = {
-  title: "언론보도 | WARSOL",
-  description: "WARSOL 언론보도 및 보도자료",
+  title: "뉴스룸 | WARSOL",
+  description: "WARSOL 회사 소개, 보도자료, 언론 문의",
 };
 
 export default function PressPage() {
   return (
     <>
       <PageHero
-        eyebrow="언론보도"
-        title="WARSOL 언론보도"
-        description="뉴스, 보도자료, 기업 이야기"
+        eyebrow="뉴스룸"
+        title="WARSOL 뉴스룸"
+        description="회사 소개, 보도자료, 기업 자료 요청"
       />
 
-      <Section eyebrow="보도센터" title="WARSOL 뉴스룸">
+      <Section eyebrow="보도센터" title="공식 자료 확인 후 업데이트합니다">
         <div className="grid gap-4 lg:grid-cols-3">
-          <DataCard title="회사" body="WARSOL 기업 소개와 소재 기술 스토리" />
-          <DataCard title="기술" body="수용성 고분자, 접착, 코팅, 분산 기술" />
-          <DataCard title="언론 문의" body="보도자료, 인터뷰, 기업자료 문의" />
+          <DataCard title="회사 소개" body="수용성 고분자와 산업용 수지 소재를 개발·생산하는 기업 자료" />
+          <DataCard title="기술 주제" body="분산제, 수용성 수지, 코팅제, 점·접착 소재 관련 자료" />
+          <DataCard title="언론 문의" body="보도자료, 인터뷰, 기업자료 요청은 문의 페이지로 접수해 주세요." />
         </div>
       </Section>
     </>

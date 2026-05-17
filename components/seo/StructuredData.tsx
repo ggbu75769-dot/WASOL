@@ -29,10 +29,11 @@ export function StructuredData() {
     ],
     knowsAbout: [
       "수용성 고분자",
-      "산업용 접착 소재",
-      "기능성 코팅",
-      "분산 제어",
-      "친환경 안전소재",
+      "수용성 분산제",
+      "Sodium Polyacrylate",
+      "기능성 코팅제",
+      "산업용 점·접착 소재",
+      "방수·차열 보호 소재",
     ],
     hasOfferCatalog: {
       "@type": "OfferCatalog",

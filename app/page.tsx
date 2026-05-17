@@ -3,39 +3,48 @@ import Link from "next/link";
 import { LightPremiumHero } from "@/components/sections/LightPremiumHero";
 import { DataCard } from "@/components/ui/DataCard";
 import { Section } from "@/components/ui/Section";
+import { company } from "@/content/company";
+import { industries, productDecisionGuide } from "@/content/products";
 
 export const metadata: Metadata = {
   title: "WARSOL | 수용성 고분자 기반 산업 소재",
   description:
-    "WARSOL 수용성 고분자 기반 접착, 코팅, 방수, 분산, 친환경 안전소재 솔루션",
+    "WARSOL 수용성 고분자, 분산제, 코팅제, 접착·점착 소재 개발 및 생산",
 };
+
+const profileFacts = [
+  { title: "법인 등록", body: company.founded.value },
+  { title: "주요 제품", body: "수용성 고분자" },
+  { title: "사업장", body: "경기도 화성시 전곡산업단지" },
+  { title: "상담 분야", body: "분산제, 수지, 코팅제, 점·접착 소재" },
+];
 
 const businessPanels = [
   {
     href: "/technology",
     label: "기술",
-    title: "표면 기술",
-    body: "기재와 계면을 중심으로 한 수용성 고분자 기술",
+    title: "수용성 소재 기술",
+    body: "분산 안정화, 수지 설계, 도막 형성, 접착 계면 검토",
   },
   {
     href: "/products",
     label: "제품",
-    title: "소재 포트폴리오",
-    body: "접착, 코팅, 방수, 분산, 안전소재 제품군",
+    title: "제품 포트폴리오",
+    body: "수용성 분산제, 코팅제, 점·접착제, 방수·차열 보호 소재",
   },
   {
     href: "/rnd",
     label: "연구개발",
-    title: "연구개발 파이프라인",
-    body: "방수, 차열, 자연발화 억제 소재 연구",
+    title: "적용 중심 R&D",
+    body: "방수 시트, 수계 코팅, 차열 보호, 친환경 안전 소재 검토",
   },
 ];
 
 const supportItems = [
-  { href: "/notice", title: "공지사항", body: "기업 공지와 자료 안내" },
-  { href: "/press", title: "언론보도", body: "WARSOL 뉴스와 보도자료" },
-  { href: "/careers", title: "채용", body: "소재 기술 인재 채용" },
-  { href: "/contact", title: "문의", body: "기술 상담과 고객 문의" },
+  { href: "/notice", title: "공지사항", body: "제품 자료와 운영 안내" },
+  { href: "/press", title: "뉴스룸", body: "회사 소개와 보도자료 문의" },
+  { href: "/careers", title: "채용", body: "생산, 품질, 연구개발 인재 문의" },
+  { href: "/contact", title: "문의", body: "샘플, TDS, SDS, 적용 상담" },
 ];
 
 export default function HomePage() {
@@ -44,9 +53,22 @@ export default function HomePage() {
       <LightPremiumHero />
 
       <Section
+        eyebrow="Company Profile"
+        title="수용성 고분자 소재 개발·생산"
+        description={company.positioning}
+      >
+        <div className="grid gap-4 lg:grid-cols-4">
+          {profileFacts.map((item) => (
+            <DataCard key={item.title} title={item.title} body={item.body} />
+          ))}
+        </div>
+      </Section>
+
+      <Section
+        className="bg-[var(--bg-soft)]"
         eyebrow="사업"
-        title="소재 사업"
-        description="기술 · 제품 · 연구개발"
+        title="제품보다 적용 조건을 먼저 봅니다"
+        description="수계 배합, 기재 표면, 도포·건조 조건, 보관 환경에 따라 필요한 소재 성능이 달라집니다."
       >
         <div className="grid gap-5 lg:grid-cols-3">
           {businessPanels.map((item) => (
@@ -65,16 +87,23 @@ export default function HomePage() {
         </div>
       </Section>
 
-      <Section className="bg-[var(--bg-soft)]" eyebrow="WARSOL 핵심" title="소재 성능">
+      <Section eyebrow="적용 산업" title="WARSOL 소재 적용 영역">
         <div className="grid gap-4 lg:grid-cols-4">
-          <DataCard title="적용 기재" body="콘크리트, 금속, 필름, 섬유 등 적용 기재" />
-          <DataCard title="사용 환경" body="온도, 습도, 외부 노출, 보관 조건" />
-          <DataCard title="성능 항목" body="접착력, 내수성, 차열, 분산 안정성" />
-          <DataCard title="품질 자료" body="TDS, SDS, 시험 조건, 품질 자료" />
+          {industries.map((item) => (
+            <DataCard key={item.title} title={item.title} body={item.description} />
+          ))}
         </div>
       </Section>
 
-      <Section eyebrow="소식과 문의" title="문의와 소식">
+      <Section className="bg-[var(--bg-soft)]" eyebrow="검토 기준" title="기술 상담에 필요한 정보">
+        <div className="grid gap-4 lg:grid-cols-4">
+          {productDecisionGuide.map((item) => (
+            <DataCard key={item.question} title={item.question} body={item.detail} />
+          ))}
+        </div>
+      </Section>
+
+      <Section eyebrow="고객지원" title="자료 요청과 기술 문의">
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           {supportItems.map((item) => (
             <Link

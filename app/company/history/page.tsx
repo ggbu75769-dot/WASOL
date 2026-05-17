@@ -5,8 +5,8 @@ import { Section } from "@/components/ui/Section";
 import { company } from "@/content/company";
 
 export const metadata: Metadata = {
-  title: "회사연혁 및 소개 | WARSOL",
-  description: "WARSOL 회사연혁, 회사 소개, 위치",
+  title: "회사 개요와 위치 | WARSOL",
+  description: "WARSOL 법인 정보, 주요 제품, 사업장 위치",
 };
 
 const mapQuery = encodeURIComponent(company.addressRecords[0]?.value ?? "경기도 화성시 서신면 전곡산단4길 43");
@@ -15,21 +15,21 @@ export default function CompanyHistoryPage() {
   return (
     <>
       <PageHero
-        eyebrow="연혁"
-        title="WARSOL 회사연혁"
-        description="수용성 고분자 기반 산업 소재 기술의 성장"
+        eyebrow="회사 개요"
+        title="공개 기업 정보로 확인되는 WARSOL의 기본 정보"
+        description="법인 등록, 대표자, 주요 제품, 사업장 주소를 기준으로 회사 정보를 정리했습니다."
       />
 
-      <Section eyebrow="회사 소개" title={company.legalName} description={company.positioning}>
+      <Section eyebrow="회사 소개" title={company.legalName} description={company.shortDescription}>
         <div className="grid gap-4 lg:grid-cols-4">
           <DataCard title="대표자" body={company.representative} />
           <DataCard title={company.founded.label} body={company.founded.value} />
-          <DataCard title="사업 분야" body="수용성 고분자 소재" />
+          <DataCard title="주요 제품" body="수용성 고분자" />
           <DataCard title="연락처" body={company.contact.phone} />
         </div>
       </Section>
 
-      <Section className="bg-[var(--bg-soft)]" eyebrow="연혁" title="소재 기술 성장 흐름">
+      <Section className="bg-[var(--bg-soft)]" eyebrow="회사 정보" title="워솔 사업 정보">
         <div className="grid gap-4">
           {company.history.map((item) => (
             <article key={`${item.year}-${item.title}`} className="surface grid gap-5 rounded-lg p-6 md:grid-cols-[120px_1fr]">
@@ -43,7 +43,7 @@ export default function CompanyHistoryPage() {
         </div>
       </Section>
 
-      <Section eyebrow="위치" title="오시는 길">
+      <Section eyebrow="위치" title="화성 전곡산업단지 사업장">
         <div className="grid gap-6 lg:grid-cols-[0.8fr_1.2fr]">
           <div className="surface rounded-lg p-7">
             <p className="mono-label">주소</p>
@@ -59,7 +59,7 @@ export default function CompanyHistoryPage() {
               Google Maps
             </a>
             <p className="mt-5 text-sm leading-6 text-[var(--muted)]">
-              공개 기업 정보와 소개자료 기준 화성 전곡산업단지 소재 공장 주소입니다.
+              공개 기업 정보 기준 사업장 주소입니다. 방문 상담은 사전 연락 후 진행해 주세요.
             </p>
           </div>
           <div className="min-h-[360px] overflow-hidden rounded-lg border border-[var(--line)] bg-[var(--bg-soft)]">

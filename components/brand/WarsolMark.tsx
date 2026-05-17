@@ -58,7 +58,7 @@ export function WarsolMark({ className = "", compact = false }: WarsolMarkProps)
         </span>
         {!compact && (
           <span data-warsol-sub className="mt-1 text-[0.68rem] font-bold tracking-normal text-[var(--brand-blue)]">
-            수용성 고분자 · 접착 · 코팅
+            수용성 고분자 · 분산제 · 코팅제
           </span>
         )}
       </span>

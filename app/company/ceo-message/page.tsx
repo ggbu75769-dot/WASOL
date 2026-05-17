@@ -5,17 +5,17 @@ import { Section } from "@/components/ui/Section";
 import { company } from "@/content/company";
 
 export const metadata: Metadata = {
-  title: "CEO 소개 및 메시지 | WARSOL",
-  description: "WARSOL CEO 소개 및 메시지",
+  title: "대표 메시지 | WARSOL",
+  description: "WARSOL 대표 메시지와 소재 상담 기준",
 };
 
 export default function CeoMessagePage() {
   return (
     <>
       <PageHero
-        eyebrow="CEO 메시지"
-        title="고객의 현장과 함께 성장하는 소재 기술"
-        description="기술 경쟁력, 품질 신뢰, 고객 적용 가치를 중심에 둔 WARSOL의 경영 방향"
+        eyebrow="대표 메시지"
+        title="좋은 소재는 현장 조건을 정확히 이해하는 일에서 시작됩니다"
+        description="수용성 고분자와 산업용 수지 기술을 실제 공정, 기재, 품질 기준에 맞춰 연결하는 것이 WARSOL의 역할입니다."
       />
 
       <Section>
@@ -28,17 +28,17 @@ export default function CeoMessagePage() {
 
           <article className="min-w-0">
             <p className="break-words text-2xl font-black leading-relaxed text-[var(--brand-navy)] sm:text-4xl">
-              소재의 가치는 고객의 현장에서 완성됩니다.
+              고객의 제품과 공정에 맞는 답을 찾는 것, 그것이 WARSOL의 소재 개발 방식입니다.
             </p>
             <div className="mt-8 grid gap-5 text-lg leading-8 text-[var(--muted-strong)]">
               <p>
-              주식회사 워솔은 이창주 대표이사를 중심으로 수용성 고분자와 산업용 수지 기술을 바탕으로 접착, 코팅, 방수, 분산, 안전소재 분야의 소재 솔루션을 전개합니다.
+                주식회사 워솔은 수용성 분산제, 수용성 수지, 코팅제, 점·접착 소재를 기반으로 산업 현장에서 필요한 물성을 함께 검토합니다.
               </p>
               <p>
-                고객의 기재, 공정, 사용 환경, 품질 기준에 맞춰 소재 성능을 구체화하고 지속 가능한 기술 파트너십을 만들어 갑니다.
+                같은 소재라도 기재, 수분 노출, 도포량, 건조 조건, 보관 환경에 따라 결과가 달라집니다. 그래서 워솔은 제품명보다 적용 조건을 먼저 확인합니다.
               </p>
               <p>
-                산업의 표면과 안전을 바꾸는 소재 기술. WARSOL의 기술 방향.
+                샘플, 시험 조건, TDS·SDS, 공급 상담까지 이어지는 실무형 기술 대응으로 고객의 의사결정을 돕겠습니다.
               </p>
             </div>
           </article>

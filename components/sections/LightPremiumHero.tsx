@@ -11,26 +11,26 @@ const heroEntries = [
   {
     href: "/company",
     label: "회사",
-    title: "WARSOL 소개",
-    body: "CEO 메시지, 회사연혁, 위치, 비전",
+    title: "2005년 법인 등록",
+    body: "화성 전곡산업단지 소재 산업용 화학 소재 기업",
   },
   {
     href: "/business",
     label: "사업",
-    title: "기술 · 제품 · 연구개발",
-    body: "수용성 고분자 기반 소재 기술",
+    title: "수용성 소재 사업",
+    body: "분산제, 수지, 코팅제, 점·접착 소재 개발·생산",
   },
   {
     href: "/products",
     label: "제품",
-    title: "적용 조건 중심 제품군",
-    body: "접착, 코팅, 방수, 분산, 안전소재",
+    title: "적용 조건별 제품군",
+    body: "세제·수처리·제지·코팅·방수·산업 접착",
   },
   {
     href: "/support",
     label: "고객지원",
-    title: "공지 · 언론 · 채용 · 문의",
-    body: "고객 소통과 기업 소식",
+    title: "자료·샘플 상담",
+    body: "기재, 배합, 공정 조건 기반 기술 문의",
   },
 ];
 
@@ -52,11 +52,12 @@ export function LightPremiumHero() {
         <Reveal className="ml-auto w-full max-w-[720px] min-w-0 lg:translate-x-10 xl:translate-x-16">
           <div>
             <h1 className="break-words text-[2.35rem] font-black leading-[1.08] text-white sm:text-6xl sm:leading-[1.04] lg:text-7xl">
-              <span className="block">산업의 표면과 안전을</span>
-              <span className="block">바꾸는 소재 기술</span>
+              <span className="block">수용성 고분자로</span>
+              <span className="block">현장의 표면 문제를</span>
+              <span className="block">해결합니다</span>
             </h1>
             <p className="ml-auto mt-7 max-w-2xl break-words text-base leading-7 text-white/82 sm:text-xl sm:leading-9">
-              수용성 고분자 기반의 접착, 코팅, 방수, 분산 소재 솔루션
+              분산제, 수지, 코팅제, 점·접착 소재를 고객의 기재와 공정 조건에 맞춰 검토하는 산업용 소재 파트너
             </p>
             <div className="mt-9 flex flex-col justify-end gap-3 sm:flex-row">
               <Link
