@@ -1,70 +1,54 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { LightPremiumHero } from "@/components/sections/LightPremiumHero";
-import { company } from "@/content/company";
-import { industries } from "@/content/products";
 
 export const metadata: Metadata = {
-  title: "WARSOL | 수용성 고분자 소재 전문기업",
-  description:
-    "WARSOL은 수용성 고분자, 분산제, 기능성 코팅, 점·접착 소재를 개발·생산하는 산업용 화학 소재 전문기업입니다.",
+  title: "WARSOL | 수용성 소재 솔루션",
+  description: "WARSOL은 산업 현장의 분산·코팅·접착·보호 성능을 적용 조건에 맞춰 검토합니다.",
 };
 
 const businessAreas = [
   {
     href: "/products/dispersion-additives",
     number: "01",
-    title: "수용성 고분자·분산 소재",
-    subtitle: "분산 안정성과 점도 제어",
-    body: "Sodium Polyacrylate, CMC, 천연검·변성검 응용과 수용성 분산 기술을 기반으로 수계 배합의 안정성과 작업성을 검토합니다.",
-    tags: ["분산 안정성", "점도 제어", "수계 배합"],
+    title: "분산·점도",
+    body: "수계 배합 안정화",
   },
   {
     href: "/products/functional-coatings",
     number: "02",
-    title: "기능성 수계 코팅",
-    subtitle: "도막 형성과 표면 보호",
-    body: "도막 형성, 표면 보호, 방식, 방수·차열 성능이 필요한 산업 표면에 맞춰 코팅 소재와 적용 조건을 함께 검토합니다.",
-    tags: ["도막 형성", "표면 보호", "방수·차열"],
+    title: "코팅·보호",
+    body: "도막 형성과 표면 보호",
   },
   {
     href: "/products/adhesion-systems",
     number: "03",
-    title: "점·접착 소재",
-    subtitle: "기재 밀착과 박리 안정성",
-    body: "방수 시트, 필름, 라벨, 산업용 접착 분야에서 기재 표면과 수분 노출 조건을 고려한 수계 점·접착 소재를 제안합니다.",
-    tags: ["기재 밀착", "내수성", "박리 안정성"],
+    title: "점·접착",
+    body: "기재 밀착과 내수성",
   },
 ];
 
-const companyFacts = [
-  { label: "설립", value: "2005", body: "주식회사 워솔 법인 등록" },
-  { label: "사업장", value: "화성", body: "전곡산업단지 소재 사업장" },
-  { label: "사업", value: "소재", body: "산업용 수용성 소재 개발·생산" },
-  { label: "지원", value: "상담", body: "샘플, TDS, SDS, 적용 상담" },
-];
-
-const qualityItems = [
-  {
-    title: "적용 조건 우선",
-    body: "제품명보다 사용 산업, 기재, 배합 목적, 공정 조건을 먼저 확인합니다.",
-  },
-  {
-    title: "기술 자료 연결",
-    body: "TDS, SDS, 시험 조건, 샘플 검토 정보를 연결해 고객의 판단을 돕습니다.",
-  },
-  {
-    title: "제조 기반",
-    body: "화성 전곡산업단지 사업장을 기반으로 산업용 소재 개발과 생산을 이어갑니다.",
-  },
-];
+const industries = ["건축·방수", "코팅·도료", "세제·수처리·제지", "산업용 접착"];
 
 const supportLinks = [
-  { href: "/notice", label: "공지", title: "공지사항", body: "운영 안내와 고객 공지" },
-  { href: "/press", label: "홍보", title: "뉴스룸", body: "회사 소개와 보도자료 문의" },
-  { href: "/careers", label: "채용", title: "채용", body: "생산, 품질, 연구개발 인재 문의" },
-  { href: "/contact", label: "문의", title: "기술 문의", body: "샘플, TDS, SDS, 적용 상담" },
+  { href: "/notice", label: "공지" },
+  { href: "/press", label: "기업자료" },
+  { href: "/careers", label: "채용" },
+  { href: "/contact", label: "기술 문의" },
 ];
+
+function SectionHeading({ title, body }: { title: string; body: string }) {
+  return (
+    <div className="min-w-0">
+      <h2 className="break-words text-3xl font-black leading-tight text-[var(--text)] [word-break:keep-all] sm:text-5xl">
+        {title}
+      </h2>
+      <p className="mt-5 max-w-2xl break-words text-base leading-7 text-[var(--muted)] sm:text-lg">
+        {body}
+      </p>
+    </div>
+  );
+}
 
 export default function HomePage() {
   return (
@@ -72,15 +56,9 @@ export default function HomePage() {
       <LightPremiumHero />
 
       <section className="bg-white py-20 sm:py-24">
-        <div className="container grid gap-12 lg:grid-cols-[0.42fr_1fr]">
-          <div className="min-w-0 lg:sticky lg:top-28 lg:self-start">
-            <p className="eyebrow">사업분야</p>
-            <h2 className="mt-5 break-words text-3xl font-black leading-tight text-[var(--text)] [word-break:keep-all] sm:text-4xl">
-              산업용 수용성 소재 솔루션
-            </h2>
-            <p className="mt-6 break-words text-base leading-8 text-[var(--muted)]">
-              WARSOL은 수용성 고분자와 산업용 수지를 바탕으로 분산, 코팅, 접착, 보호 성능이 필요한 기업 고객용 소재를 검토합니다.
-            </p>
+        <div className="container grid gap-10 lg:grid-cols-[0.34fr_1fr] lg:items-start">
+          <div className="min-w-0">
+            <SectionHeading title="사업분야" body="소재가 필요한 공정에 맞춰 제품군을 검토합니다." />
             <Link
               href="/business"
               className="mt-8 inline-flex min-h-12 items-center justify-center rounded-md border border-[var(--brand-navy)] px-6 py-3 text-sm font-black text-[var(--brand-navy)] transition hover:bg-[var(--brand-navy)] hover:text-white"
@@ -89,133 +67,110 @@ export default function HomePage() {
             </Link>
           </div>
 
-          <div className="border-y border-[var(--line-strong)]">
-            {businessAreas.map((item, index) => (
+          <div
+            data-home-card-rail="business"
+            className="grid gap-0 border-y border-[var(--line-strong)] md:min-h-[260px] md:grid-cols-3"
+          >
+            {businessAreas.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className={`group grid gap-5 px-0 py-8 transition hover:bg-[var(--bg-soft)] sm:px-6 lg:grid-cols-[86px_0.48fr_1fr] ${
-                  index === 0 ? "" : "border-t border-[var(--line)]"
-                }`}
+                className="group min-w-0 border-b border-[var(--line)] px-0 py-9 transition hover:bg-[var(--bg-soft)] md:border-b-0 md:border-r md:px-8 md:py-10"
               >
                 <span className="text-sm font-black text-[var(--brand-blue)]">{item.number}</span>
-                <div className="min-w-0">
-                  <h3 className="break-words text-2xl font-black leading-tight text-[var(--brand-navy)]">
-                    {item.title}
-                  </h3>
-                  <p className="mt-2 break-words text-sm font-black text-[var(--muted-strong)]">
-                    {item.subtitle}
-                  </p>
-                </div>
-                <div className="min-w-0">
-                  <p className="break-words leading-7 text-[var(--muted)]">{item.body}</p>
-                  <div className="mt-5 flex flex-wrap gap-2">
-                    {item.tags.map((tag) => (
-                      <span
-                        key={tag}
-                        className="rounded-md border border-[var(--line)] bg-white px-3 py-2 text-xs font-bold text-[var(--muted-strong)]"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                </div>
+                <h3 className="mt-5 break-words text-2xl font-black leading-tight text-[var(--brand-navy)]">
+                  {item.title}
+                </h3>
+                <p className="mt-3 break-words text-sm font-bold leading-6 text-[var(--muted)]">{item.body}</p>
               </Link>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="bg-[var(--brand-navy)] py-20 text-white sm:py-24">
-        <div className="container grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-end">
-          <div className="min-w-0">
-            <p className="text-sm font-black text-white/58">회사소개</p>
-            <h2 className="mt-5 break-words text-3xl font-black leading-tight [word-break:keep-all] sm:text-5xl">
-              수용성 고분자 기반 산업용 화학 소재 기업
-            </h2>
-            <p className="mt-6 max-w-2xl break-words text-base leading-8 text-white/76">
-              {company.positioning}
-            </p>
-            <Link
-              href="/company"
-              className="mt-8 inline-flex min-h-12 items-center justify-center rounded-md border border-white/62 px-6 py-3 text-sm font-black text-white transition hover:bg-white hover:text-[var(--brand-navy)]"
-            >
-              회사소개 보기
-            </Link>
-          </div>
+      <section className="bg-[var(--bg-soft)] py-20 sm:py-24">
+        <div className="container flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
+          <SectionHeading
+            title="기술 미리보기"
+            body="분산 안정성, 수지 설계, 접착 계면, 도막 형성을 검토합니다."
+          />
+          <Link
+            href="/technology"
+            className="inline-flex min-h-12 w-fit items-center justify-center rounded-md border border-[var(--line-strong)] bg-white px-6 py-3 text-sm font-black text-[var(--brand-navy)] transition hover:border-[var(--brand-blue)] hover:text-[var(--brand-blue)]"
+          >
+            기술 보기
+          </Link>
+        </div>
+      </section>
 
-          <dl className="grid gap-4 sm:grid-cols-2">
-            {companyFacts.map((item) => (
-              <div key={item.label} className="border-t border-white/24 pt-5">
-                <dt className="text-xs font-black text-white/48">{item.label}</dt>
-                <dd className="mt-3 break-words text-3xl font-black leading-none text-white">
-                  {item.value}
-                </dd>
-                <p className="mt-3 break-words text-sm leading-6 text-white/68">{item.body}</p>
-              </div>
-            ))}
-          </dl>
+      <section className="bg-[var(--brand-navy)] py-20 text-white sm:py-24">
+        <div className="container flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
+          <div className="min-w-0">
+            <h2 className="break-words text-3xl font-black leading-tight [word-break:keep-all] sm:text-5xl">
+              회사소개
+            </h2>
+            <p className="mt-5 max-w-3xl break-words text-base leading-7 text-white/76 sm:text-lg">
+              2005년 설립 이후 화성 전곡산업단지에서 산업용 수용성 소재를 개발·생산합니다.
+            </p>
+          </div>
+          <Link
+            href="/company"
+            className="inline-flex min-h-12 w-fit items-center justify-center rounded-md border border-white/62 px-6 py-3 text-sm font-black text-white transition hover:bg-white hover:text-[var(--brand-navy)]"
+          >
+            회사소개 보기
+          </Link>
         </div>
       </section>
 
       <section className="bg-white py-20 sm:py-24">
-        <div className="container">
-          <div className="mb-10 max-w-3xl min-w-0">
-            <p className="eyebrow">적용 산업</p>
-            <h2 className="mt-5 break-words text-3xl font-black leading-tight text-[var(--text)] [word-break:keep-all] sm:text-5xl">
-              고객 산업의 표면과 배합 문제에 대응합니다
-            </h2>
-          </div>
-          <div className="grid gap-4 lg:grid-cols-4">
+        <div className="container grid gap-10 lg:grid-cols-[0.34fr_1fr] lg:items-start">
+          <SectionHeading title="적용 산업" body="산업명에서 시작해 적용 조건을 확인합니다." />
+          <div
+            data-home-card-rail="industries"
+            className="grid gap-0 border-y border-[var(--line-strong)] md:min-h-[190px] sm:grid-cols-2 lg:grid-cols-4"
+          >
             {industries.map((item) => (
-              <article key={item.title} className="min-w-0 border-t-2 border-[var(--brand-blue)] bg-[var(--bg-soft)] p-6">
-                <h3 className="break-words text-2xl font-black text-[var(--brand-navy)]">{item.title}</h3>
-                <p className="mt-4 break-words text-sm leading-7 text-[var(--muted)]">{item.description}</p>
-              </article>
+              <div
+                key={item}
+                className="min-w-0 border-b border-[var(--line)] bg-[var(--bg-soft)] px-5 py-8 sm:border-r lg:border-b-0"
+              >
+                <p className="break-words text-lg font-black leading-tight text-[var(--brand-navy)]">{item}</p>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
       <section className="bg-[var(--bg-soft)] py-20 sm:py-24">
-        <div className="container grid gap-12 lg:grid-cols-[0.36fr_1fr]">
-          <div className="min-w-0">
-            <p className="eyebrow">품질·기술지원</p>
-            <h2 className="mt-5 break-words text-3xl font-black leading-tight text-[var(--text)] [word-break:keep-all] sm:text-5xl">
-              자료와 상담이 이어지는 기술 지원 체계
-            </h2>
-          </div>
-          <div className="grid gap-4 md:grid-cols-3">
-            {qualityItems.map((item) => (
-              <article key={item.title} className="min-w-0 rounded-lg border border-[var(--line)] bg-white p-7">
-                <h3 className="break-words text-2xl font-black leading-tight text-[var(--brand-navy)]">
-                  {item.title}
-                </h3>
-                <p className="mt-4 break-words text-sm leading-7 text-[var(--muted)]">{item.body}</p>
-              </article>
-            ))}
-          </div>
+        <div className="container flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
+          <SectionHeading
+            title="품질·기술지원"
+            body="제품명보다 사용 조건을 먼저 확인하고, 자료·샘플 검토로 이어갑니다."
+          />
+          <Link
+            href="/contact"
+            className="inline-flex min-h-12 w-fit items-center justify-center rounded-md bg-[var(--brand-navy)] px-6 py-3 text-sm font-black text-white transition hover:bg-[var(--brand-blue)]"
+            style={{ color: "#ffffff" }}
+          >
+            기술 문의
+          </Link>
         </div>
       </section>
 
       <section className="bg-white py-20 sm:py-24">
-        <div className="container">
-          <div className="mb-10 max-w-3xl min-w-0">
-            <p className="eyebrow">소식·문의</p>
-            <h2 className="mt-5 break-words text-3xl font-black leading-tight text-[var(--text)] [word-break:keep-all] sm:text-5xl">
-              WARSOL 소식과 문의
-            </h2>
-          </div>
-          <div className="grid gap-0 border-y border-[var(--line-strong)] md:grid-cols-2 lg:grid-cols-4">
+        <div className="container grid gap-10 lg:grid-cols-[0.34fr_1fr] lg:items-start">
+          <SectionHeading title="소식·문의" body="공지, 기업자료, 채용, 기술 문의를 확인하세요." />
+          <div
+            data-home-card-rail="support"
+            className="grid gap-0 border-y border-[var(--line-strong)] md:min-h-[150px] sm:grid-cols-2 lg:grid-cols-4"
+          >
             {supportLinks.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="min-w-0 border-b border-[var(--line)] p-6 transition hover:bg-[var(--bg-soft)] md:border-r lg:border-b-0"
+                className="min-w-0 border-b border-[var(--line)] px-0 py-7 text-xl font-black text-[var(--brand-navy)] transition hover:bg-[var(--bg-soft)] sm:px-7 lg:border-b-0 lg:border-r"
               >
-                <p className="text-xs font-black text-[var(--brand-blue)]">{item.label}</p>
-                <h3 className="mt-4 break-words text-2xl font-black text-[var(--brand-navy)]">{item.title}</h3>
-                <p className="mt-3 break-words text-sm leading-6 text-[var(--muted)]">{item.body}</p>
+                {item.label}
               </Link>
             ))}
           </div>
