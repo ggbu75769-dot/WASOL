@@ -2,10 +2,10 @@ export const company = {
   legalName: "주식회사 워솔",
   englishName: "WARSOL Inc.",
   representative: "이창주",
-  tagline: "수용성 고분자와 산업용 수지로 현장의 표면 문제를 해결합니다",
-  englishTagline: "Water-based polymer materials for industrial surfaces",
+  tagline: "수용성 고분자 기반 산업용 화학 소재 전문기업",
+  englishTagline: "Water-based polymer materials for industrial applications",
   shortDescription:
-    "수용성 고분자, 분산제, 코팅제, 접착·점착 소재를 개발하고 생산하는 산업용 화학 소재 기업",
+    "수용성 고분자, 분산제, 기능성 코팅, 접착·점착 소재를 개발·생산하는 산업용 화학 소재 기업",
   positioning:
     "아크릴계, 우레탄계, 비닐계 수지와 수용성 분산 기술을 바탕으로 세제, 수처리, 제지, 코팅, 건축 방수, 산업용 접착 분야의 적용 조건을 함께 검토하는 소재 파트너",
   founded: {

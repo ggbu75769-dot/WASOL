@@ -14,7 +14,7 @@ export const navigationItems: NavigationItem[] = [
   { href: "/", label: "홈" },
   {
     href: "/company",
-    label: "회사",
+    label: "회사소개",
     children: [
       { href: "/company/ceo-message", label: "대표 메시지" },
       { href: "/company/history", label: "회사 개요와 위치" },
@@ -23,7 +23,7 @@ export const navigationItems: NavigationItem[] = [
   },
   {
     href: "/business",
-    label: "사업",
+    label: "사업분야",
     children: [
       { href: "/technology", label: "기술" },
       { href: "/products", label: "제품" },

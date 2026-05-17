@@ -28,11 +28,11 @@ export default function RndPage() {
     <>
       <PageHero
         eyebrow="R&D"
-        title="공개 특허와 적용 조건을 바탕으로 확장하는 소재 연구"
-        description="방수용 점착, 차열·방수 코팅, 친환경 안전 소재를 중심으로 수계 소재의 적용 가능성을 검토합니다."
+        title="수계 소재의 적용 가능성을 확장하는 연구개발"
+        description="방수용 점착, 차열·방수 코팅, 친환경 안전 소재를 중심으로 산업 현장의 문제를 소재 관점에서 검토합니다."
       />
 
-      <Section eyebrow="연구 영역" title="WARSOL 연구개발 중점">
+      <Section eyebrow="R&D FOCUS" title="WARSOL 연구개발 중점">
         <div className="grid gap-4 lg:grid-cols-3">
           {researchItems.map((item) => (
             <DataCard key={item.title} title={item.title} body={item.body} />
@@ -40,7 +40,7 @@ export default function RndPage() {
         </div>
       </Section>
 
-      <Section className="bg-[var(--bg-soft)]" eyebrow="검토 방식" title="R&D 상담이 실제 적용으로 이어지는 과정">
+      <Section className="bg-[var(--bg-soft)]" eyebrow="DEVELOPMENT PROCESS" title="R&D 상담이 실제 적용으로 이어지는 과정">
         <div className="grid gap-4 lg:grid-cols-3">
           <DataCard title="1. 문제 정의" body="기재, 노출 환경, 목표 물성, 안전 기준을 먼저 확인합니다." />
           <DataCard title="2. 소재 후보" body="수지, 분산제, 첨가제, 코팅 조성의 적용 가능성을 좁힙니다." />

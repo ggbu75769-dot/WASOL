@@ -31,12 +31,12 @@ export default function BusinessPage() {
   return (
     <>
       <PageHero
-        eyebrow="사업"
-        title="Water-based Materials Solution Provider"
-        description="수용성 고분자와 산업용 수지를 기반으로 고객의 배합·표면·공정 조건에 맞는 소재를 검토합니다."
+        eyebrow="BUSINESS"
+        title="수용성 고분자 소재 사업"
+        description="WARSOL은 분산, 코팅, 접착, 보호 성능이 필요한 산업 현장에 수계 소재 기반의 제품 포트폴리오를 제공합니다."
       />
 
-      <Section eyebrow="사업 영역" title="수용성 소재 사업 구조">
+      <Section eyebrow="BUSINESS AREA" title="WARSOL 사업 영역">
         <div className="grid gap-5 lg:grid-cols-3">
           {businessMenus.map((item) => (
             <Link
@@ -52,7 +52,7 @@ export default function BusinessPage() {
         </div>
       </Section>
 
-      <Section className="bg-[var(--bg-soft)]" eyebrow="사업 흐름" title="상담에서 적용 검토까지">
+      <Section className="bg-[var(--bg-soft)]" eyebrow="PROCESS" title="상담에서 적용 검토까지">
         <div className="grid gap-4 lg:grid-cols-3">
           <DataCard title="1. 조건 확인" body="적용 산업, 기재, 배합 목적, 사용 환경, 요구 물성을 정리합니다." />
           <DataCard title="2. 소재 후보 검토" body="분산제, 수지, 코팅제, 점·접착 소재 중 적합한 제품군을 좁힙니다." />

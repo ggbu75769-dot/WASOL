@@ -2,10 +2,10 @@
 
 :root {
   --bg: #ffffff;
-  --bg-soft: #f8fafc;
+  --bg-soft: #f6f8fb;
   --bg-technical: #eef4fa;
-  --surface: rgba(255, 255, 255, 0.82);
-  --surface-strong: rgba(255, 255, 255, 0.96);
+  --surface: #ffffff;
+  --surface-strong: #ffffff;
   --line: #e2e8f0;
   --line-strong: #cbd8e6;
   --text: #0f172a;
@@ -17,8 +17,8 @@
   --green: #1f9d78;
   --amber: #f59e0b;
   --danger: #c2410c;
-  --shadow-soft: 0 22px 70px rgba(15, 42, 74, 0.1);
-  --shadow-card: 0 18px 54px rgba(15, 42, 74, 0.08);
+  --shadow-soft: 0 18px 50px rgba(15, 42, 74, 0.08);
+  --shadow-card: 0 12px 34px rgba(15, 42, 74, 0.06);
 }
 
 * {
@@ -44,8 +44,7 @@ body {
     BlinkMacSystemFont,
     "Segoe UI",
     sans-serif;
-  background:
-    linear-gradient(180deg, #ffffff 0%, #ffffff 42%, #f8fafc 100%);
+  background: #ffffff;
   overflow-x: hidden;
 }
 
@@ -98,27 +97,11 @@ select {
 }
 
 .page-shell::before {
-  position: fixed;
-  inset: 0;
-  z-index: -2;
-  pointer-events: none;
-  content: "";
-  background:
-    linear-gradient(rgba(29, 93, 155, 0.045) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(29, 93, 155, 0.045) 1px, transparent 1px);
-  background-size: 76px 76px;
-  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.72), transparent 72%);
+  display: none;
 }
 
 .page-shell::after {
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  content: "";
-  background:
-    linear-gradient(112deg, transparent 0 46%, rgba(18, 168, 199, 0.055) 47%, transparent 51%),
-    linear-gradient(68deg, transparent 0 68%, rgba(11, 42, 74, 0.04) 69%, transparent 72%);
+  display: none;
 }
 
 .container {
@@ -128,11 +111,8 @@ select {
 
 .surface {
   border: 1px solid var(--line);
-  background:
-    linear-gradient(145deg, rgba(255, 255, 255, 0.94), rgba(248, 250, 252, 0.72)),
-    var(--surface);
+  background: var(--surface);
   box-shadow: var(--shadow-card);
-  backdrop-filter: blur(14px);
 }
 
 .technical-border {
@@ -356,7 +336,7 @@ select {
   }
 
   .surface {
-    backdrop-filter: blur(10px);
+    box-shadow: var(--shadow-card);
   }
 }
 

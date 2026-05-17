@@ -1,12 +1,12 @@
 const baseUrl = process.env.SITE_VERIFY_BASE_URL ?? "http://127.0.0.1:3000";
 
 const routes = [
-  ["/", "수용성 고분자로"],
-  ["/company", "수용성 고분자 소재를 개발·생산"],
+  ["/", "Water-based Polymer Materials"],
+  ["/company", "수용성 고분자 소재 전문기업, WARSOL"],
   ["/company/ceo-message", "좋은 소재는 현장 조건"],
   ["/company/history", "화성 전곡산업단지 사업장"],
   ["/company/vision", "WARSOL 소재 사업 방향"],
-  ["/business", "수용성 소재 사업 구조"],
+  ["/business", "WARSOL 사업 영역"],
   ["/technology", "WARSOL 기술 포트폴리오"],
   ["/products", "WARSOL 제품 포트폴리오"],
   ["/products/adhesion-systems", "수성 점·접착 소재"],

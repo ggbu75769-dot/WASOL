@@ -14,12 +14,12 @@ export default function ProductsPage() {
   return (
     <>
       <PageHero
-        eyebrow="제품"
-        title="적용 조건으로 검토하는 소재 포트폴리오"
-        description="수용성 분산제, 코팅제, 점·접착 소재, 방수·차열 보호 소재를 기재와 공정 조건에 맞춰 검토합니다."
+        eyebrow="PRODUCTS"
+        title="산업용 수용성 소재 포트폴리오"
+        description="분산제, 수용성 수지, 기능성 코팅, 점·접착 소재를 고객 산업과 공정 조건에 맞춰 검토합니다."
       />
 
-      <Section eyebrow="제품군" title="WARSOL 제품 포트폴리오">
+      <Section eyebrow="PRODUCT LINEUP" title="WARSOL 제품 포트폴리오">
         <div className="grid gap-5">
           {productCategories.map((item) => (
             <Link
@@ -37,7 +37,7 @@ export default function ProductsPage() {
         </div>
       </Section>
 
-      <Section className="bg-[var(--bg-soft)]" eyebrow="자료 기준" title="제품 검토에 필요한 자료">
+      <Section className="bg-[var(--bg-soft)]" eyebrow="TECHNICAL DATA" title="제품 검토에 필요한 자료">
         <div className="grid gap-4 lg:grid-cols-3">
           <DataCard title="적용 조건" body="기재, 배합 목적, 사용 환경, 보관 조건" />
           <DataCard title="성능 항목" body="점도, 분산 안정성, 접착, 내수, 도막 안정성" />
