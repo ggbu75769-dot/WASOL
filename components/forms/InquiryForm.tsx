@@ -26,10 +26,10 @@ type InquiryFormState = {
   message: string;
 };
 
-type ApiResult =
+type SummaryResult =
   | {
       ok: true;
-      inquiryId: string;
+      summaryId: string;
       summary: string;
     }
   | {
@@ -61,14 +61,11 @@ function createInitialForm(searchParams: URLSearchParams): InquiryFormState {
   };
 }
 
-const isStaticSite = process.env.NEXT_PUBLIC_STATIC_SITE === "true";
-
 export function InquiryForm() {
   const searchParams = useSearchParams();
   const initialForm = useMemo(() => createInitialForm(searchParams), [searchParams]);
   const [form, setForm] = useState<InquiryFormState>(initialForm);
-  const [result, setResult] = useState<ApiResult | null>(null);
-  const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
+  const [result, setResult] = useState<SummaryResult | null>(null);
   const [copyLabel, setCopyLabel] = useState("요약 복사");
 
   const summary = result?.ok ? result.summary : "";
@@ -89,39 +86,16 @@ export function InquiryForm() {
     });
   }
 
-  async function submitInquiry(event: FormEvent<HTMLFormElement>) {
+  function prepareSummary(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    setStatus("submitting");
-    setResult(null);
     setCopyLabel("요약 복사");
-
-    try {
-      if (isStaticSite) {
-        const errors = validateStaticForm(form);
-        if (errors.length) {
-          setResult({ ok: false, errors });
-          setStatus("error");
-          return;
-        }
-
-        const inquiryId = createInquiryId();
-        setResult({ ok: true, inquiryId, summary: createSubmittedSummary(form, inquiryId) });
-        setStatus("success");
-        return;
-      }
-
-      const response = await fetch("/api/inquiry", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
-      });
-      const json = (await response.json()) as ApiResult;
-      setResult(json);
-      setStatus(json.ok ? "success" : "error");
-    } catch {
-      setResult({ ok: false, errors: ["네트워크 확인"] });
-      setStatus("error");
+    const errors = validateForm(form);
+    if (errors.length) {
+      setResult({ ok: false, errors });
+      return;
     }
+    const summaryId = createSummaryId();
+    setResult({ ok: true, summaryId, summary: createSummary(form, summaryId) });
   }
 
   async function copySummary() {
@@ -140,7 +114,7 @@ export function InquiryForm() {
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = `${result?.ok ? result.inquiryId : "warsol-inquiry"}.txt`;
+    link.download = `${result?.ok ? result.summaryId : "warsol-inquiry"}.txt`;
     document.body.append(link);
     link.click();
     link.remove();
@@ -157,7 +131,7 @@ export function InquiryForm() {
 
   return (
     <div className="grid gap-6 lg:grid-cols-[1.08fr_0.92fr] lg:items-start">
-      <form onSubmit={submitInquiry} className="surface grid gap-5 rounded-lg p-6 sm:p-8">
+      <form onSubmit={prepareSummary} className="surface grid gap-5 rounded-lg p-6 sm:p-8">
         <FieldGroup
           legend="1. 문의 유형과 제품군"
           description="문의 목적과 검토하려는 제품군을 먼저 선택해 주세요."
@@ -240,10 +214,8 @@ export function InquiryForm() {
         )}
 
         <div className="flex flex-col gap-3 sm:flex-row">
-          <Button type="submit" disabled={status === "submitting"}>
-            {status === "submitting" ? "접수 중" : "문의 접수"}
-          </Button>
-          <Button type="button" variant="secondary" onClick={() => setForm(initialForm)}>
+          <Button type="submit">문의 요약 만들기</Button>
+          <Button type="button" variant="secondary" onClick={() => { setForm(initialForm); setResult(null); setCopyLabel("요약 복사"); }}>
             초기화
           </Button>
         </div>
@@ -252,8 +224,9 @@ export function InquiryForm() {
       <aside className="surface sticky top-24 rounded-lg p-6 sm:p-8" data-print-brief>
         <p className="mono-label">문의 요약</p>
         <h2 className="mt-4 text-2xl font-black text-[var(--brand-navy)]">
-          {result?.ok ? "문의 접수 완료" : "문의 요약"}
+          {result?.ok ? "문의 요약 준비 완료" : "문의 요약"}
         </h2>
+        <p className="mt-3 text-sm leading-6 text-[var(--muted)]">이 양식은 문의 내용을 정리하며 자동 전송하지 않습니다. 요약을 저장한 뒤 아래 연락처로 문의해 주세요.</p>
         <pre className="mt-5 min-h-72 whitespace-pre-wrap rounded-lg border border-[var(--line)] bg-[var(--bg-soft)] p-4 text-sm leading-7 text-[var(--muted-strong)]">
           {summary || createPreviewSummary(form)}
         </pre>
@@ -286,7 +259,7 @@ function createPreviewSummary(form: InquiryFormState) {
   ].join("\n");
 }
 
-function validateStaticForm(form: InquiryFormState) {
+function validateForm(form: InquiryFormState) {
   const requiredFields: Array<[keyof InquiryFormState, string]> = [
     ["category", "문의 유형"],
     ["product", "제품군"],
@@ -311,14 +284,14 @@ function validateStaticForm(form: InquiryFormState) {
   return errors;
 }
 
-function createInquiryId() {
+function createSummaryId() {
   const stamp = new Date().toISOString().replace(/[-:TZ.]/g, "").slice(0, 14);
   return `WARSOL-${stamp}`;
 }
 
-function createSubmittedSummary(form: InquiryFormState, inquiryId: string) {
+function createSummary(form: InquiryFormState, summaryId: string) {
   return [
-    `접수번호: ${inquiryId}`,
+    `요약번호: ${summaryId}`,
     `회사명: ${form.company}`,
     `담당자: ${form.name}`,
     `연락처: ${form.phone}`,

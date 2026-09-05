@@ -194,17 +194,11 @@ assert(
   "docs/korean-copy-policy.md missing Korean homepage copy policy"
 );
 
-const validResult = await postInquiry(validInquiry);
-assert(validResult.response.status === 200, `valid inquiry expected 200, got ${validResult.response.status}`);
-assert(validResult.json.ok === true, "valid inquiry expected ok=true");
-assert(
-  typeof validResult.json.summary === "string" && validResult.json.summary.includes(validInquiry.company),
-  "valid inquiry expected generated summary"
-);
-
-const invalidResult = await postInquiry(invalidInquiry);
-assert(invalidResult.response.status === 400, `invalid inquiry expected 400, got ${invalidResult.response.status}`);
-assert(invalidResult.json.ok === false, "invalid inquiry expected ok=false");
-assert(Array.isArray(invalidResult.json.errors) && invalidResult.json.errors.length > 0, "invalid inquiry expected errors");
+for (const payload of [validInquiry, invalidInquiry]) {
+  const { response, json } = await postInquiry(payload);
+  assert(response.status === 503, "unconfigured delivery must return 503");
+  assert(json.ok === false && json.code === "official-data-needed", "delivery must fail closed");
+  assert(!json.inquiryId && !json.receivedAt, "unconfigured delivery must not issue a receipt");
+}
 
 console.log("SITE_BEHAVIOR_PASS");

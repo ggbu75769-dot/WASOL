@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint . --max-warnings=0",
     "typecheck": "tsc --noEmit",
-    "verify:site": "node scripts/verify-site-behavior.mjs"
+    "verify:site": "node scripts/verify-site-behavior.mjs",
+    "test:inquiry": "node --test scripts/inquiry-contract.test.mjs"
   },
   "dependencies": {
     "@tailwindcss/postcss": "4.3.0",
